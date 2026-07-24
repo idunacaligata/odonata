@@ -6,6 +6,11 @@ backend:
 media_folder: static/img
 public_folder: /img
 
+i18n:
+  structure: multiple_files
+  locales: [ru]
+  default_locale: ru
+
 collections:
   # ────────────────────────────────────────────────
   # Suborder
@@ -17,31 +22,37 @@ collections:
     path: "{{slug}}/index"
     media_folder: ""
     public_folder: ""
+    i18n: true
     fields:
       - label: "Suborder name"
         name: "title"
         widget: "string"
         required: true
         hint: "Scientific name, e.g. Anisoptera"
+        i18n: duplicate
       - label: "Authority"
         name: "authority"
         widget: "string"
         required: true
+        i18n: duplicate
       - label: "Common name"
         name: "common_name"
         widget: "string"
         required: true
-      - { label: "Date", name: "date", widget: "datetime"}
+        i18n: true
+      - { label: "Date", name: "date", widget: "datetime", i18n: true}
       - { label: "Draft", name: "draft", widget: "boolean", default: true}
       - label: "Hero Image"
         name: "hero"
         widget: "object"
         required: true
+        i18n: true
         fields:
           - label: "File"
             name: "file"
             widget: "image"
             required: true
+            i18n: duplicate
             media_library:
               config:
                 multiple: false
@@ -49,6 +60,7 @@ collections:
             name: "caption"
             widget: "string"
             required: false
+            i18n: true
       - label: "Images"
         name: "images"
         widget: "list"
@@ -66,4 +78,5 @@ collections:
       - label: "Body"
         name: "body"
         widget: "markdown"
+        i18n: true
         hint: "To insert an image from the Images list above, type: {{< image the-id >}}"
