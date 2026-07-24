@@ -1,0 +1,98 @@
+{{ define "main" }}
+{{ $chain := partial "taxonomy-chain.html" (dict "page" .) }}
+
+<article class="species">
+
+    <header class="species-header">
+
+        <div class="species-text">
+
+            <h1>{{ .Params.common_name }}</h1>
+
+            <p class="latin">
+                <em>{{ .Params.genus }} {{ .Params.species }}</em>
+                {{ .Params.authority }}
+            </p>
+
+            <table class="taxonomy">
+
+                {{ with $chain.suborder }}
+                <tr>
+                    <th>Подотряд</th>
+                    <td>{{ .Params.title }}</td>
+                </tr>
+                {{ end }}
+
+                {{ with $chain.family }}
+                <tr>
+                    <th>Семейство</th>
+                    <td>
+                        <a href="{{ .RelPermalink }}">{{ .Params.family }}</a>
+                    </td>
+                </tr>
+                {{ end }}
+
+                <tr>
+                    <th>Род</th>
+                    <td>{{ .Params.genus }}</td>
+                </tr>
+
+                <tr>
+                    <th>Вид</th>
+                    <td>{{ .Params.species }}</td>
+                </tr>
+
+                <tr>
+                    <th>IUCN</th>
+                    <td>
+                        <a href="https://www.iucnredlist.org/search?query={{ .Params.scientific_name | urlquery }}&searchType=species"
+                           target="_blank"
+                           rel="noopener">
+                            {{ .Params.iucn }}
+                        </a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>Красная книга</th>
+                    <td>{{ i18n (printf "redbook_%s" .Params.belarus_red_book) }}</td>
+                </tr>
+
+            </table>
+
+            <p class="external-links">
+
+                {{ with .Params.gbif }}
+                <a href="https://www.gbif.org/taxon/{{ . }}">GBIF</a>
+                {{ end }}
+
+                {{ with .Params.inat }}
+                · <a href="https://www.inaturalist.org/taxa/{{ . }}">iNaturalist</a>
+                {{ end }}
+
+                {{ with .Params.inat }}
+                · <a href="https://www.inaturalist.org/observations?place_id=7578&subview=map&taxon_id={{ . }}">Наблюдения на iNaturalist</a>
+                {{ end }}
+
+                · <a href="https://ru.wikipedia.org/wiki/{{ .Params.genus }}%20{{ .Params.species }}">Wikipedia</a>
+            </p>
+
+        </div>
+
+        <div class="species-hero">
+
+            {{ with .Params.hero }}
+            {{ partial "image.html" (dict "page" $.Page "image" .) }}
+            {{ end }}
+
+        </div>
+
+    </header>
+
+    <div class="content">
+        {{ .Content }}
+    </div>
+
+</article>
+
+{{ end }}

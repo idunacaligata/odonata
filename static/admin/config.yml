@@ -5,16 +5,31 @@ backend:
   base_url: https://decap-cms-github-oauth-api.odonata-auth.workers.dev
 media_folder: static/img
 public_folder: /img
+
 collections:
-  - name: 'blog'
-    label: 'Blog'
-    folder: 'content/blog'
+  # ────────────────────────────────────────────────
+  # Suborder
+  # ────────────────────────────────────────────────
+  - name: "suborders"
+    label: "Suborders"
+    folder: "content/suborders"
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    editor:
-      preview: false
+    path: "{{slug}}/index"
+    media_folder: ""
+    public_folder: ""
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: "Suborder name"
+        name: "title"
+        widget: "string"
+        required: true
+        hint: "Scientific name, e.g. Anisoptera"
+      - label: "Authority"
+        name: "authority"
+        widget: "string"
+        required: true
+      - label: "Common name"
+        name: "common_name"
+        widget: "string"
+        required: true
+      - { label: "Date", name: "date", widget: "datetime"}
+      - { label: "Draft", name: "draft", widget: "boolean", default: true}

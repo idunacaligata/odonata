@@ -1,0 +1,64 @@
+{{ define "main" }}
+
+<article class="family">
+
+    <header class="species-header">
+
+        <div class="species-text">
+
+            <h1>{{ .Title }}</h1>
+
+            <p class="latin">
+                <em>{{ .Params.title }}</em>
+                {{ with .Params.authority }}
+                {{ . }}
+                {{ end }}
+            </p>
+
+            <table class="taxonomy">
+
+                <tr>
+                    <th>Подотряд</th>
+                    <td>{{ .Params.suborder }}</td>
+                </tr>
+
+                <tr>
+                    <th>Семейство</th>
+                    <td>{{ .Params.family }}</td>
+                </tr>
+
+            </table>
+
+            <p class="external-links">
+
+                {{ with .Params.gbif }}
+                <a href="https://www.gbif.org/taxon/{{ . }}">GBIF</a>
+                {{ end }}
+
+                {{ with .Params.inat }}
+                · <a href="https://www.inaturalist.org/taxa/{{ . }}">iNaturalist</a>
+                {{ end }}
+
+                {{ with .Params.scientific_name }}
+                · <a href="https://ru.wikipedia.org/wiki/{{ replace . " " "_" }}">Wikipedia</a>
+                {{ end }}
+
+            </p>
+
+        </div>
+
+        <div class="species-hero">
+            {{ with .Resources.GetMatch "hero.*" }}
+            <img src="{{ .RelPermalink }}" alt="{{ $.Title }}">
+            {{ end }}
+        </div>
+
+    </header>
+
+    <div class="content">
+        {{ .Content }}
+    </div>
+
+</article>
+
+{{ end }}

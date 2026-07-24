@@ -1,0 +1,11 @@
+{{ $page := .page }}
+{{ $image := .image }}
+
+{{ with $page.Resources.GetMatch $image.file }}
+<figure>
+    <img src="{{ .RelPermalink }}" alt="{{ $page.Title }}">
+    <figcaption>
+        {{ $image.caption }}
+    </figcaption>
+</figure>
+{{ end }}

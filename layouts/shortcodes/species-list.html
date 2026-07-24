@@ -1,0 +1,105 @@
+{{ $current := .Page }}
+
+<h2>Species</h2>
+
+{{ if eq $current.Section "suborders" }}
+
+{{/* SUBORDER → FAMILIES → SPECIES */}}
+
+{{ $suborder := $current.Params.title }}
+
+{{ $families := where site.RegularPages
+"Section" "families"
+}}
+
+{{ range sort $families ".Params.title" }}
+
+{{ if eq .Params.suborder $suborder }}
+
+{{ $family := .Params.title }}
+
+<h3>
+    <a href="{{ .RelPermalink }}">
+        {{ $family }}
+    </a>
+</h3>
+
+<ul class="species-list">
+
+    {{ $genera := where site.RegularPages
+    "Section" "genera"
+    }}
+
+    {{ range sort $genera ".Params.title" }}
+
+    {{ if eq .Params.family $family }}
+
+    {{ $genus := .Params.title }}
+
+    {{ $species := where site.RegularPages
+    "Section" "species"
+    }}
+
+    {{ range sort $species ".Params.species" }}
+
+    {{ if eq .Params.genus $genus }}
+
+    <li>
+        <a href="{{ .RelPermalink }}">
+            <em>{{ .Params.genus }} {{ .Params.species }}</em>
+            ({{ .Title }})
+        </a>
+    </li>
+
+    {{ end }}
+
+    {{ end }}
+
+    {{ end }}
+
+    {{ end }}
+
+</ul>
+
+{{ end }}
+
+{{ end }}
+
+{{ else if eq $current.Section "families" }}
+
+{{/* FAMILY → GENERA → SPECIES */}}
+
+{{ $family := $current.Params.title }}
+
+{{ $genera := where site.RegularPages
+"Section" "genera"
+}}
+
+{{ range sort $genera ".Params.title" }}
+
+{{ if eq .Params.family $family }}
+
+<h3>{{ .Params.title }}</h3>
+
+<ul class="species-list">
+
+    {{ $genus := .Params.title }}
+
+    {{ range sort (where (where site.RegularPages "Section" "species") ".Params.genus" $genus) ".Params.species" }}
+
+    <li>
+        <a href="{{ .RelPermalink }}">
+            <em>{{ .Params.genus }} {{ .Params.species }}</em>
+            ({{ .Title }})
+        </a>
+    </li>
+
+    {{ end }}
+
+</ul>
+
+{{ end }}
+
+{{ end }}
+
+{{ end }}

@@ -1,0 +1,9 @@
+{{ $page := .Page }}
+{{ $id := .Get 0 }}
+
+{{ range where $page.Params.images "id" $id }}
+{{ partial "image.html" (dict
+"page" $page
+"image" .
+) }}
+{{ end }}

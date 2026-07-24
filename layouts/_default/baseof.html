@@ -1,12 +1,37 @@
 <!DOCTYPE html>
 <html lang="{{ site.Language.LanguageCode }}">
+
 <head>
     <meta charset="UTF-8">
-    <title>{{ .Title }}</title>
+
+    <title>
+        {{ .Title }} | {{ site.Title }}
+    </title>
+
+    {{ with resources.Get "css/main.css" }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}">
+    {{ end }}
 </head>
+
 <body>
 
-{{ block "main" . }}{{ end }}
+<header class="site-header">
+
+    <h1 class="site-title">
+        <a href="{{ site.Home.RelPermalink }}">
+            {{ site.Title }}
+        </a>
+    </h1>
+
+</header>
+
+<main class="content">
+
+    {{ block "main" . }}
+    {{ end }}
+
+</main>
 
 </body>
+
 </html>

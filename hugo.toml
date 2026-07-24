@@ -1,21 +1,21 @@
   baseURL = "https://idunacaligata.github.io/odonata/"
 
-    relativeURLs = false
-    canonifyURLs = false
+relativeURLs = false
+canonifyURLs = false
 
-    defaultContentLanguage = "ru"
-    defaultContentLanguageInSubdir = false
+defaultContentLanguage = "ru"
+defaultContentLanguageInSubdir = false
 
-    [languages]
+[languages]
 
-    [languages.ru]
-    title = "Стрекозы Беларуси"
-    languageCode = "ru"
-    label = "Русский"
-    weight = 1
+[languages.ru]
+title = "Стрекозы Беларуси"
+languageCode = "ru"
+label = "Русский"
+weight = 1
 
-    [languages.en]
-    title = "Dragonflies of Belarus"
-    languageCode = "en"
-    label = "English"
-    weight = 2
+[languages.en]
+title = "Dragonflies of Belarus"
+languageCode = "en"
+label = "English"
+weight = 2

@@ -1,0 +1,7 @@
+{{ $slug := .Get 0 }}
+{{ $page := site.GetPage (printf "/species/%s" $slug) }}
+
+<a href="{{ $page.RelPermalink }}">
+    {{ $page.Params.genus }} {{ $page.Params.species }}
+    ({{ $page.Params.common_name }})
+</a>

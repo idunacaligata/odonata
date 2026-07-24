@@ -1,0 +1,26 @@
+{{ $page := .page }}
+{{ $genusPage := "" }}
+{{ $familyPage := "" }}
+{{ $suborderPage := "" }}
+
+{{ if isset $page.Params "genus" }}
+{{ $genusPage = $page.Site.GetPage (printf "/genera/%s" (lower $page.Params.genus)) }}
+{{ else if eq $page.Type "genera" }}
+{{ $genusPage = $page }}
+{{ end }}
+
+{{ with $genusPage }}
+{{ if not $familyPage }}
+{{ $familyPage = .Site.GetPage (printf "/families/%s" (lower .Params.family)) }}
+{{ end }}
+{{ end }}
+
+{{ if eq $page.Type "families" }}{{ $familyPage = $page }}{{ end }}
+
+{{ with $familyPage }}
+{{ $suborderPage = .Site.GetPage (printf "/suborders/%s" (lower .Params.suborder)) }}
+{{ end }}
+
+{{ if eq $page.Type "suborders" }}{{ $suborderPage = $page }}{{ end }}
+
+{{ return dict "genus" $genusPage "family" $familyPage "suborder" $suborderPage }}
