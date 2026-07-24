@@ -49,3 +49,21 @@ collections:
             name: "caption"
             widget: "string"
             required: false
+      - label: "Images"
+        name: "images"
+        widget: "list"
+        required: false
+        summary: "{{fields.id}} — {{fields.caption}}"
+        fields:
+          - { label: "ID", name: "id", widget: "string", hint: "Used in body as {{< image THIS-ID >}}" }
+          - label: "File"
+            name: "file"
+            widget: "image"
+            media_library:
+              config:
+                multiple: false
+          - { label: "Caption", name: "caption", widget: "string", required: false }
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+        hint: "To insert an image from the Images list above, type: {{< image the-id >}}"
