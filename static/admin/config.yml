@@ -33,3 +33,19 @@ collections:
         required: true
       - { label: "Date", name: "date", widget: "datetime"}
       - { label: "Draft", name: "draft", widget: "boolean", default: true}
+      - label: "Hero Image"
+        name: "hero"
+        widget: "object"
+        required: true
+        fields:
+          - label: "File"
+            name: "file"
+            widget: "image"
+            required: true
+            media_library:
+              config:
+                multiple: false
+          - label: "Caption"
+            name: "caption"
+            widget: "string"
+            required: false
