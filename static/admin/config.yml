@@ -89,11 +89,11 @@ collections:
     create: true
     i18n: true
     path: "{{slug}}/index"
-    slug: "{{slug}}"
     media_folder: ""
     public_folder: ""
     fields:
-      - { label: "Title", name: "title", widget: "string", required: true, i18n: true }
+      - { label: "Title", name: "title", widget: "string", required: true, i18n: duplicate }
+      - { label: "Name", name: "name", widget: "string", required: true, i18n: true }
       - { label: "Date", name: "date", widget: "datetime", i18n: true }
       - { label: "Draft", name: "draft", widget: "boolean", default: true, i18n: true }
       - label: "Hero Image"

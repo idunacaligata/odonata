@@ -1,5 +1,6 @@
 ---
-title: Стрекозы Беларуси
+title: homepage
+name: Стрекозы Беларуси
 date: 2026-07-24T17:18:00.000+03:00
 draft: false
 hero:
