@@ -1,3 +1,9 @@
 /.idea/
 /.hugo_build.lock
 /public/
+
+
+backend:
+     name: github
+     repo: <your-repo>
+     base_url: decap-cms-github-oauth-api.odonata-auth.workers.dev
