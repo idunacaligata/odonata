@@ -7,7 +7,7 @@ hero:
   file: screenshot-2026-07-24-at-5.22.04 pm.png
   caption: ""
 ---
-**ЛИТЕРАТУРА**
+##### ЛИТЕРАТУРА
 
 1. Buczyński P., Dijkstra K.-D. B., Mauersberger R., Moroz M. D. "**Review of the Odonata of Belarus"**. 2006.  Odonatologica 35(1): 1-13.
 2. Buczynski P., Moroz M. D. "**Notes on the occurence of some Mediterranean dragonflies (Odonata) in Belarus"**. Polish journal of entomology. Bydgoszcz, 2008. Vol. 77: 67-74.
@@ -40,14 +40,12 @@ hero:
 29. Kitel D., Sinchuk A., Levyj S., Schröter A. "**Check-list of the Odonata of Belarus**" / Odonatologica 53(1/2) 2024: 39-68.
         ​
 
+##### РИСУНКИ
 
-##### **РИСУНКИ**
+Рисунки таблиц - Семенова Е.В. из Скворцов В. Э. **Стрекозы Восточной Европы и Кавказа: Атлас-определитель**. Москва:Товарищество науч. изд. КМК, 2010. - 623 с.
 
-рисунки таблиц - Семенова Е.В. из Скворцов В. Э. **Стрекозы Восточной Европы и Кавказа: Атлас-определитель**. Москва : Товарищество науч. изд. КМК, 2010. - 623 с.
+Цветные таблицы - **Göran Liljeberg & Hallvard Elven**. Naturhistorisk museum, Universitetet i Oslo. 
 
-
-цветные таблицы - **Göran Liljeberg & Hallvard Elven**. Naturhistorisk museum, Universitetet i Oslo. 
-
-##### **ФОТО**
+##### ФОТО
 
 **белорусские авторы** и c **Wikimedia Commons**
