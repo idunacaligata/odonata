@@ -11,6 +11,9 @@ i18n:
   locales: [ru]
   default_locale: ru
 
+editor:
+  preview: false
+
 collections:
   # ────────────────────────────────────────────────
   # Suborder
@@ -79,6 +82,8 @@ collections:
         name: "body"
         widget: "markdown"
         i18n: true
+        buttons: [ bold, italic, link, bulleted-list, numbered-list ]
+        editor_components: [ "image-ref" ]
         hint: "To insert an image from the Images list above, type: {{< image the-id >}}"
   # ────────────────────────────────────────────────
   # Article — simple content type
@@ -129,4 +134,6 @@ collections:
         name: "body"
         widget: "markdown"
         i18n: true
+        buttons: [ bold, italic, link, bulleted-list, numbered-list]
+        editor_components: [ "image-ref" ]
         hint: "To insert an image from the Images list above, type: {{< image the-id >}}"
