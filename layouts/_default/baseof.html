@@ -11,9 +11,21 @@
     {{ with resources.Get "css/main.css" }}
     <link rel="stylesheet" href="{{ .RelPermalink }}">
     {{ end }}
+    {{ with resources.Get "js/admin.js" }}
+    <script src="{{ .RelPermalink }}"></script>
+    {{ end }}
 </head>
 
-<body>
+<body
+        {{ if .IsHome }}
+            data-collection="articles"
+            data-entry="homepage"
+        {{ else }}
+            data-collection="{{ .Section }}"
+            data-entry="{{ with .File }}{{ .ContentBaseName }}{{ end }}"
+        {{ end }}
+        data-base="{{ site.BaseURL | relURL }}"
+>
 
 <header class="site-header">
 
