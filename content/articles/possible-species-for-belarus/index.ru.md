@@ -2,7 +2,7 @@
 title: possible-species-for-belarus
 name: Потенциально возможные для Беларуси виды
 date: 2026-07-24T17:38:00.000+03:00
-draft: false
+draft: true
 hero:
   file: screenshot-2026-07-23-at-2.17.08 pm.png
   caption: test test
