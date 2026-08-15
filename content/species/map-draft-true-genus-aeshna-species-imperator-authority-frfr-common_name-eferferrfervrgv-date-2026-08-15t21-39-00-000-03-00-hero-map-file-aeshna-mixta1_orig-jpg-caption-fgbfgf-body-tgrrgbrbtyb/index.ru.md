@@ -1,6 +1,6 @@
 ---
 genus: Aeshna
-species: imperator
+species: imperatorr
 authority: frfr
 common_name: eferferrfervrgv
 date: 2026-08-15T21:39:00.000+03:00
