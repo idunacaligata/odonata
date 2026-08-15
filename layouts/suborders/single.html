@@ -1,5 +1,17 @@
 {{ define "main" }}
 
+<nav class="breadcrumbs">
+
+    <a href="{{ site.Home.RelPermalink }}">
+        {{ T "homepage" }}
+    </a>
+
+    &gt;
+
+    <span>{{ .Title }}</span>
+
+</nav>
+
 <article class="family">
 
     <header class="species-header">

@@ -1,5 +1,29 @@
 {{ define "main" }}
 
+
+<nav class="breadcrumbs">
+
+    <a href="{{ site.Home.RelPermalink }}">
+        {{ T "homepage" }}
+    </a>
+
+    &gt;
+
+    {{ with where site.RegularPages "Section" "suborders" }}
+        {{ range where . ".Params.title" $.Params.suborder }}
+        <a href="{{ .RelPermalink }}">
+            {{ .Title }}
+        </a>
+        {{ end }}
+    {{ end }}
+
+
+    &gt;
+
+    <span>{{ .Title }}</span>
+
+</nav>
+
 <article class="family">
 
     <header class="species-header">

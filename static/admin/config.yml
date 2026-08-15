@@ -86,6 +86,85 @@ collections:
         editor_components: [ "image-ref" ]
         hint: "To insert an image from the Images list above, type: {{< image the-id >}}"
   # ────────────────────────────────────────────────
+  # Family
+  # ────────────────────────────────────────────────
+  - name: "families"
+    label: "Families"
+    folder: "content/families"
+    create: true
+    path: "{{slug}}/index"
+    media_folder: ""
+    public_folder: ""
+    i18n: true
+    fields:
+      - label: "Family name"
+        name: "title"
+        widget: "string"
+        required: true
+        i18n: duplicate
+        hint: "Scientific name, e.g. Aeshnidae"
+      - label: "Authority"
+        name: "authority"
+        widget: "string"
+        required: true
+        i18n: duplicate
+      - label: "Common name"
+        name: "common_name"
+        widget: "string"
+        required: true
+        i18n: true
+      - label: "Suborder"
+        name: "suborder"
+        widget: "relation"
+        collection: "suborders"
+        search_fields: ["title"]
+        value_field: "title"
+        display_fields: ["title"]
+        required: true
+        i18n: duplicate
+      - { label: "Date", name: "date", widget: "datetime", i18n: true}
+      - { label: "Draft", name: "draft", widget: "boolean", default: true}
+      - label: "Hero Image"
+        name: "hero"
+        widget: "object"
+        required: true
+        i18n: true
+        fields:
+          - label: "File"
+            name: "file"
+            widget: "image"
+            required: true
+            i18n: duplicate
+            media_library:
+              config:
+                multiple: false
+          - label: "Caption"
+            name: "caption"
+            widget: "string"
+            required: false
+            i18n: true
+      - label: "Images"
+        name: "images"
+        widget: "list"
+        required: false
+        summary: "{{fields.id}} — {{fields.caption}}"
+        fields:
+          - { label: "ID", name: "id", widget: "string", hint: "Used in body as {{< image THIS-ID >}}" }
+          - label: "File"
+            name: "file"
+            widget: "image"
+            media_library:
+              config:
+                multiple: false
+          - { label: "Caption", name: "caption", widget: "string", required: false }
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+        i18n: true
+        buttons: [ bold, italic, link, bulleted-list, numbered-list ]
+        editor_components: [ "image-ref" ]
+        hint: "To insert an image from the Images list above, type: {{< image the-id >}}"
+  # ────────────────────────────────────────────────
   # Article — simple content type
   # ────────────────────────────────────────────────
   - name: "articles"
