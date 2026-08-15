@@ -244,6 +244,88 @@ collections:
         editor_components: [ "image-ref" ]
         hint: "To insert an image from the Images list above, type: {{< image the-id >}}"
   # ────────────────────────────────────────────────
+  # Species
+  # ────────────────────────────────────────────────
+  - name: "species"
+    label: "Species"
+    folder: "content/species"
+    create: true
+    i18n: true
+    identifier_field: "species"
+    summary: "{{fields.genus}} {{fields.species}} — {{fields.common_name}}"
+    path: "{{fields.genus | lower}}-{{fields.species | lower}}/index"
+    slug: "{{fields.genus | lower}}-{{fields.species | lower}}"
+    media_folder: ""
+    public_folder: ""
+    fields:
+      - label: "Genus"
+        name: "genus"
+        widget: "relation"
+        collection: "genera"
+        search_fields: ["title"]
+        value_field: "title"
+        display_fields: ["title"]
+        required: true
+        i18n: duplicate
+      - label: "Species epithet"
+        name: "species"
+        widget: "string"
+        required: true
+        i18n: duplicate
+        pattern: ["^[a-z-]+$", "Lowercase only, by taxonomic convention"]
+      - label: "Authority"
+        name: "authority"
+        widget: "string"
+        required: true
+        i18n: duplicate
+      - label: "Common name"
+        name: "common_name"
+        widget: "string"
+        required: true
+        i18n: true
+      - { label: "Date", name: "date", widget: "datetime", i18n: true }
+      - { label: "Draft", name: "draft", widget: "boolean", default: true }
+      - label: "Hero Image"
+        name: "hero"
+        widget: "object"
+        required: true
+        i18n: true
+        fields:
+          - label: "File"
+            name: "file"
+            widget: "image"
+            required: true
+            i18n: duplicate
+            media_library:
+              config:
+                multiple: false
+          - label: "Caption"
+            name: "caption"
+            widget: "string"
+            required: false
+            i18n: true
+      - label: "Images"
+        name: "images"
+        widget: "list"
+        required: false
+        summary: "{{fields.id}} — {{fields.caption}}"
+        fields:
+          - { label: "ID", name: "id", widget: "string", hint: "Used in body as {{< image THIS-ID >}}" }
+          - label: "File"
+            name: "file"
+            widget: "image"
+            media_library:
+              config:
+                multiple: false
+          - { label: "Caption", name: "caption", widget: "string", required: false }
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+        i18n: true
+        buttons: [ bold, italic, link, bulleted-list, numbered-list ]
+        editor_components: [ "image-ref" ]
+        hint: "To insert an image from the Images list above, type: {{< image the-id >}}"
+  # ────────────────────────────────────────────────
   # Article — simple content type
   # ────────────────────────────────────────────────
   - name: "articles"
