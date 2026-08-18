@@ -9,5 +9,11 @@ draft: true
 hero:
   file: aeshna-grandis-hc6060_orig.jpg
   caption: erwtwertew
+images:
+  - id: oslo3
+    file: aeshna-grandis-v-sirota-glubokr82_orig.jpg
+    caption: ♀ Фото © Виктор Рындевич, Смолевичский р-н, Минская обл.
 ---
 wetwetweter
+
+{{< image oslo3 >}}
