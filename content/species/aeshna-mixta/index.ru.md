@@ -2,6 +2,7 @@
 genus: Aeshna
 species: mixta
 authority: Latreille, 1805
+slug: aeshna-mixta
 common_name: Коромысло помесное
 date: 2026-08-15T16:51:00.000+03:00
 draft: false
