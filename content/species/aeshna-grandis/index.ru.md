@@ -7,8 +7,8 @@ common_name: Коромысло большое
 date: 2026-08-18T18:17:00.000+03:00
 draft: true
 hero:
-  file: aeshna-grandis-hc6060_orig.jpg
-  caption: erwtwertew
+  file: aeshna-grandis-minskyi-vr_orig.jpg
+  caption: ♂ Фото © Виктор Рындевич, Минский р-н
 images:
   - id: oslo3
     file: aeshna-grandis-v-sirota-glubokr82_orig.jpg
