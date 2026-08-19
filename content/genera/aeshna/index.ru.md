@@ -10,5 +10,3 @@ hero:
   caption: test
 ---
 test
-
-{{<species-list>}}

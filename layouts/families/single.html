@@ -35,42 +35,16 @@
                 {{ end }}
             </p>
 
-            <table class="taxonomy">
-
-                <tr>
-                    <th>Подотряд</th>
-                    <td>{{ .Params.suborder }}</td>
-                </tr>
-
-                <tr>
-                    <th>Семейство</th>
-                    <td>{{ .Params.title }}</td>
-                </tr>
-
-            </table>
-
-            <p class="external-links">
-
-                {{ with .Params.gbif }}
-                <a href="https://www.gbif.org/taxon/{{ . }}">GBIF</a>
-                {{ end }}
-
-                {{ with .Params.inat }}
-                · <a href="https://www.inaturalist.org/taxa/{{ . }}">iNaturalist</a>
-                {{ end }}
-
-                {{ with .Params.scientific_name }}
-                · <a href="https://ru.wikipedia.org/wiki/{{ replace . " " "_" }}">Wikipedia</a>
-                {{ end }}
-
-            </p>
-
         </div>
 
+        {{ partial "family-species-list.html" . }}
+
         <div class="species-hero">
-            {{ with .Resources.GetMatch "hero.*" }}
-            <img src="{{ .RelPermalink }}" alt="{{ $.Title }}">
+
+            {{ with .Params.hero }}
+            {{ partial "image.html" (dict "page" $.Page "image" .) }}
             {{ end }}
+
         </div>
 
     </header>

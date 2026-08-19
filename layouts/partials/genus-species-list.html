@@ -1,0 +1,12 @@
+{{ $genus := .Page.Params.title }}
+
+<ul class="species-list">
+    {{ range sort (where (where site.RegularPages "Section" "species") ".Params.genus" $genus) ".Params.species" }}
+    <li>
+        <a href="{{ .RelPermalink }}">
+            <em>{{ .Params.genus }} {{ .Params.species }}</em>
+            ({{ .Params.common_name }})
+        </a>
+    </li>
+    {{ end }}
+</ul>

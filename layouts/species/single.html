@@ -46,6 +46,14 @@
                 {{ .Params.authority }}
             </p>
 
+            <div class="species-hero">
+
+                {{ with .Params.hero }}
+                {{ partial "image.html" (dict "page" $.Page "image" .) }}
+                {{ end }}
+
+            </div>
+
             <table class="taxonomy">
 
                 {{ with $tax.suborder }}
@@ -108,14 +116,6 @@
 
                 · <a href="https://ru.wikipedia.org/wiki/{{ .Params.genus }}%20{{ .Params.species }}">Wikipedia</a>
             </p>
-
-        </div>
-
-        <div class="species-hero">
-
-            {{ with .Params.hero }}
-            {{ partial "image.html" (dict "page" $.Page "image" .) }}
-            {{ end }}
 
         </div>
 

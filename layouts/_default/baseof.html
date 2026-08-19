@@ -8,6 +8,7 @@
         {{ .Title }} | {{ site.Title }}
     </title>
 
+    <link rel="icon" href="{{ "favicon.png" | relURL }}" type="image/png">
     {{ with resources.Get "css/main.css" }}
     <link rel="stylesheet" href="{{ .RelPermalink }}">
     {{ end }}
