@@ -33,7 +33,7 @@ body {
 
 .breadcrumbs {
     margin-top: 6px;
-    font-size: 14px;
+    font-size: 16px;
     color: #666;
 }
 
@@ -81,4 +81,17 @@ h1,
 h2,
 h3 {
     color: #2b5d34;
+}
+
+figure {
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+figure figcaption {
+    margin-top: 0.4rem;
+    color: #777;
+    font-size: 0.85rem;
+    line-height: 1.4;
+    text-align: center;
 }

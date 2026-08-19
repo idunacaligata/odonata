@@ -1,0 +1,42 @@
+{{ $page := .page }}
+
+{{ $genusPage := "" }}
+{{ $familyPage := "" }}
+{{ $suborderPage := "" }}
+
+{{/* Find genus */}}
+{{ if eq $page.Section "genera" }}
+    {{ $genusPage = $page }}
+{{ else if $page.Params.genus }}
+    {{ $genusPage = $page.Site.GetPage
+(printf "/genera/%s" (lower $page.Params.genus))}}
+{{ end }}
+
+{{/* Find family */}}
+{{ if eq $page.Section "families" }}
+    {{ $familyPage = $page }}
+{{ else if $genusPage }}
+    {{ $familyPage = $page.Site.GetPage
+(printf "/families/%s" (lower $genusPage.Params.family))}}
+{{ else if $page.Params.family }}
+    {{ $familyPage = $page.Site.GetPage
+(printf "/families/%s" (lower $page.Params.family))
+}}
+{{ end }}
+
+{{/* Find suborder */}}
+{{ if eq $page.Section "suborders" }}
+    {{ $suborderPage = $page }}
+{{ else if $familyPage }}
+    {{ $suborderPage = $page.Site.GetPage
+(printf "/suborders/%s" (lower $familyPage.Params.suborder))}}
+{{ else if $page.Params.suborder }}
+    {{ $suborderPage = $page.Site.GetPage
+(printf "/suborders/%s" (lower $page.Params.suborder))}}
+{{ end }}
+
+{{ return dict
+"genus" $genusPage
+"family" $familyPage
+"suborder" $suborderPage
+}}

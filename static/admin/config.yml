@@ -97,6 +97,15 @@ collections:
     public_folder: ""
     i18n: true
     fields:
+      - label: "Suborder"
+        name: "suborder"
+        widget: "relation"
+        collection: "suborders"
+        search_fields: [ "title" ]
+        value_field: "title"
+        display_fields: [ "title" ]
+        required: true
+        i18n: duplicate
       - label: "Family name"
         name: "title"
         widget: "string"
@@ -113,15 +122,6 @@ collections:
         widget: "string"
         required: true
         i18n: true
-      - label: "Suborder"
-        name: "suborder"
-        widget: "relation"
-        collection: "suborders"
-        search_fields: ["title"]
-        value_field: "title"
-        display_fields: ["title"]
-        required: true
-        i18n: duplicate
       - { label: "Date", name: "date", widget: "datetime", i18n: true}
       - { label: "Draft", name: "draft", widget: "boolean", default: true}
       - label: "Hero Image"
@@ -176,6 +176,15 @@ collections:
     public_folder: ""
     i18n: true
     fields:
+      - label: "Family"
+        name: "family"
+        widget: "relation"
+        collection: "families"
+        search_fields: [ "title" ]
+        value_field: "title"
+        display_fields: [ "title" ]
+        required: true
+        i18n: duplicate
       - label: "Genus name"
         name: "title"
         widget: "string"
@@ -192,15 +201,6 @@ collections:
         widget: "string"
         required: true
         i18n: true
-      - label: "Family"
-        name: "family"
-        widget: "relation"
-        collection: "families"
-        search_fields: [ "title" ]
-        value_field: "title"
-        display_fields: [ "title" ]
-        required: true
-        i18n: duplicate
       - { label: "Date", name: "date", widget: "datetime", i18n: true }
       - { label: "Draft", name: "draft", widget: "boolean", default: true }
       - label: "Hero Image"
@@ -252,8 +252,7 @@ collections:
     create: true
     i18n: true
     summary: "{{fields.genus}} {{fields.species}} — {{fields.common_name}}"
-    slug: "{{fields.genus | lower}}-{{fields.species | lower}}"
-    path: "{{fields.genus | lower}}-{{fields.species | lower}}/index"
+    path: "{{slug}}/index"
     media_folder: ""
     public_folder: ""
     fields:
@@ -265,17 +264,23 @@ collections:
         value_field: "title"
         display_fields: ["title"]
         required: true
-        # i18n key removed — root-level field, not locale-scoped
+        i18: duplicate
 
       - label: "Species epithet"
         name: "species"
         widget: "string"
         required: true
         pattern: ["^[a-z-]+$", "Lowercase only, by taxonomic convention"]
-        # i18n key removed
+        i18: duplicate
 
       - label: "Authority"
         name: "authority"
+        widget: "string"
+        required: true
+        i18n: duplicate
+
+      - label: "Url"
+        name: "title"
         widget: "string"
         required: true
         i18n: duplicate

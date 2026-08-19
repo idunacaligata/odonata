@@ -6,6 +6,9 @@ title: aeshna-grandis
 common_name: Коромысло большое
 date: 2026-08-18T18:17:00.000+03:00
 draft: true
+inat: 82106
+gbif: 65BN7
+belarus_red_book: no
 hero:
   file: aeshna-grandis-minskyi-vr_orig.jpg
   caption: ♂ Фото © Виктор Рындевич, Минский р-н

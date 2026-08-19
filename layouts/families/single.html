@@ -1,5 +1,5 @@
 {{ define "main" }}
-
+{{ $tax := partial "taxonomy.html" (dict "page" .) }}
 
 <nav class="breadcrumbs">
 
@@ -7,16 +7,12 @@
         {{ T "homepage" }}
     </a>
 
+    {{ with $tax.suborder }}
     &gt;
-
-    {{ with where site.RegularPages "Section" "suborders" }}
-        {{ range where . ".Params.title" $.Params.suborder }}
-        <a href="{{ .RelPermalink }}">
-            {{ .Title }}
-        </a>
-        {{ end }}
+    <a href="{{ .RelPermalink }}">
+        {{ .Title }}
+    </a>
     {{ end }}
-
 
     &gt;
 
@@ -48,7 +44,7 @@
 
                 <tr>
                     <th>Семейство</th>
-                    <td>{{ .Params.family }}</td>
+                    <td>{{ .Params.title }}</td>
                 </tr>
 
             </table>

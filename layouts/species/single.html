@@ -1,6 +1,38 @@
 {{ define "main" }}
-{{ $chain := partial "taxonomy-chain.html" (dict "page" .) }}
+{{ $tax := partial "taxonomy.html" (dict "page" .) }}
 
+<nav class="breadcrumbs">
+
+    <a href="{{ site.Home.RelPermalink }}">
+        {{ T "homepage" }}
+    </a>
+
+    {{ with $tax.suborder }}
+    &gt;
+    <a href="{{ .RelPermalink }}">
+        {{ .Title }}
+    </a>
+    {{ end }}
+
+    {{ with $tax.family }}
+    &gt;
+    <a href="{{ .RelPermalink }}">
+        {{ .Title }}
+    </a>
+    {{ end }}
+
+    {{ with $tax.genus }}
+    &gt;
+    <a href="{{ .RelPermalink }}">
+        {{ .Title }}
+    </a>
+    {{ end }}
+
+    &gt;
+
+    <span>{{ .Params.species }}</span>
+
+</nav>
 <article class="species">
 
     <header class="species-header">
@@ -16,26 +48,26 @@
 
             <table class="taxonomy">
 
-                {{ with $chain.suborder }}
+                {{ with $tax.suborder }}
                 <tr>
                     <th>Подотряд</th>
-                    <td>{{ .Params.title }}</td>
+                    <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
                 </tr>
                 {{ end }}
 
-                {{ with $chain.family }}
+                {{ with $tax.family }}
                 <tr>
                     <th>Семейство</th>
-                    <td>
-                        <a href="{{ .RelPermalink }}">{{ .Params.family }}</a>
-                    </td>
+                    <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
                 </tr>
                 {{ end }}
 
+                {{ with $tax.genus }}
                 <tr>
-                    <th>Род</th>
-                    <td>{{ .Params.genus }}</td>
+                    <th>Семейство</th>
+                    <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
                 </tr>
+                {{ end }}
 
                 <tr>
                     <th>Вид</th>
@@ -45,10 +77,10 @@
                 <tr>
                     <th>IUCN</th>
                     <td>
-                        <a href="https://www.iucnredlist.org/search?query={{ .Params.scientific_name | urlquery }}&searchType=species"
+                        <a href="https://www.iucnredlist.org/search?query={{ .Params.genus }}%20{{ .Params.species }}&searchType=species"
                            target="_blank"
                            rel="noopener">
-                            {{ .Params.iucn }}
+                            LC
                         </a>
                     </td>
                 </tr>
