@@ -1,12 +1,12 @@
 ---
 title: odonata-species-of-belarus
-name: Полный список стрекоз Беларуси
+name: Систематический список фауны стрекоз Беларуси
 date: 2026-08-21T14:15:00.000+03:00
 draft: false
 special: true
 hero:
-  file: aeshna-mixta1_orig.jpg
-  caption: test
+  file: ""
+  caption: ""
 ---
 ### Suborder Anisoptera
 
