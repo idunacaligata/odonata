@@ -7,10 +7,10 @@ hero:
   file: aeshna-mixta1_orig.jpg
   caption: test
 ---
-#Anisoptera#
+### Suborder Anisoptera
 
-{{suborder-species-list anisoptera}}
+{{<suborder-species-list Anisoptera 2>}}
 
-#Zygoptera#
+### Suborder Zygoptera
 
-{{suborder-species-list zygoptera}}
+{{<suborder-species-list Zygoptera 2>}}

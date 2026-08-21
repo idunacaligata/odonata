@@ -1,0 +1,6 @@
+{{ $slug := .Get 0 }}
+{{ $page := site.GetPage (printf "/articles/%s" $slug) }}
+
+<a href="{{ $page.RelPermalink }}" class="article-link">
+    {{ $page.Params.name }}
+</a>

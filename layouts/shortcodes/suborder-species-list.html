@@ -1,0 +1,39 @@
+{{ $suborder := .Get 0 }}
+{{ $indent := .Get 1 | default 0 }}
+<ul class="genus-list" style="margin-left: {{ $indent }}rem;">
+
+    {{ range sort (where (where site.RegularPages "Section" "families") ".Params.suborder" $suborder) ".Params.title" }}
+
+    {{ $family := .Params.title }}
+
+    <li>
+        <a href="{{ .RelPermalink }}">
+            <em>{{ $family }}</em>
+        </a>
+
+        <ul class="species-list">
+            {{ $genera := where site.RegularPages "Section" "genera" }}
+            {{ $genera = where $genera ".Params.family" $family }}
+
+            {{ $genusNames := slice }}
+            {{ range $genera }}
+            {{ $genusNames = $genusNames | append .Title }}
+            {{ end }}
+
+            {{ $species := where site.RegularPages "Section" "species" }}
+            {{ $species = where $species ".Params.genus" "in" $genusNames }}
+
+            {{ range sort (sort $species ".Params.species") ".Params.genus" }}
+            <li>
+                <a href="{{ .RelPermalink }}">
+                    <em>{{ .Params.genus }} {{ .Params.species }}</em>
+                    ({{ .Params.common_name }})
+                </a>
+            </li>
+            {{ end }}
+        </ul>
+    </li>
+
+    {{ end }}
+
+</ul>
