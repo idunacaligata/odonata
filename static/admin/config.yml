@@ -359,7 +359,7 @@ collections:
           - label: "File"
             name: "file"
             widget: "image"
-            required: true
+            required: false
             i18n: duplicate
             media_library:
               config:
