@@ -13,17 +13,17 @@ images: []
 
 ​Таким образом, из указанных в 2006 г. 14 потенциальных видов для Беларуси обнаружено 9 и в ранге потенциальных остаются лишь 5 видов. Вместе с тем, в 2019 г. был обнаружен еще один новый вид, ранее не предполагаемый, но мигрирующий по всему миру - Pantala flavescens.
 
-Lestes macrostigma - 50 (UA)
-Lestes viridis
-Sympecma fusca
-Coenagrion scitulum - 50 (UA)
-Aeshna serrata - 50 (UA, EST)
-Anax ephippiger - 20 (PL)
-Anax parthenope
-Crocothemis erythraea
-Orthetrum albistylum
-Orthetrum coerulescens
-Sympetrum eroticum - 30 (LT)
-Sympetrum fonscolombii
-Sympetrum meridionale
-Sympetrum striolatum
+* Lestes macrostigma - 50 (UA)
+  Lestes viridis
+  Sympecma fusca
+  Coenagrion scitulum - 50 (UA)
+  Aeshna serrata - 50 (UA, EST)
+  Anax ephippiger - 20 (PL)
+  Anax parthenope
+  Crocothemis erythraea
+  Orthetrum albistylum
+  Orthetrum coerulescens
+  Sympetrum eroticum - 30 (LT)
+  Sympetrum fonscolombii
+  Sympetrum meridionale
+  Sympetrum striolatum
