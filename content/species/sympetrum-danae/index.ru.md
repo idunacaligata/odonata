@@ -6,6 +6,9 @@ title: sympetrum-danae
 common_name: Стрекоза чёрная
 date: 2026-08-21T17:52:00.000+03:00
 draft: true
+inat: 113503
+gbif: 53P6Q
+belarus_red_book: no
 hero:
   file: sympetrum-danae-male_orig.jpg
   caption: ♂ Фото © Денис Китель

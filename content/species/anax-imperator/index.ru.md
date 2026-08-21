@@ -6,6 +6,9 @@ title: anax-imperator
 common_name: Дозорщик-император
 date: 2026-08-21T18:13:00.000+03:00
 draft: false
+inat: 94043
+gbif: DJX8
+belarus_red_book: no
 hero:
   file: anax-imperator-9936_orig.jpg
   caption: ♂ Фото © Владимир Бондарь, Могилевский р-н
