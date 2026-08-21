@@ -7,7 +7,7 @@ date: 2026-08-15T15:07:00.000+03:00
 draft: false
 hero:
   file: hb4554_1.jpeg
-  caption: test
+  caption: ""
 images:
   - file: aeshnidae-1_orig.jpg
     caption: Göran Liljeberg & Hallvard Elven. Naturhistorisk museum, Universitetet
