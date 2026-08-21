@@ -7,6 +7,27 @@ date: 2026-08-21T17:26:00.000+03:00
 draft: true
 hero:
   file: 1429372005.jpg
+images:
+  - id: oslo1
+    file: leucorrhinia_orig.jpg
+    caption: Göran Liljeberg & Hallvard Elven. Naturhistorisk museum, Universitetet
+      i Oslo. CC BY-SA 3.0
+  - id: oslo2
+    file: libellula_orig.jpg
+    caption: Göran Liljeberg & Hallvard Elven. Naturhistorisk museum, Universitetet
+      i Oslo. CC BY-SA 3.0
+  - id: oslo3
+    file: libellulidae_orig.jpg
+    caption: Göran Liljeberg & Hallvard Elven. Naturhistorisk museum, Universitetet
+      i Oslo. CC BY-SA 3.0
+  - id: oslo4
+    file: orthetrum-fam_orig.jpg
+    caption: Göran Liljeberg & Hallvard Elven. Naturhistorisk museum, Universitetet
+      i Oslo. CC BY-SA 3.0
+  - id: oslo5
+    file: sympetrum-fam_orig.jpg
+    caption: Göran Liljeberg & Hallvard Elven. Naturhistorisk museum, Universitetet
+      i Oslo. CC BY-SA 3.0
 ---
 Средней величины. Глаза соприкасаются, их задний край прямой, без выступа посредине. Брюшко короткое, а в некоторых случаях (например, у Crocothemis) широкое и треугольное в поперечном сечении.
 Ушек у ♂ нет. Задние крылья иногда очень широкие у основания, особенно у мигрирующих видов. Жилкование передних и задних крыльев значительно различается. Анальный край заднего крыла ♂ закруглен. 
@@ -19,3 +40,9 @@ hero:
 В Беларуси 5 родов, 18 видов.
 
 Общее представление о внешнем виде некоторых представителей семейства дают иллюстрации, расположенные ниже. Более подробное описание всех видов по ссылкам, расположенным выше.
+
+{{< image oslo1 >}}
+{{< image oslo2 >}}
+{{< image oslo3 >}}
+{{< image oslo4 >}}
+{{< image oslo5 >}}
