@@ -1,0 +1,9 @@
+<ul class="species-list">
+    {{ range (where site.RegularPages "Section" "articles")}}
+    <li>
+        <a href="{{ .RelPermalink }}">
+            <em>{{ .Params.name }}</em>
+        </a>
+    </li>
+    {{ end }}
+</ul>
