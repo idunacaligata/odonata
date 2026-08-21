@@ -1,5 +1,5 @@
 <ul class="species-list">
-    {{ range (where site.RegularPages "Section" "articles")}}
+    {{ range where (where site.RegularPages "Section" "articles") "Params.special" "!=" true }}
     <li>
         <a href="{{ .RelPermalink }}">
             <em>{{ .Params.name }}</em>
