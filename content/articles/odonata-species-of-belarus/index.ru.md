@@ -8,10 +8,10 @@ hero:
   file: ""
   caption: ""
 ---
-### Suborder Anisoptera
+{{<suborder-link Anisoptera>}}
 
 {{<suborder-species-list Anisoptera 2 >}}
 
-### Suborder Zygoptera
+{{<suborder-link Zygoptera>}}
 
 {{<suborder-species-list Zygoptera 2 >}}

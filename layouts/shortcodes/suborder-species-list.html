@@ -5,10 +5,11 @@
     {{ range sort (where (where site.RegularPages "Section" "families") ".Params.suborder" $suborder) ".Params.title" }}
 
     {{ $family := .Params.title }}
+    {{ $familyName := .Params.common_name }}
 
     <li>
         <a href="{{ .RelPermalink }}">
-            <em>{{ $family }}</em>
+            <em>{{ $family }}({{ $familyName }})</em>
         </a>
 
         <ul class="species-list">

@@ -1,0 +1,6 @@
+{{ $slug := .Get 0 }}
+{{ $page := site.GetPage (printf "/suborders/%s" $slug) }}
+<h3 class="clickable-header"
+    onclick="window.location.href='{{ $page.RelPermalink }}'">
+    {{ $page.Title }} ({{ $page.Params.common_name }})
+</h3>
