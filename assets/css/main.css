@@ -22,7 +22,7 @@ body {
 
 .site-title h1 {
     margin: 0;
-    font-size: 28px;
+    font-size: 1.65rem;
 }
 
 .site-title a {
@@ -36,7 +36,7 @@ body {
 
 .breadcrumbs {
     margin-top: 6px;
-    font-size: 16px;
+    font-size: 1rem;
     color: #777;
 }
 
@@ -54,7 +54,7 @@ body {
     width: 260px;
     padding: 8px 10px;
     font: inherit;
-    font-size: 15px;
+    font-size: 1rem;
     color: #333;
     background: #fff;
     border: 1px solid #d5d5d5;
@@ -67,13 +67,45 @@ body {
 }
 
 .content {
-    max-width: 960px;
+    max-width: 900px;
     margin: 30px auto;
     padding: 0 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
     color: #2b5d34;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 0.5rem 0 1rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin: 2rem 0 0.75rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+    margin: 1.5rem 0 0.6rem;
+}
+
+h4 {
+    font-size: 1.05rem;
+    margin: 1.25rem 0 0.5rem;
+}
+
+.latin {
+    margin-top: -0.5rem;
+}
+
+.latin em {
+    margin-right: 0.4rem;
+}
+
+.latin .authority {
+    font-size: 0.9em;
 }
 
 .article-link {
@@ -137,7 +169,7 @@ figure figcaption {
 .genus-list > li > a {
     display: block;
     margin-bottom: 0.4rem;
-    font-size: 1.15rem;
+    font-size: 1.1rem;
     font-weight: 600;
     color: #333;
     text-decoration: none;
@@ -154,7 +186,7 @@ figure figcaption {
 }
 
 .species-list li {
-    padding: 0.25rem 0;
+    padding: 0.3rem 0;
 }
 
 .species-list a,
@@ -175,4 +207,5 @@ figure figcaption {
 
 .clickable-header:hover {
     text-decoration: underline;
+    text-underline-offset: 2px;
 }

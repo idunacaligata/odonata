@@ -30,9 +30,7 @@
 
             <p class="latin">
                 <em>{{ .Params.title }}</em>
-                {{ with .Params.authority }}
-                {{ . }}
-                {{ end }}
+                <span class="authority">{{ .Params.authority }}</span>
             </p>
 
         </div>
