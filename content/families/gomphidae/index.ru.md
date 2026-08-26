@@ -5,6 +5,8 @@ authority: Rambur, 1842
 common_name: Дедки
 date: 2026-08-26T18:56:00.000+03:00
 draft: false
+hero:
+  file: image-2_3.jpeg
 images:
   - id: oslo1
     caption: Göran Liljeberg & Hallvard Elven. Naturhistorisk museum, Universitetet
