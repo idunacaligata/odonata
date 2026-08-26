@@ -5,6 +5,8 @@ authority: Kirby, 1890
 common_name: Стрелки
 date: 2026-08-26T19:39:00.000+03:00
 draft: false
+hero:
+  file: 1429371505.jpg
 images:
   - id: oslo1
     caption: Göran Liljeberg & Hallvard Elven. Naturhistorisk museum, Universitetet
