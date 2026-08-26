@@ -5,6 +5,8 @@ authority: Selys, 1854
 common_name: Булавобрюхи или кордулегастериды
 date: 2026-08-26T18:35:00.000+03:00
 draft: false
+hero:
+  file: img-20220710-163251_1.jpg
 images:
   - caption: Göran Liljeberg & Hallvard Elven. Naturhistorisk museum, Universitetet
       i Oslo. CC BY-SA 3.0
