@@ -49,13 +49,13 @@ collections:
       - label: "Hero Image"
         name: "hero"
         widget: "object"
-        required: true
+        required: false
         i18n: true
         fields:
           - label: "File"
             name: "file"
             widget: "image"
-            required: true
+            required: false
             i18n: duplicate
             media_library:
               config:
@@ -65,6 +65,7 @@ collections:
             widget: "string"
             required: false
             i18n: true
+          - { label: "Link", name: "link", widget: "string", required: false, hint: "e.g. iNaturalist observation link", i18n: duplicate }
       - label: "Images"
         name: "images"
         widget: "list"
@@ -79,6 +80,7 @@ collections:
               config:
                 multiple: false
           - { label: "Caption", name: "caption", widget: "string", required: false }
+          - { label: "Link", name: "link", widget: "string", required: false, hint: "e.g. iNaturalist observation link", i18n: duplicate }
       - label: "Body"
         name: "body"
         widget: "markdown"
@@ -129,13 +131,13 @@ collections:
       - label: "Hero Image"
         name: "hero"
         widget: "object"
-        required: true
+        required: false
         i18n: true
         fields:
           - label: "File"
             name: "file"
             widget: "image"
-            required: true
+            required: false
             i18n: duplicate
             media_library:
               config:
@@ -145,6 +147,7 @@ collections:
             widget: "string"
             required: false
             i18n: true
+
       - label: "Images"
         name: "images"
         widget: "list"
@@ -159,6 +162,7 @@ collections:
               config:
                 multiple: false
           - { label: "Caption", name: "caption", widget: "string", required: false }
+          - { label: "Link", name: "link", widget: "string", required: false, hint: "e.g. iNaturalist observation link", i18n: duplicate }
       - label: "Body"
         name: "body"
         widget: "markdown"
@@ -215,7 +219,7 @@ collections:
           - label: "File"
             name: "file"
             widget: "image"
-            required: true
+            required: false
             i18n: duplicate
             media_library:
               config:
@@ -225,6 +229,7 @@ collections:
             widget: "string"
             required: false
             i18n: true
+          - { label: "Link", name: "link", widget: "string", required: false, hint: "e.g. iNaturalist observation link", i18n: duplicate }
       - label: "Images"
         name: "images"
         widget: "list"
@@ -239,6 +244,7 @@ collections:
               config:
                 multiple: false
           - { label: "Caption", name: "caption", widget: "string", required: false }
+          - { label: "Link", name: "link", widget: "string", required: false, hint: "e.g. iNaturalist observation link", i18n: duplicate }
       - label: "Body"
         name: "body"
         widget: "markdown"
@@ -316,6 +322,7 @@ collections:
             widget: "string"
             required: false
             i18n: true
+          - { label: "Link", name: "link", widget: "string", required: false, hint: "e.g. iNaturalist observation link", i18n: duplicate }
       - label: "Images"
         name: "images"
         widget: "list"
@@ -330,6 +337,7 @@ collections:
               config:
                 multiple: false
           - { label: "Caption", name: "caption", widget: "string", required: false }
+          - { label: "Link", name: "link", widget: "string", required: false, hint: "e.g. iNaturalist observation link", i18n: duplicate }
       - label: "Body"
         name: "body"
         widget: "markdown"
@@ -369,6 +377,7 @@ collections:
               config:
                 multiple: false
           - { label: "Caption", name: "caption", widget: "string", required: false, i18n: duplicate }
+          - { label: "Link", name: "link", widget: "string", required: false, hint: "e.g. iNaturalist observation link", i18n: duplicate }
       - label: "Images"
         name: "images"
         widget: "list"
@@ -383,6 +392,7 @@ collections:
               config:
                 multiple: false
           - { label: "Caption", name: "caption", widget: "string", required: false }
+          - { label: "Link", name: "link", widget: "string", required: false, hint: "e.g. iNaturalist observation link", i18n: duplicate }
       - label: "Body"
         name: "body"
         widget: "markdown"

@@ -152,6 +152,19 @@ figure figcaption {
     text-align: center;
 }
 
+.image-caption-link {
+    color: inherit;
+    font: inherit;
+    text-decoration: none;
+}
+
+.image-caption-link:hover {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+}
+
 /* Species and genus lists */
 
 .genus-list,

@@ -3,9 +3,25 @@
 
 {{ with $page.Resources.GetMatch $image.file }}
 <figure>
+    {{ if $image.link }}
+    <a href="{{ $image.link }}" target="_blank" rel="noopener noreferrer">
+        <img src="{{ .RelPermalink }}" alt="{{ $page.Title }}">
+    </a>
+    {{ else }}
     <img src="{{ .RelPermalink }}" alt="{{ $page.Title }}">
+    {{ end }}
+
     <figcaption>
+        {{ if $image.link }}
+        <a class="image-caption-link"
+           href="{{ $image.link }}"
+           target="_blank"
+           rel="noopener noreferrer">
+            {{ $image.caption }}
+        </a>
+        {{ else }}
         {{ $image.caption }}
+        {{ end }}
     </figcaption>
 </figure>
 {{ end }}
