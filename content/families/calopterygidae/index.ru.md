@@ -1,6 +1,6 @@
 ---
 suborder: Zygoptera
-title: Сalopterygidae
+title: Calopterygidae
 authority: Selys, 1850
 common_name: Красотки
 date: 2026-08-26T19:33:00.000+03:00
