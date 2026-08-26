@@ -13,14 +13,17 @@ images:
     caption: Göran Liljeberg & Hallvard Elven. Naturhistorisk museum, Universitetet
       i Oslo. CC BY-SA 3.0
     id: oslo1
+    link: https://artsdatabanken.no/Pages/187319
   - file: aeshnidae-2_orig.jpg
     caption: Göran Liljeberg & Hallvard Elven. Naturhistorisk museum, Universitetet
       i Oslo. CC BY-SA 3.0
     id: oslo2
+    link: https://artsdatabanken.no/Pages/187320
   - id: oslo3
     file: aeshnidae-3_orig.jpg
     caption: Göran Liljeberg & Hallvard Elven. Naturhistorisk museum, Universitetet
       i Oslo. CC BY-SA 3.0
+    link: https://artsdatabanken.no/Pages/187321
 ---
 Крупные, бросающиеся в глаза, быстро летающие стрекозы с длинным тонким брюшком. Глаза большие, соприкасаются на некотором отрезке. Лопасти нижней губы примерно одинаковых размеров, без надрезов. Брюшко с боковыми ребрышками. Яйцеклад у самок состоит из 4 стилетов и не длиннее конца брюшка, генитальная заслоночка есть. Яйцеклад находится ниже конца брюшка, как и у равнокрылых стрекоз, короткий и снабжен зазубренными створками для прокалывания растительности для эндофитной откладки яиц. Передние и задние крылья различаются по форме.
 Быстро летают не только у воды, но и вдали от нее. Могут питаться относительно крупной добычей, такой как бабочки и пауки, которых ловят и поедают на лету. Некоторые виды склонны к миграциям. Все виды семейства при посадке принимают вертикальную позу со свисающим вниз брюшком.
