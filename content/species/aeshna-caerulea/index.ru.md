@@ -3,8 +3,8 @@ genus: Aeshna
 species: caerulea
 authority: Ström, 1783
 title: aeshna-caerulea
-common_name: КОРОМЫСЛО ГОЛУБОЕ или ЧЕШУЙЧАТОЕ
-date: 2026-08-26T15:43:31.767413+03:00
+common_name: Коромысло голубое или чешуйчатое
+date: 2026-08-26T17:59:11.397267+03:00
 draft: false
 inat: null
 gbif: null

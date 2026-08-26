@@ -3,8 +3,8 @@ genus: Aeshna
 species: crenata
 authority: Hagen, 1856
 title: aeshna-crenata
-common_name: КОРОМЫСЛО ГОРОДЧАТОЕ
-date: 2026-08-26T15:43:31.745276+03:00
+common_name: Коромысло городчатое
+date: 2026-08-26T17:59:11.367855+03:00
 draft: false
 inat: null
 gbif: null

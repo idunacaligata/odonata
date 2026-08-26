@@ -3,8 +3,8 @@ genus: Aeshna
 species: cyanea
 authority: Muller, 1764
 title: aeshna-cyanea
-common_name: КОРОМЫСЛО ГОЛУБОЕ или СИНЕЕ
-date: 2026-08-26T15:43:31.689009+03:00
+common_name: Коромысло голубое или синее
+date: 2026-08-26T17:59:11.30972+03:00
 draft: false
 inat: null
 gbif: null

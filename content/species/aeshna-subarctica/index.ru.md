@@ -3,8 +3,8 @@ genus: Aeshna
 species: subarctica
 authority: Walker, 1908
 title: aeshna-subarctica
-common_name: КОРОМЫСЛО СУБАРКТИЧЕСКОЕ
-date: 2026-08-26T15:43:31.775304+03:00
+common_name: Коромысло субарктическое
+date: 2026-08-26T17:59:11.40595+03:00
 draft: false
 inat: null
 gbif: null

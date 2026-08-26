@@ -3,8 +3,8 @@ genus: Aeshna
 species: juncea
 authority: Linnaeus, 1758
 title: aeshna-juncea
-common_name: КОРОМЫСЛО КАМЫШОВОЕ или ГОЛУБОЕ
-date: 2026-08-26T15:43:31.874144+03:00
+common_name: Коромысло камышовое или голубое
+date: 2026-08-26T17:59:11.520499+03:00
 draft: false
 inat: null
 gbif: null

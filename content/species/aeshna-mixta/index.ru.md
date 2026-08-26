@@ -3,8 +3,8 @@ genus: Aeshna
 species: mixta
 authority: Latreille, 1805
 title: aeshna-mixta
-common_name: КОРОМЫСЛО ПОМЕСНОЕ
-date: 2026-08-26T15:43:31.837604+03:00
+common_name: Коромысло помесное
+date: 2026-08-26T17:59:11.472263+03:00
 draft: false
 inat: null
 gbif: null

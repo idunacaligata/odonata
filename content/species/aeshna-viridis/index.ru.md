@@ -3,8 +3,8 @@ genus: Aeshna
 species: viridis
 authority: Eversmann, 1836
 title: aeshna-viridis
-common_name: КОРОМЫСЛО ЗЕЛЕНОЕ
-date: 2026-08-26T15:43:31.855024+03:00
+common_name: Коромысло зеленое
+date: 2026-08-26T17:59:11.494598+03:00
 draft: false
 inat: null
 gbif: null

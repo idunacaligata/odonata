@@ -3,8 +3,8 @@ genus: Aeshna
 species: affinis
 authority: Vander Linden, 1820
 title: aeshna-affinis
-common_name: КОРОМЫСЛО ЗЕЛЕНОБОКОЕ
-date: 2026-08-26T15:43:31.864801+03:00
+common_name: Коромысло зеленобокое
+date: 2026-08-26T17:59:11.507186+03:00
 draft: false
 inat: null
 gbif: null

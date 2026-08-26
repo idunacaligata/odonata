@@ -3,8 +3,8 @@ genus: Aeshna
 species: soneharai
 authority: Asahina, 1988
 title: aeshna-soneharai
-common_name: КОРОМЫСЛО СОНЕХАРЫ
-date: 2026-08-26T15:43:31.850792+03:00
+common_name: Коромысло сонехары
+date: 2026-08-26T17:59:11.489196+03:00
 draft: false
 inat: null
 gbif: null

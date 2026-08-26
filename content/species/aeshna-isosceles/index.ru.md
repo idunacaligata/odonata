@@ -3,8 +3,8 @@ genus: Aeshna
 species: isosceles
 authority: Müller, 1767
 title: aeshna-isosceles
-common_name: КОРОМЫСЛО РЫЖЕВАТОЕ
-date: 2026-08-26T15:43:31.720407+03:00
+common_name: Коромысло рыжеватое
+date: 2026-08-26T17:59:11.344449+03:00
 draft: false
 inat: null
 gbif: null

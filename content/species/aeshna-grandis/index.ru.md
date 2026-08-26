@@ -3,8 +3,8 @@ genus: Aeshna
 species: grandis
 authority: Linnaeus, 1758
 title: aeshna-grandis
-common_name: КОРОМЫСЛО БОЛЬШОЕ
-date: 2026-08-26T15:43:31.877286+03:00
+common_name: Коромысло большое
+date: 2026-08-26T17:59:11.524228+03:00
 draft: false
 inat: null
 gbif: null
