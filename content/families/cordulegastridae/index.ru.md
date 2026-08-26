@@ -19,3 +19,10 @@ images:
 В Беларуси 1 род, 1 вид.
 
 {{< image oslo1 >}}
+
+
+
+**Источники**
+
+1. Спурис З. Д. "Отряд Odonatoptera - Стрекозы" / Бей-Биенко Г. Я. (ред.) "Определитель насекомых европейской части СССР". т. I, Москва - Ленинград, 1964. С. 137-162.
+2. Smallshire D., Swash A. "Europe's Dragonflies: A field guide to the damselflies and dragonflies" Princeton University Press, 2020. - 360 pp.
