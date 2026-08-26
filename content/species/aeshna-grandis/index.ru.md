@@ -10,6 +10,7 @@ inat: 82106
 hero:
   file: aeshna-grandis-minskyi-vr_orig.jpg
   caption: ♂ Фото © Виктор Рындевич, Минский р-н
+  link: https://www.inaturalist.org/observations/194360014
 images:
   - id: rynd1
     file: aeshna-grandis-vr-smolevichsky1_orig.jpg
