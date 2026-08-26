@@ -5,13 +5,17 @@ authority: Selys, 1871
 common_name: Бабки
 date: 2026-08-26T18:56:00.000+03:00
 draft: false
+hero:
+  file: hc2742_1.jpeg
 images:
   - id: oslo1
-    caption: Göran Liljeberg & Hallvard Elven. Naturhistorisk museum, Universitetet i Oslo. CC BY-SA 3.0
+    caption: Göran Liljeberg & Hallvard Elven. Naturhistorisk museum, Universitetet
+      i Oslo. CC BY-SA 3.0
     link: https://artsdatabanken.no/Pages/187325
     file: corduliidae-1_orig.jpg
   - id: oslo2
-    caption: Göran Liljeberg & Hallvard Elven. Naturhistorisk museum, Universitetet i Oslo. CC BY-SA 3.0
+    caption: Göran Liljeberg & Hallvard Elven. Naturhistorisk museum, Universitetet
+      i Oslo. CC BY-SA 3.0
     link: https://artsdatabanken.no/Pages/187326
     file: corduliidae-2_orig.jpg
 ---
