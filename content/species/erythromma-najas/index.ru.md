@@ -3,50 +3,52 @@ genus: Erythromma
 species: najas
 authority: Hansemann, 1823
 title: erythromma-najas
-common_name: Стрелка красноглазая или эритромма большая
+common_name: Стрелка красноглазая или Эритромма большая
 date: 2026-08-26T17:59:11.464531+03:00
 draft: false
 inat: null
-gbif: null
-belarus_red_book: no
 hero:
   file: erytromma-najas4_orig.jpg
-  caption: "♂ Фото © Владимир Бондарь, Могилевский р-н"
+  caption: ♂ Фото © Владимир Бондарь, Могилевский р-н
 images:
   - id: erytromma-najas_orig
     file: erytromma-najas_orig.jpg
-    caption: "Фото © Владимир Бондарь, Быховский р-н, Могилевская обл."
+    caption: Фото © Владимир Бондарь, Быховский р-н, Могилевская обл.
   - id: erythromma-najas2_orig
     file: erythromma-najas2_orig.jpg
-    caption: "Фото © Владимир Бондарь, Могилевский р-н"
+    caption: Фото © Владимир Бондарь, Могилевский р-н
   - id: erythromma-najas-zaslawl_orig
     file: erythromma-najas-zaslawl_orig.jpg
-    caption: "© Виталий Сирота, Минский р-н"
+    caption: © Виталий Сирота, Минский р-н
   - id: erytromma-najas2-orig_orig
     file: erytromma-najas2-orig_orig.jpg
-    caption: "Фото © Владимир Бондарь, Могилевский р-н"
+    caption: Фото © Владимир Бондарь, Могилевский р-н
   - id: erytromma-najas5-orig_orig
     file: erytromma-najas5-orig_orig.jpg
-    caption: "♀ Фото © Владимир Бондарь, Могилевский р-н"
+    caption: ♀ Фото © Владимир Бондарь, Могилевский р-н
   - id: erythromma-najas-vb-byhorr4031_orig
     file: erythromma-najas-vb-byhorr4031_orig.jpg
-    caption: "♂ Фото © Владимир Бондарь, Быховский р-н, Могилевская обл."
+    caption: ♂ Фото © Владимир Бондарь, Быховский р-н, Могилевская обл.
   - id: erythromma-najas-bobruyskvs_orig
     file: erythromma-najas-bobruyskvs_orig.jpg
-    caption: "♀ Фото © Виталий Сирота, г. Бобруйск, Могилевская обл."
+    caption: ♀ Фото © Виталий Сирота, г. Бобруйск, Могилевская обл.
   - id: erythromma-najas-vb-byhorr404_orig
     file: erythromma-najas-vb-byhorr404_orig.jpg
-    caption: "© Владимир Бондарь, Быховский р-н, Могилевская обл."
+    caption: © Владимир Бондарь, Быховский р-н, Могилевская обл.
   - id: erythromma-najas-g_orig
     file: erythromma-najas-g_orig.jpg
-    caption: "Göran Liljeberg & Hallvard Elven. Naturhistorisk museum, Universitetet i Oslo. CC BY-SA 3.0"
+    caption: Göran Liljeberg & Hallvard Elven. Naturhistorisk museum, Universitetet
+      i Oslo. CC BY-SA 3.0
   - id: erythromma-najas-mf_orig
     file: erythromma-najas-mf_orig.jpg
-    caption: "♂ Image © Göran Liljeberg / Naturforskaren. CC BY 3.0"
+    caption: ♂ Image © Göran Liljeberg / Naturforskaren. CC BY 3.0
   - id: 7854277_orig
     file: 7854277_orig.jpg
-    caption: "Скворцов В. Э. 2010. Стрекозы Восточной Европы и Кавказа: Атлас-определитель."
+    caption: "Скворцов В. Э. 2010. Стрекозы Восточной Европы и Кавказа:
+      Атлас-определитель."
     link: uploads/1/3/3/0/13300348/7854277_orig.jpg
+gbif: null
+belarus_red_book: no
 ---
 
 Голова широкая, сверху вдвое шире своей длины. Верхняя часть затылка вся бронзово-черная, без светлых пятен. У обоих полов отсутствуют светлые затылочные пятна. По бокам груди две черные линии, верхняя короткая, как у видов Coenagrion («шпора»). Большая часть дорсальной стороны бронзово-черная, с заметным металлическим блеском. Сложенные крылья простираются более чем на половину длины сегмента VII. Птеростигма узкая (равна 1 ячейке), светло-коричневая. Под птеростигмой нет ни одной поперечной жилки. Ноги чаще черные или темно-серые.
