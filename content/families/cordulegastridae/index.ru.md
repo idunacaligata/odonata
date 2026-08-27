@@ -2,7 +2,7 @@
 suborder: Anisoptera
 title: Cordulegastridae
 authority: Selys, 1854
-common_name: Булавобрюхи или кордулегастериды
+common_name: Булавобрюхи
 date: 2026-08-26T18:35:00.000+03:00
 draft: false
 hero:
