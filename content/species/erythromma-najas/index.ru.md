@@ -46,7 +46,6 @@ images:
     file: 7854277_orig.jpg
     caption: "Скворцов В. Э. 2010. Стрекозы Восточной Европы и Кавказа:
       Атлас-определитель."
-    link: uploads/1/3/3/0/13300348/7854277_orig.jpg
 gbif: null
 belarus_red_book: no
 ---

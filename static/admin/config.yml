@@ -178,7 +178,7 @@ collections:
     folder: "content/genera"
     create: true
     path: "{{slug}}/index"
-    summary: "{{fields.title}} — {{fields.common_name}}"
+    summary: "{{fields.family}}: {{fields.title}} — {{fields.common_name}}"
     media_folder: ""
     public_folder: ""
     i18n: true
