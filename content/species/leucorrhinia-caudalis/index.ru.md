@@ -8,7 +8,7 @@ date: 2026-08-26T17:59:11.38399+03:00
 draft: false
 inat: null
 gbif: null
-belarus_red_book: no
+belarus_red_book: 4
 hero:
   file: leucorrhinia-caudalis-sl-2014male_orig.jpg
   caption: "♂ Фото © Семён Левый, Смолевичский р-н, Минская обл."

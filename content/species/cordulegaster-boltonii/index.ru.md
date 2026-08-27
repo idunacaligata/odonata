@@ -8,7 +8,7 @@ date: 2026-08-26T17:59:11.484088+03:00
 draft: false
 inat: null
 gbif: null
-belarus_red_book: no
+belarus_red_book: 3
 hero:
   file: cordulegaster-boltonii-volojinsky4_orig.jpg
   caption: "♂ Фото © Ольга Скробот Воложинский р-н, Минская обл."

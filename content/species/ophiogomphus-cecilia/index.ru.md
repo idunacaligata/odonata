@@ -8,7 +8,7 @@ date: 2026-08-26T17:59:11.462636+03:00
 draft: false
 inat: null
 gbif: null
-belarus_red_book: no
+belarus_red_book: 4
 hero:
   file: ophiogomphus-cecilia-vileika-mnvr_orig.jpg
   caption: "© Виктор Рындевич, Вилейский р-н, Минская обл."

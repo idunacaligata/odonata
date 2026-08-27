@@ -8,7 +8,7 @@ date: 2026-08-26T17:59:11.494598+03:00
 draft: false
 inat: null
 gbif: null
-belarus_red_book: no
+belarus_red_book: 3
 hero:
   file: aeshna-viridis-s-levy-soligorskr662_orig.jpg
   caption: "♀ Фото © Семён Левый, Солигорский р-н, Минская обл."

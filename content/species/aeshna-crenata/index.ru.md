@@ -8,7 +8,7 @@ date: 2026-08-26T17:59:11.367855+03:00
 draft: false
 inat: null
 gbif: null
-belarus_red_book: no
+belarus_red_book: 2
 hero:
   file: aeshna-crenata_orig.jpg
   caption: "♀ Фото © Денис Китель, Россонский р-н (Витебская обл.)"

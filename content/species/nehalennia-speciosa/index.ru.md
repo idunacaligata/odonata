@@ -8,7 +8,7 @@ date: 2026-08-26T17:59:11.351322+03:00
 draft: false
 inat: null
 gbif: null
-belarus_red_book: no
+belarus_red_book: 3
 hero:
   file: nehalennia-speciosa_3_orig.jpg
   caption: "Фото © Денис Китель, Малоритский р-н (Брестская обл.)"
