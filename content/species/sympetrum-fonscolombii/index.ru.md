@@ -6,7 +6,7 @@ title: sympetrum-fonscolombii
 common_name: Сжатобрюх фонсколомба
 date: 2026-08-26T17:59:11.339038+03:00
 draft: false
-inat: null
+inat: 113507
 gbif: null
 belarus_red_book: no
 hero:

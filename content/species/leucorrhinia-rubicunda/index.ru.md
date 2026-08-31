@@ -6,7 +6,7 @@ title: leucorrhinia-rubicunda
 common_name: Стрекоза красная
 date: 2026-08-26T17:59:11.512818+03:00
 draft: false
-inat: null
+inat: 134099
 gbif: null
 belarus_red_book: no
 hero:

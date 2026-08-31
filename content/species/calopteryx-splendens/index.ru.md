@@ -6,7 +6,7 @@ title: calopteryx-splendens
 common_name: Красотка блестящая
 date: 2026-08-26T17:59:11.39423+03:00
 draft: false
-inat: null
+inat: 51824
 gbif: null
 belarus_red_book: no
 hero:

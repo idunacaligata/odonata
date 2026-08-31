@@ -6,7 +6,7 @@ title: coenagrion-ornatum
 common_name: Стрелка украшенная
 date: 2026-08-26T17:59:11.47435+03:00
 draft: false
-inat: null
+inat: 433472
 gbif: null
 belarus_red_book: no
 hero:

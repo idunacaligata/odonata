@@ -6,7 +6,7 @@ title: orthetrum-cancellatum
 common_name: Стрекоза решетчатая или большая голубая
 date: 2026-08-26T17:59:11.458202+03:00
 draft: false
-inat: null
+inat: 62067
 gbif: null
 belarus_red_book: no
 hero:

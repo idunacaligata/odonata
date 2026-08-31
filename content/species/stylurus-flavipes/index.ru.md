@@ -6,7 +6,7 @@ title: stylurus-flavipes
 common_name: Дедка желтоногий
 date: 2026-08-26T17:59:11.357299+03:00
 draft: false
-inat: null
+inat: 991059
 gbif: null
 belarus_red_book: no
 hero:

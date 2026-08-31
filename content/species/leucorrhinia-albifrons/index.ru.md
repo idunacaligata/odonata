@@ -6,7 +6,7 @@ title: leucorrhinia-albifrons
 common_name: Стрекоза белолобая
 date: 2026-08-26T17:59:11.490586+03:00
 draft: false
-inat: null
+inat: 104543
 gbif: null
 belarus_red_book: no
 hero:

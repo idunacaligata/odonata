@@ -6,7 +6,7 @@ title: erythromma-viridulum
 common_name: Эритромма малая
 date: 2026-08-26T17:59:11.52738+03:00
 draft: false
-inat: null
+inat: 209683
 gbif: null
 belarus_red_book: no
 hero:

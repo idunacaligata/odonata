@@ -6,7 +6,7 @@ title: libellula-depressa
 common_name: Стрекоза плоская
 date: 2026-08-26T17:59:11.479978+03:00
 draft: false
-inat: null
+inat: 563098
 gbif: null
 belarus_red_book: no
 hero:

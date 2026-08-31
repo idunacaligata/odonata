@@ -6,7 +6,7 @@ title: aeshna-caerulea
 common_name: Коромысло голубое или чешуйчатое
 date: 2026-08-26T17:59:11.397267+03:00
 draft: false
-inat: null
+inat: 93427
 gbif: null
 belarus_red_book: no
 hero:

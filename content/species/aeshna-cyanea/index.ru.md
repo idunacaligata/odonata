@@ -6,7 +6,7 @@ title: aeshna-cyanea
 common_name: Коромысло голубое или синее
 date: 2026-08-26T17:59:11.30972+03:00
 draft: false
-inat: null
+inat: 52519
 gbif: null
 belarus_red_book: no
 hero:

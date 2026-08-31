@@ -6,7 +6,7 @@ title: libellula-fulva
 common_name: Стрекоза рыжая
 date: 2026-08-26T17:59:11.426001+03:00
 draft: false
-inat: null
+inat: 131846
 gbif: null
 belarus_red_book: no
 hero:

@@ -6,7 +6,7 @@ title: aeshna-grandis
 common_name: Коромысло большое
 date: 2026-08-26T17:59:11.524228+03:00
 draft: false
-inat: null
+inat: 82106
 gbif: null
 belarus_red_book: no
 hero:

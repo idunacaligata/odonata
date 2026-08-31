@@ -6,7 +6,7 @@ title: crocothemis-erythraea
 common_name: Стрекоза-метальщица красная
 date: 2026-08-26T17:59:11.518706+03:00
 draft: false
-inat: null
+inat: 85030
 gbif: null
 belarus_red_book: no
 hero:

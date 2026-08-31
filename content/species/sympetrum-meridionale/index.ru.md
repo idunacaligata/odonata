@@ -6,7 +6,7 @@ title: sympetrum-meridionale
 common_name: Сжатобрюх южный
 date: 2026-08-26T17:59:11.470154+03:00
 draft: false
-inat: null
+inat: 337499
 gbif: null
 belarus_red_book: no
 hero:

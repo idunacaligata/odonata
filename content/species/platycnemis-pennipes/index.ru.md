@@ -6,7 +6,7 @@ title: platycnemis-pennipes
 common_name: Плосконожка обыкновенная
 date: 2026-08-26T17:59:11.485904+03:00
 draft: false
-inat: null
+inat: 109650
 gbif: null
 belarus_red_book: no
 hero:

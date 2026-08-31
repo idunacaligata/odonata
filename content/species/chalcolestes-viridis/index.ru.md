@@ -6,7 +6,7 @@ title: chalcolestes-viridis
 common_name: Лютка зеленая или большая
 date: 2026-08-26T17:59:11.525822+03:00
 draft: false
-inat: null
+inat: 124488
 gbif: null
 belarus_red_book: no
 hero:

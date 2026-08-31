@@ -6,7 +6,7 @@ title: cordulegaster-boltonii
 common_name: Кордулегастер кольчатый
 date: 2026-08-26T17:59:11.484088+03:00
 draft: false
-inat: null
+inat: 85057
 gbif: null
 belarus_red_book: 3
 hero:

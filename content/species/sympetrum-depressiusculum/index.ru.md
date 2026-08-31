@@ -6,7 +6,7 @@ title: sympetrum-depressiusculum
 common_name: Стрекоза уплощенная
 date: 2026-08-26T17:59:11.477965+03:00
 draft: false
-inat: null
+inat: 428678
 gbif: null
 belarus_red_book: no
 hero:

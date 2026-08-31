@@ -6,7 +6,7 @@ title: sympetrum-sanguineum
 common_name: Стрекоза кроваво-красная
 date: 2026-08-26T17:59:11.428318+03:00
 draft: false
-inat: null
+inat: 113525
 gbif: null
 belarus_red_book: no
 hero:

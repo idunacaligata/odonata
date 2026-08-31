@@ -6,7 +6,7 @@ title: onychogomphus-forcipatus
 common_name: Дедка европейский или хвостатый
 date: 2026-08-26T17:59:11.514826+03:00
 draft: false
-inat: null
+inat: 132663
 gbif: null
 belarus_red_book: no
 hero:

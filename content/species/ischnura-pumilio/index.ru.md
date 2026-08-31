@@ -6,7 +6,7 @@ title: ischnura-pumilio
 common_name: Стрелка маленькая или ишнура маленькая
 date: 2026-08-26T17:59:11.529274+03:00
 draft: false
-inat: null
+inat: 318452
 gbif: null
 belarus_red_book: no
 hero:

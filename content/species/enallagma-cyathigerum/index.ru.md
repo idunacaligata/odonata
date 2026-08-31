@@ -6,7 +6,7 @@ title: enallagma-cyathigerum
 common_name: Стрелка голубая
 date: 2026-08-26T17:59:11.460729+03:00
 draft: false
-inat: null
+inat: 99901
 gbif: null
 belarus_red_book: no
 hero:

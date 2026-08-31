@@ -6,7 +6,7 @@ title: aeshna-subarctica
 common_name: Коромысло субарктическое
 date: 2026-08-26T17:59:11.40595+03:00
 draft: false
-inat: null
+inat: 93446
 gbif: null
 belarus_red_book: no
 hero:

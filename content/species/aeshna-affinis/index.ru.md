@@ -6,7 +6,7 @@ title: aeshna-affinis
 common_name: Коромысло зеленобокое
 date: 2026-08-26T17:59:11.507186+03:00
 draft: false
-inat: null
+inat: 93426
 gbif: null
 belarus_red_book: no
 hero:

@@ -6,7 +6,7 @@ title: lestes-sponsa
 common_name: Лютка-невеста
 date: 2026-08-26T17:59:11.415003+03:00
 draft: false
-inat: null
+inat: 130408
 gbif: null
 belarus_red_book: no
 hero:

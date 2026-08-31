@@ -6,7 +6,7 @@ title: aeshna-isosceles
 common_name: Коромысло рыжеватое
 date: 2026-08-26T17:59:11.344449+03:00
 draft: false
-inat: null
+inat: 1510501
 gbif: null
 belarus_red_book: no
 hero:

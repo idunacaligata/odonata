@@ -6,7 +6,7 @@ title: gomphus-vulgatissimus
 common_name: Дедка обыкновенный
 date: 2026-08-26T17:59:11.451296+03:00
 draft: false
-inat: null
+inat: 57454
 gbif: null
 belarus_red_book: no
 hero:

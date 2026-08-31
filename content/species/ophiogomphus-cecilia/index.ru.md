@@ -6,7 +6,7 @@ title: ophiogomphus-cecilia
 common_name: Дедка рогатый
 date: 2026-08-26T17:59:11.462636+03:00
 draft: false
-inat: null
+inat: 107654
 gbif: null
 belarus_red_book: 4
 hero:

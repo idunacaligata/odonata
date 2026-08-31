@@ -6,7 +6,7 @@ title: leucorrhinia-pectoralis
 common_name: Стрекоза двухцветная или болотная
 date: 2026-08-26T17:59:11.482231+03:00
 draft: false
-inat: null
+inat: 55403
 gbif: null
 belarus_red_book: no
 hero:

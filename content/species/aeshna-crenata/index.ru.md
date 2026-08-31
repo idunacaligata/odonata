@@ -6,7 +6,7 @@ title: aeshna-crenata
 common_name: Коромысло городчатое
 date: 2026-08-26T17:59:11.367855+03:00
 draft: false
-inat: null
+inat: 93430
 gbif: null
 belarus_red_book: 2
 hero:

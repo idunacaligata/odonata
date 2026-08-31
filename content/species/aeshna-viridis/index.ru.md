@@ -6,7 +6,7 @@ title: aeshna-viridis
 common_name: Коромысло зеленое
 date: 2026-08-26T17:59:11.494598+03:00
 draft: false
-inat: null
+inat: 93450
 gbif: null
 belarus_red_book: 3
 hero:

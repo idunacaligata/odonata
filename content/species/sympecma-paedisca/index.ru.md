@@ -6,7 +6,7 @@ title: sympecma-paedisca
 common_name: Лютка сибирская рыжая
 date: 2026-08-26T17:59:11.400576+03:00
 draft: false
-inat: null
+inat: 325393
 gbif: null
 belarus_red_book: no
 hero:

@@ -6,7 +6,7 @@ title: sympetrum-vulgatum
 common_name: Стрекоза обыкновенная
 date: 2026-08-26T17:59:11.501648+03:00
 draft: false
-inat: null
+inat: 132657
 gbif: null
 belarus_red_book: no
 hero:

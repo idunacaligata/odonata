@@ -6,7 +6,7 @@ title: sympetrum-danae
 common_name: Стрекоза черная
 date: 2026-08-26T17:59:11.509336+03:00
 draft: false
-inat: null
+inat: 113503
 gbif: null
 belarus_red_book: no
 hero:

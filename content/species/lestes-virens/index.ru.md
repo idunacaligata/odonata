@@ -6,7 +6,7 @@ title: lestes-virens
 common_name: Лютка зеленоватая
 date: 2026-08-26T17:59:11.421545+03:00
 draft: false
-inat: null
+inat: 361324
 gbif: null
 belarus_red_book: no
 hero:
