@@ -7,7 +7,7 @@ common_name: Лютка сибирская рыжая
 date: 2026-08-26T17:59:11.400576+03:00
 draft: false
 inat: 325393
-gbif: null
+gbif: 53P4N
 belarus_red_book: no
 hero:
   file: sympecma-paedisca-vr-soligr44_orig.jpg

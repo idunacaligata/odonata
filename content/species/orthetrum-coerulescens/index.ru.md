@@ -7,7 +7,7 @@ common_name: Прямобрюх синеющий, или стрекоза гол
 date: 2026-08-26T17:59:11.408661+03:00
 draft: false
 inat: 107954
-gbif: null
+gbif: 759LG
 belarus_red_book: no
 hero:
   file: 5_orig.jpg

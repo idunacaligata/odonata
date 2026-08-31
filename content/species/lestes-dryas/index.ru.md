@@ -7,7 +7,7 @@ common_name: Лютка-дриада
 date: 2026-08-26T17:59:11.496346+03:00
 draft: false
 inat: 104429
-gbif: null
+gbif: 6PQS9
 belarus_red_book: no
 hero:
   file: lestes-dryas-minsk_orig.jpg

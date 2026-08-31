@@ -7,7 +7,7 @@ common_name: Дозорщик-император
 date: 2026-08-26T17:59:11.530998+03:00
 draft: false
 inat: 94043
-gbif: null
+gbif: DJX8
 belarus_red_book: no
 hero:
   file: anax-imperator-9936_orig.jpg

@@ -7,7 +7,7 @@ common_name: Стрелка копьеносная
 date: 2026-08-26T17:59:11.403679+03:00
 draft: false
 inat: 98273
-gbif: null
+gbif: WTX5
 belarus_red_book: no
 hero:
   file: hb3829_orig.jpg

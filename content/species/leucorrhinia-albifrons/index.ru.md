@@ -7,7 +7,7 @@ common_name: Стрекоза белолобая
 date: 2026-08-26T17:59:11.490586+03:00
 draft: false
 inat: 104543
-gbif: null
+gbif: 725XC
 belarus_red_book: no
 hero:
   file: dsc-3475_orig.jpg

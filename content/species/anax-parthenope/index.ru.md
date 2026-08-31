@@ -7,7 +7,7 @@ common_name: Дозорщик темнолобый
 date: 2026-08-26T17:59:11.503736+03:00
 draft: false
 inat: 94048
-gbif: null
+gbif: DJXP
 belarus_red_book: no
 hero:
   file: anax-parthenope2_orig.jpg

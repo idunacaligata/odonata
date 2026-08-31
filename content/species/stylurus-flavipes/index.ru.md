@@ -7,7 +7,7 @@ common_name: Дедка желтоногий
 date: 2026-08-26T17:59:11.357299+03:00
 draft: false
 inat: 991059
-gbif: null
+gbif: 7B2FG
 belarus_red_book: no
 hero:
   file: stylurus-flavipes-vb-mgr4_orig.jpg

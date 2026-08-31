@@ -7,7 +7,7 @@ common_name: Стрекоза-метальщица красная
 date: 2026-08-26T17:59:11.518706+03:00
 draft: false
 inat: 85030
-gbif: null
+gbif: ZKQD
 belarus_red_book: no
 hero:
   file: img-1541_orig.jpg

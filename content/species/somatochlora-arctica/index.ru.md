@@ -7,7 +7,7 @@ common_name: Бабка арктическая
 date: 2026-08-26T17:59:11.492558+03:00
 draft: false
 inat: 358566
-gbif: null
+gbif: 4Y8S8
 belarus_red_book: no
 hero:
   file: somatochlora-arctica-hospers-myoryr_orig.jpg

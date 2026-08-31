@@ -7,7 +7,7 @@ common_name: Прямобрюх белохвостый
 date: 2026-08-26T17:59:11.476187+03:00
 draft: false
 inat: 107942
-gbif: null
+gbif: 6SXKX
 belarus_red_book: no
 hero:
   file: orthetrum-albistylum_orig.jpg

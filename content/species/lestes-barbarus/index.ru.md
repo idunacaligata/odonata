@@ -7,7 +7,7 @@ common_name: Лютка-иноземка
 date: 2026-08-26T17:59:11.423637+03:00
 draft: false
 inat: 104420
-gbif: null
+gbif: 6Q33Z
 belarus_red_book: no
 hero:
   file: lestes-barbarus_orig.jpg

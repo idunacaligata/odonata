@@ -7,7 +7,7 @@ common_name: Стрекоза черная
 date: 2026-08-26T17:59:11.509336+03:00
 draft: false
 inat: 113503
-gbif: null
+gbif: 53P6Q
 belarus_red_book: no
 hero:
   file: sympetrum-danae-male_orig.jpg

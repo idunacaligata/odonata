@@ -7,7 +7,7 @@ common_name: Стрекоза кроваво-красная
 date: 2026-08-26T17:59:11.428318+03:00
 draft: false
 inat: 113525
-gbif: null
+gbif: L2R8D
 belarus_red_book: no
 hero:
   file: fdscn7964_orig.jpg

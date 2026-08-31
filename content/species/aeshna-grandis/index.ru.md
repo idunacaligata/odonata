@@ -7,7 +7,7 @@ common_name: Коромысло большое
 date: 2026-08-26T17:59:11.524228+03:00
 draft: false
 inat: 82106
-gbif: null
+gbif: 65BN7
 belarus_red_book: no
 hero:
   file: aeshna-grandis-minskyi-vr_orig.jpg

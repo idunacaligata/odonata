@@ -7,7 +7,7 @@ common_name: Огнетелка нимфальная
 date: 2026-08-26T17:59:11.412191+03:00
 draft: false
 inat: 61152
-gbif: null
+gbif: 4QVYL
 belarus_red_book: no
 hero:
   file: pyrrhosoma-nymphula-sl-mogil-2017_orig.jpg

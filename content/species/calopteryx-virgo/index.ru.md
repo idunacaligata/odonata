@@ -7,7 +7,7 @@ common_name: Красотка-девушка
 date: 2026-08-26T17:59:11.433814+03:00
 draft: false
 inat: 61536
-gbif: null
+gbif: Q2MC
 belarus_red_book: no
 hero:
   file: calopteryx-virgo-vrsmolevichy_orig.jpg

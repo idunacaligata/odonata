@@ -7,7 +7,7 @@ common_name: Стрелка зеленоватая или вооруженная
 date: 2026-08-26T17:59:11.505404+03:00
 draft: false
 inat: 98270
-gbif: null
+gbif: WTWG
 belarus_red_book: 2
 hero:
   file: coenagrion-armatum-sl-lioznr-2020_orig.jpg

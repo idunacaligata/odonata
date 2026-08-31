@@ -7,7 +7,7 @@ common_name: Лютка зеленая или большая
 date: 2026-08-26T17:59:11.525822+03:00
 draft: false
 inat: 124488
-gbif: null
+gbif: 9WTNJ
 belarus_red_book: no
 hero:
   file: lestes-viridis-sl-kobrynr_orig.jpg

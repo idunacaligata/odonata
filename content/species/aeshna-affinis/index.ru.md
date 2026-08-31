@@ -7,7 +7,7 @@ common_name: Коромысло зеленобокое
 date: 2026-08-26T17:59:11.507186+03:00
 draft: false
 inat: 93426
-gbif: null
+gbif: 65BM8
 belarus_red_book: no
 hero:
   file: aeshna-affinis-vr-soligor_orig.jpg

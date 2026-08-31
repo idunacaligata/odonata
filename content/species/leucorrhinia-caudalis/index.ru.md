@@ -7,7 +7,7 @@ common_name: Стрекоза длиннохвостая
 date: 2026-08-26T17:59:11.38399+03:00
 draft: false
 inat: 104545
-gbif: null
+gbif: 6Q5YZ
 belarus_red_book: 4
 hero:
   file: leucorrhinia-caudalis-sl-2014male_orig.jpg

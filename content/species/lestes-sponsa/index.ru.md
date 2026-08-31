@@ -7,7 +7,7 @@ common_name: Лютка-невеста
 date: 2026-08-26T17:59:11.415003+03:00
 draft: false
 inat: 130408
-gbif: null
+gbif: 7233R
 belarus_red_book: no
 hero:
   file: lestes-sponsa-vr-naliboky_orig.jpg

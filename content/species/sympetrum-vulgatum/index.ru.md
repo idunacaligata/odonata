@@ -7,7 +7,7 @@ common_name: Стрекоза обыкновенная
 date: 2026-08-26T17:59:11.501648+03:00
 draft: false
 inat: 132657
-gbif: null
+gbif: 7B6W6
 belarus_red_book: no
 hero:
   file: sympetrum-vulgatum-vr-minskr_orig.jpg

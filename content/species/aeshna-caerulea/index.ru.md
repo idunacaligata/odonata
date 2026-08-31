@@ -7,7 +7,7 @@ common_name: Коромысло голубое или чешуйчатое
 date: 2026-08-26T17:59:11.397267+03:00
 draft: false
 inat: 93427
-gbif: null
+gbif: 65BML
 belarus_red_book: no
 hero:
   file: 2560px-alpen-mosaikjungfer-aeshna-caerulea-001_orig.jpg

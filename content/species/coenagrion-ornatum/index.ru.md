@@ -7,7 +7,7 @@ common_name: Стрелка украшенная
 date: 2026-08-26T17:59:11.47435+03:00
 draft: false
 inat: 433472
-gbif: null
+gbif: 5ZJR2
 belarus_red_book: no
 hero:
   file: coenagrionornatum-male_orig.jpg

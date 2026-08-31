@@ -7,7 +7,7 @@ common_name: Сжатобрюх полосатый или стрекоза ис�
 date: 2026-08-26T17:59:11.487611+03:00
 draft: false
 inat: 55625
-gbif: null
+gbif: 7B6VS
 belarus_red_book: no
 hero:
   file: sympetrum-striolatum1rr_orig.jpg

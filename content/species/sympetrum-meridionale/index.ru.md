@@ -7,7 +7,7 @@ common_name: Сжатобрюх южный
 date: 2026-08-26T17:59:11.470154+03:00
 draft: false
 inat: 337499
-gbif: null
+gbif: 7B77Y
 belarus_red_book: no
 hero:
   file: is2-sympetrum-meridionale-berezar6_orig.jpg

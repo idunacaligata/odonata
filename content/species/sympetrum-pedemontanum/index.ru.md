@@ -7,7 +7,7 @@ common_name: Стрекоза перевязанная
 date: 2026-08-26T17:59:11.468401+03:00
 draft: false
 inat: 118948
-gbif: null
+gbif: 53P92
 belarus_red_book: no
 hero:
   file: img-7437-003_orig.jpg

@@ -7,7 +7,7 @@ common_name: Стрекоза четырехпятнистая
 date: 2026-08-26T17:59:11.455996+03:00
 draft: false
 inat: 57443
-gbif: null
+gbif: 6PX28
 belarus_red_book: no
 hero:
   file: libellula-quadrimaculata-1_orig.jpg

@@ -7,7 +7,7 @@ common_name: Стрелка йоханссона
 date: 2026-08-26T17:59:11.430755+03:00
 draft: false
 inat: 325408
-gbif: null
+gbif: 5ZJQQ
 belarus_red_book: 2
 hero:
   file: 19446093749-0dc88421be-k_orig.jpg

@@ -7,7 +7,7 @@ common_name: Коромысло сонехары
 date: 2026-08-26T17:59:11.489196+03:00
 draft: false
 inat: 1398282
-gbif: null
+gbif: 9X683
 belarus_red_book: no
 hero:
   file: aeshna-soneharai-vb-mogr410_orig.jpg

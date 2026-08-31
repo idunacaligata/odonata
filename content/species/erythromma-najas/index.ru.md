@@ -7,7 +7,7 @@ common_name: Стрелка красноглазая или Эритромма �
 date: 2026-08-26T17:59:11.464531+03:00
 draft: false
 inat: 209688
-gbif: null
+gbif: 6GS2M
 belarus_red_book: no
 hero:
   file: erytromma-najas4_orig.jpg

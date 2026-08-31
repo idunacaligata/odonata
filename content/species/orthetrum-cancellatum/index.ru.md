@@ -7,7 +7,7 @@ common_name: Стрекоза решетчатая или большая гол�
 date: 2026-08-26T17:59:11.458202+03:00
 draft: false
 inat: 62067
-gbif: null
+gbif: 6T9LD
 belarus_red_book: no
 hero:
   file: orthetrum-cansellatum04vb_orig.jpg

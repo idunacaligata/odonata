@@ -7,7 +7,7 @@ common_name: Коромысло помесное
 date: 2026-08-26T17:59:11.472263+03:00
 draft: false
 inat: 93437
-gbif: null
+gbif: 65BPG
 belarus_red_book: no
 hero:
   file: aeshna-mixta5_orig.jpg

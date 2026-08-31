@@ -7,7 +7,7 @@ common_name: Бродяжка рыжая
 date: 2026-08-26T17:59:11.417121+03:00
 draft: false
 inat: 108344
-gbif: null
+gbif: 4CGSL
 belarus_red_book: no
 hero:
   file: large_orig.jpg

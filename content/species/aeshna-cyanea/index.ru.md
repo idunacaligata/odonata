@@ -7,7 +7,7 @@ common_name: Коромысло голубое или синее
 date: 2026-08-26T17:59:11.30972+03:00
 draft: false
 inat: 52519
-gbif: null
+gbif: 65BN5
 belarus_red_book: no
 hero:
   file: aeshna-cyanea-vr-myadr_orig.jpg

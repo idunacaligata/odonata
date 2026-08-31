@@ -7,7 +7,7 @@ common_name: Коромысло камышовое или голубое
 date: 2026-08-26T17:59:11.520499+03:00
 draft: false
 inat: 93434
-gbif: null
+gbif: 65BNR
 belarus_red_book: no
 hero:
   file: aeshna-juncea_1_orig.jpg

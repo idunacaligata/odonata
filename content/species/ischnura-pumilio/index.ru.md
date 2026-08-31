@@ -7,7 +7,7 @@ common_name: Стрелка маленькая или ишнура малень�
 date: 2026-08-26T17:59:11.529274+03:00
 draft: false
 inat: 318452
-gbif: null
+gbif: 3Q6GD
 belarus_red_book: no
 hero:
   file: ischnura-pumilio-vr-mn2_orig.jpg

@@ -7,7 +7,7 @@ common_name: Стрекоза желтая или желтоватая
 date: 2026-08-26T17:59:11.516788+03:00
 draft: false
 inat: 117294
-gbif: null
+gbif: 53P78
 belarus_red_book: no
 hero:
   file: sympetrum-flaveolum-vr-minskrr_orig.jpg

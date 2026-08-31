@@ -7,7 +7,7 @@ common_name: Стрелка весенняя
 date: 2026-08-26T17:59:11.49955+03:00
 draft: false
 inat: 134100
-gbif: null
+gbif: WTXK
 belarus_red_book: no
 hero:
   file: coenagrion-lunulatum-sl-dokshic-2017_orig.jpg

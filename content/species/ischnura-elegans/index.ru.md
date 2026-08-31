@@ -7,7 +7,7 @@ common_name: Стрелка изящная
 date: 2026-08-26T17:59:11.363503+03:00
 draft: false
 inat: 61508
-gbif: null
+gbif: 6N9HG
 belarus_red_book: no
 hero:
   file: photo-2022-06-20-00-53-33_orig.jpg

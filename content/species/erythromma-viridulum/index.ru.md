@@ -7,7 +7,7 @@ common_name: Эритромма малая
 date: 2026-08-26T17:59:11.52738+03:00
 draft: false
 inat: 209683
-gbif: null
+gbif: 6H3QB
 belarus_red_book: no
 hero:
   file: erythromma-viridulum-vr-gomelsky_orig.jpg

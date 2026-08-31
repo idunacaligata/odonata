@@ -7,7 +7,7 @@ common_name: Бабка двупятнистая
 date: 2026-08-26T17:59:11.532884+03:00
 draft: false
 inat: 358561
-gbif: null
+gbif: 6FXTK
 belarus_red_book: no
 hero:
   file: epitheca-bimaculata-male_orig.jpg

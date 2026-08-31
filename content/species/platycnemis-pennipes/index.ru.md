@@ -7,7 +7,7 @@ common_name: Плосконожка обыкновенная
 date: 2026-08-26T17:59:11.485904+03:00
 draft: false
 inat: 109650
-gbif: null
+gbif: 4JPVZ
 belarus_red_book: no
 hero:
   file: img-0053_orig.jpg

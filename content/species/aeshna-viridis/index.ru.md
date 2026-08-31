@@ -7,7 +7,7 @@ common_name: Коромысло зеленое
 date: 2026-08-26T17:59:11.494598+03:00
 draft: false
 inat: 93450
-gbif: null
+gbif: 65BQJ
 belarus_red_book: 3
 hero:
   file: aeshna-viridis-s-levy-soligorskr662_orig.jpg

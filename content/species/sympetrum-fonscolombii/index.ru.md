@@ -7,7 +7,7 @@ common_name: Сжатобрюх фонсколомба
 date: 2026-08-26T17:59:11.339038+03:00
 draft: false
 inat: 113507
-gbif: null
+gbif: 53P7C
 belarus_red_book: no
 hero:
   file: sympetrum-fonscolombii-3_orig.jpg

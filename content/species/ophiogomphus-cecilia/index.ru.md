@@ -7,7 +7,7 @@ common_name: Дедка рогатый
 date: 2026-08-26T17:59:11.462636+03:00
 draft: false
 inat: 107654
-gbif: null
+gbif: BWCJ4
 belarus_red_book: 4
 hero:
   file: ophiogomphus-cecilia-vileika-mnvr_orig.jpg

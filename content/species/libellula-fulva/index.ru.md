@@ -7,7 +7,7 @@ common_name: Стрекоза рыжая
 date: 2026-08-26T17:59:11.426001+03:00
 draft: false
 inat: 131846
-gbif: null
+gbif: 6Q92G
 belarus_red_book: no
 hero:
   file: libellula-fulva-male_orig.jpg

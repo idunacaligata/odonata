@@ -7,7 +7,7 @@ common_name: Стрекоза сомнительная
 date: 2026-08-26T17:59:11.41931+03:00
 draft: false
 inat: 104547
-gbif: null
+gbif: 6PTYW
 belarus_red_book: no
 hero:
   file: leucorrhinia-dubia-sl-2015male_orig.jpg

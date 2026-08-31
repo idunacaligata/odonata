@@ -7,7 +7,7 @@ common_name: Кордулегастер кольчатый
 date: 2026-08-26T17:59:11.484088+03:00
 draft: false
 inat: 85057
-gbif: null
+gbif: YC5X
 belarus_red_book: 3
 hero:
   file: cordulegaster-boltonii-volojinsky4_orig.jpg

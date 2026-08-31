@@ -7,7 +7,7 @@ common_name: Коромысло рыжеватое
 date: 2026-08-26T17:59:11.344449+03:00
 draft: false
 inat: 1510501
-gbif: null
+gbif: BV66C
 belarus_red_book: no
 hero:
   file: dsc-0520-3_orig.jpg

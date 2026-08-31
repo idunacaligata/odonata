@@ -7,7 +7,7 @@ common_name: Бабка бронзовая или зеленая
 date: 2026-08-26T17:59:11.327998+03:00
 draft: false
 inat: 61429
-gbif: null
+gbif: YC6Z
 belarus_red_book: no
 hero:
   file: cordulia-anea4_orig.jpg

@@ -7,7 +7,7 @@ common_name: Стрелка красивая
 date: 2026-08-26T17:59:11.379693+03:00
 draft: false
 inat: 208111
-gbif: null
+gbif: WTXZ
 belarus_red_book: no
 hero:
   file: coenagrion-pulchellum-minsk_orig.jpg

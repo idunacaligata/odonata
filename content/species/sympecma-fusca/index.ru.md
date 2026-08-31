@@ -7,7 +7,7 @@ common_name: Лютка рыжая или тусклая
 date: 2026-08-26T17:59:11.466718+03:00
 draft: false
 inat: 113497
-gbif: null
+gbif: 53P4K
 belarus_red_book: no
 hero:
   file: sympecma-fusca_orig.jpg

@@ -7,7 +7,7 @@ common_name: Бабка металлическая или зеленотелка
 date: 2026-08-26T17:59:11.522202+03:00
 draft: false
 inat: 112801
-gbif: null
+gbif: 6YT9R
 belarus_red_book: no
 hero:
   file: somatochlora-metallica_orig.jpg

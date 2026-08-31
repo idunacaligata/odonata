@@ -7,7 +7,7 @@ common_name: Стрекоза коричневая
 date: 2026-08-26T17:59:11.497852+03:00
 draft: false
 inat: 107949
-gbif: null
+gbif: 6SXLC
 belarus_red_book: no
 hero:
   file: orthetrum-brunneum_orig.jpg

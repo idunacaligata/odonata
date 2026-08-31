@@ -7,7 +7,7 @@ common_name: Стрелка голубая
 date: 2026-08-26T17:59:11.460729+03:00
 draft: false
 inat: 99901
-gbif: null
+gbif: 39M5B
 belarus_red_book: no
 hero:
   file: enallagma-cyathigerum-1769_orig.jpg

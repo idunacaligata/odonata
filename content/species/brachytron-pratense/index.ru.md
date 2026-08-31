@@ -7,7 +7,7 @@ common_name: Коромысло беловолосое
 date: 2026-08-26T17:59:11.436344+03:00
 draft: false
 inat: 59955
-gbif: null
+gbif: N36T
 belarus_red_book: no
 hero:
   file: brahytron-pratense1_orig.jpg

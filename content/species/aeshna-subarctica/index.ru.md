@@ -7,7 +7,7 @@ common_name: Коромысло субарктическое
 date: 2026-08-26T17:59:11.40595+03:00
 draft: false
 inat: 93446
-gbif: null
+gbif: 65BQH
 belarus_red_book: no
 hero:
   file: vrphoto-2022-08-26-16-59-22_orig.jpg
