@@ -9,6 +9,10 @@ draft: false
 inat: 61536
 gbif: Q2MC
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/165505/219967836
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/165505/208845263
 hero:
   file: calopteryx-virgo-vrsmolevichy_orig.jpg
   caption: "♂ Фото © Виктор Рындевич, Смолевичский р-н, Минская обл."

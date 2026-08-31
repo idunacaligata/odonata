@@ -9,6 +9,10 @@ draft: false
 inat: 93446
 gbif: 65BQH
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/165508/65834544
+iucn_europe: NT
+iucn_europe_url: https://www.iucnredlist.org/species/165508/208845931
 hero:
   file: vrphoto-2022-08-26-16-59-22_orig.jpg
   caption: "♂ Фото © Виктор Рындевич, болото Ельня, Витебская обл."

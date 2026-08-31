@@ -9,6 +9,10 @@ draft: false
 inat: 93430
 gbif: 65BMN
 belarus_red_book: 2
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/60312/138479453
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/60312/208820175
 hero:
   file: aeshna-crenata_orig.jpg
   caption: "♀ Фото © Денис Китель, Россонский р-н (Витебская обл.)"

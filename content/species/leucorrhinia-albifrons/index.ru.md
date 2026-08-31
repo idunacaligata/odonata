@@ -9,6 +9,10 @@ draft: false
 inat: 104543
 gbif: 725XC
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/11911/140567924
+iucn_europe: NT
+iucn_europe_url: https://www.iucnredlist.org/species/11911/208813148
 hero:
   file: dsc-3475_orig.jpg
   caption: "♂ Фото © Виктор Рындевич, Смолевичский р-н, Минская обл."

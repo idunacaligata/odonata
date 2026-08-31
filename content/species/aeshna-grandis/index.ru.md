@@ -9,6 +9,10 @@ draft: false
 inat: 82106
 gbif: 65BN7
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/158686/138480251
+iucn_europe: VU
+iucn_europe_url: https://www.iucnredlist.org/species/158686/208822987
 hero:
   file: aeshna-grandis-minskyi-vr_orig.jpg
   caption: "♂ Фото © Виктор Рындевич, Минский р-н"

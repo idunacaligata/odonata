@@ -9,6 +9,10 @@ draft: false
 inat: 361324
 gbif: 6Q2RK
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/165492/19166030
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/165492/208840874
 hero:
   file: lestes-virens-male_orig.jpg
   caption: "♂ Фото © Денис Китель"

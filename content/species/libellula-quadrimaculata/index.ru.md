@@ -9,6 +9,10 @@ draft: false
 inat: 57443
 gbif: 6PX28
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/165469/65834060
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/165469/208832871
 hero:
   file: libellula-quadrimaculata-1_orig.jpg
   caption: "♂ Фото © Виталий Сирота, Минский р-н"

@@ -9,6 +9,10 @@ draft: false
 inat: 209683
 gbif: 6H3QB
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/165478/19159607
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/165478/208835745
 hero:
   file: erythromma-viridulum-vr-gomelsky_orig.jpg
   caption: "♂ Фото © Виктор Рындевич, Гомельский р-н"

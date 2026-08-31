@@ -9,6 +9,10 @@ draft: false
 inat: 325408
 gbif: 5ZJQQ
 belarus_red_book: 2
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/165513/138884837
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/165513/208847816
 hero:
   file: 19446093749-0dc88421be-k_orig.jpg
   caption: "♂ Photo © Alastair Rae / Flickr. CC BY-SA 2.0"

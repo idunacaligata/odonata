@@ -9,6 +9,10 @@ draft: false
 inat: 108344
 gbif: 4CGSL
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/59971/65818523
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/59971/265026195
 hero:
   file: large_orig.jpg
   caption: "♀ Photo © Oleg Kosterin / iNaturalist.org. Russia, Krasnodarskiy Kray Province, Novorossiysk Municipality. CC BY 4.0"

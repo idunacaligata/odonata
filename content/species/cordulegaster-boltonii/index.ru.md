@@ -9,6 +9,10 @@ draft: false
 inat: 85057
 gbif: YC5X
 belarus_red_book: 3
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/165509/140511553
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/165509/208846207
 hero:
   file: cordulegaster-boltonii-volojinsky4_orig.jpg
   caption: "♂ Фото © Ольга Скробот Воложинский р-н, Минская обл."

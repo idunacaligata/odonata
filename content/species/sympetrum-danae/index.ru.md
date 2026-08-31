@@ -9,6 +9,10 @@ draft: false
 inat: 113503
 gbif: 53P6Q
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/165473/65834539
+iucn_europe: EN
+iucn_europe_url: https://www.iucnredlist.org/species/165473/208834172
 hero:
   file: sympetrum-danae-male_orig.jpg
   caption: "♂ Фото © Денис Китель"

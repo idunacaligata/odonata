@@ -9,6 +9,10 @@ draft: false
 inat: 134099
 gbif: 6Q5Z4
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/165468/140577676
+iucn_europe: VU
+iucn_europe_url: https://www.iucnredlist.org/species/165468/208832566
 hero:
   file: leucorrhinia-rubicunda1-22_orig.jpg
   caption: "♂ Фото © Владимир Бондарь, Могилевский р-н"

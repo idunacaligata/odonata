@@ -9,6 +9,10 @@ draft: false
 inat: 358566
 gbif: 4Y8S8
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/165490/140528834
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/165490/208840311
 hero:
   file: somatochlora-arctica-hospers-myoryr_orig.jpg
   caption: "Photo © Marcel Hospers / iNaturalist.org. Миорский р-н, Витебская обл. CC BY-NC 4.0"

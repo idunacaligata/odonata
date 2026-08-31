@@ -9,6 +9,10 @@ draft: false
 inat: 208111
 gbif: WTXZ
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/165484/19158662
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/165484/208837994
 hero:
   file: coenagrion-pulchellum-minsk_orig.jpg
   caption: "♂ Фото © Виталий Сирота, Минский р-н"

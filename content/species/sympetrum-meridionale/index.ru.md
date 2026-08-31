@@ -9,6 +9,10 @@ draft: false
 inat: 337499
 gbif: 7B77Y
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/165510/19169192
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/165510/269781501
 hero:
   file: is2-sympetrum-meridionale-berezar6_orig.jpg
   caption: "♂ Фото © Инна Субботина, Березовский р-н, Брестская обл."

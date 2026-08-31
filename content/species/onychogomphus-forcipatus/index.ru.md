@@ -9,6 +9,10 @@ draft: false
 inat: 132663
 gbif: 49R9F
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/165489/19152175
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/165489/208839940
 hero:
   file: onychogomphus-forcipatus-vr-lepelr1_orig.jpg
   caption: "♂ Фото © Виктор Рындевич, Лепельский р-н, Витебская обл."

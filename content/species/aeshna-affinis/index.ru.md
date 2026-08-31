@@ -9,6 +9,10 @@ draft: false
 inat: 93426
 gbif: 65BM8
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/158694/70984770
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/158694/207839525
 hero:
   file: aeshna-affinis-vr-soligor_orig.jpg
   caption: "♂ Фото © Виктор Рындевич, Солигорский р-н, Минская обл."

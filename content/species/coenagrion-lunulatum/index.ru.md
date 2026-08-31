@@ -9,6 +9,10 @@ draft: false
 inat: 134100
 gbif: WTXK
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/165511/138886295
+iucn_europe: VU
+iucn_europe_url: https://www.iucnredlist.org/species/165511/208847036
 hero:
   file: coenagrion-lunulatum-sl-dokshic-2017_orig.jpg
   caption: "♂ Фото © Семён Левый. Докшицкий р-н, Витебская обл."

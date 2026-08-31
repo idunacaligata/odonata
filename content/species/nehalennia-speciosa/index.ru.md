@@ -9,6 +9,10 @@ draft: false
 inat: 106656
 gbif: 464VL
 belarus_red_book: 3
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/60265/245388648
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/60265/208819395
 hero:
   file: nehalennia-speciosa_3_orig.jpg
   caption: "Фото © Денис Китель, Малоритский р-н (Брестская обл.)"

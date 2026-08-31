@@ -9,6 +9,10 @@ draft: false
 inat: 563098
 gbif: 6PWQF
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/165531/19167508
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/165531/208853768
 hero:
   file: libellula-depressa4_orig.jpg
   caption: "♂ Фото © Владимир Бондарь, Могилевский р-н"

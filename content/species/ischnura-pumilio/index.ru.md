@@ -9,6 +9,10 @@ draft: false
 inat: 318452
 gbif: 3Q6GD
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/165525/19160047
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/165525/208851979
 hero:
   file: ischnura-pumilio-vr-mn2_orig.jpg
   caption: "♂ Фото © Виктор Рындевич, г. Минск"

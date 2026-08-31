@@ -9,6 +9,10 @@ draft: false
 inat: 112801
 gbif: 6YT9R
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/158705/140535511
+iucn_europe: VU
+iucn_europe_url: https://www.iucnredlist.org/species/158705/208827490
 hero:
   file: somatochlora-metallica_orig.jpg
   caption: "♂ Фото © Инна Субботина, Червенский р-н, Минская обл."

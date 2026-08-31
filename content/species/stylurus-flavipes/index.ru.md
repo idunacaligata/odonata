@@ -9,6 +9,10 @@ draft: false
 inat: 991059
 gbif: 7B2FG
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/165466/19162847
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/165466/208831937
 hero:
   file: stylurus-flavipes-vb-mgr4_orig.jpg
   caption: "♂ Фото © Владимир Бондарь, Могилевский р-н"

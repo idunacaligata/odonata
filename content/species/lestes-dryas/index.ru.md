@@ -9,6 +9,10 @@ draft: false
 inat: 104429
 gbif: 6PQS9
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/165516/65834549
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/165516/208848675
 hero:
   file: lestes-dryas-minsk_orig.jpg
   caption: "♂ Фото © Виталий Сирота, г. Минск"

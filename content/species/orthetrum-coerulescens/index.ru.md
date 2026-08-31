@@ -9,6 +9,10 @@ draft: false
 inat: 107954
 gbif: 759LG
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/158682/140594360
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/158682/208821070
 hero:
   file: 5_orig.jpg
   caption: "♂ Фото © Денис Китель, Столинский р-н (Брестская обл.)"

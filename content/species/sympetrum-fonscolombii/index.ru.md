@@ -9,6 +9,10 @@ draft: false
 inat: 113507
 gbif: 53P7C
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/60038/17538409
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/60038/208818015
 hero:
   file: sympetrum-fonscolombii-3_orig.jpg
   caption: "♂ Фото © Семён Левый, Малорита, Брестская обл."

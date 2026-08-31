@@ -9,6 +9,10 @@ draft: false
 inat: 433472
 gbif: 5ZJR2
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/165520/19158182
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/165520/208849941
 hero:
   file: coenagrionornatum-male_orig.jpg
   caption: "♂ Photo © Christian Fischer / Wikimedia Commoms. CC BY-SA 4.0"

@@ -9,6 +9,10 @@ draft: false
 inat: 434389
 gbif: 4Y8SR
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/165485/19161728
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/165485/208838468
 hero:
   file: somatochlora-flavomaculata4_orig.jpg
   caption: "♂ Фото © Владимир Бондарь, Могилевский р-н"

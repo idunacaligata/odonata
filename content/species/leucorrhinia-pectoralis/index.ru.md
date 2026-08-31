@@ -9,6 +9,10 @@ draft: false
 inat: 55403
 gbif: 6PTYS
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/165486/19167032
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/165486/208838917
 hero:
   file: leucorrhinia-pectoralis-male_orig.jpg
   caption: "♂ Фото © Денис Китель"

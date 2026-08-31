@@ -9,6 +9,10 @@ draft: false
 inat: 428678
 gbif: 53P6T
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/165512/1095700
+iucn_europe: VU
+iucn_europe_url: https://www.iucnredlist.org/species/165512/208847383
 hero:
   file: sympetrum-depressiusculum-male_orig.jpg
   caption: "♂ Фото © Денис Китель, Малоритский р-н, Брестская обл."

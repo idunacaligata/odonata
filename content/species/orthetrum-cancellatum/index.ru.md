@@ -9,6 +9,10 @@ draft: false
 inat: 62067
 gbif: 6T9LD
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/165521/140593008
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/165521/208850407
 hero:
   file: orthetrum-cansellatum04vb_orig.jpg
   caption: "♂ Фото © Владимир Бондарь, Могилевский р-н"

@@ -1,7 +1,7 @@
 ---
 genus: Sympetrum
 species: sanguineum
-authority: Muller, 1764
+authority: Müller, 1764
 title: sympetrum-sanguineum
 common_name: Стрекоза кроваво-красная
 date: 2026-08-26T17:59:11.428318+03:00
@@ -9,6 +9,10 @@ draft: false
 inat: 113525
 gbif: L2R8D
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/158691/140601918
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/158691/269770755
 hero:
   file: fdscn7964_orig.jpg
   caption: "♂ Фото © Николай Гурков, Витебский р-н"

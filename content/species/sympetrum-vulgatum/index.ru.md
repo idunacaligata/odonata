@@ -9,6 +9,10 @@ draft: false
 inat: 132657
 gbif: 7B6W6
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/165483/19170436
+iucn_europe: VU
+iucn_europe_url: https://www.iucnredlist.org/species/165483/208837559
 hero:
   file: sympetrum-vulgatum-vr-minskr_orig.jpg
   caption: "© Виктор Рындевич, Минский р-н"

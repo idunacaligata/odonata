@@ -9,6 +9,10 @@ draft: false
 inat: 98270
 gbif: WTWG
 belarus_red_book: 2
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/60313/138717083
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/60313/208820359
 hero:
   file: coenagrion-armatum-sl-lioznr-2020_orig.jpg
   caption: "♂ Фото © Семён Левый, Лиозненский р-н, Витебская обл."

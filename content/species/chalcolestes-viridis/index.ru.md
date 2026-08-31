@@ -1,7 +1,7 @@
 ---
 genus: Chalcolestes
 species: viridis
-authority: Vander Linde, 1825
+authority: Vander Linden, 1825
 title: chalcolestes-viridis
 common_name: Лютка зеленая или большая
 date: 2026-08-26T17:59:11.525822+03:00
@@ -9,6 +9,10 @@ draft: false
 inat: 124488
 gbif: 9WTNJ
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/165529/42645306
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/165529/208853331
 hero:
   file: lestes-viridis-sl-kobrynr_orig.jpg
   caption: "♀ Фото © Семён Левый, Кобринский р-н, Брестская обл."

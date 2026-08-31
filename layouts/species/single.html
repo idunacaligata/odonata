@@ -82,14 +82,42 @@
                     <td>{{ .Params.species }}</td>
                 </tr>
 
+                {{ $page := . }}
                 <tr>
                     <th>IUCN</th>
                     <td>
+                        {{ with .Params.iucn_url }}
+                        <a href="{{ . }}"
+                           target="_blank"
+                           rel="noopener">
+                            {{ default "??" $page.Params.iucn }}
+                        </a>
+                        {{ else }}
                         <a href="https://www.iucnredlist.org/search?query={{ .Params.genus }}%20{{ .Params.species }}&searchType=species"
                            target="_blank"
                            rel="noopener">
-                            LC
+                            {{ default "??" $page.Params.iucn }}
                         </a>
+                        {{ end }}
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>IUCN Europe</th>
+                    <td>
+                        {{ with .Params.iucn_europe_url }}
+                        <a href="{{ . }}"
+                           target="_blank"
+                           rel="noopener">
+                            {{ default "??" $page.Params.iucn_europe }}
+                        </a>
+                        {{ else }}
+                        <a href="https://www.iucnredlist.org/search?query={{ .Params.genus }}%20{{ .Params.species }}&searchType=species"
+                           target="_blank"
+                           rel="noopener">
+                            {{ default "??" $page.Params.iucn_europe }}
+                        </a>
+                        {{ end }}
                     </td>
                 </tr>
 

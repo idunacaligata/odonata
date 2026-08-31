@@ -9,6 +9,10 @@ draft: false
 inat: 94048
 gbif: DJXP
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/165488/72312377
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/165488/208839483
 hero:
   file: anax-parthenope2_orig.jpg
   caption: "♂ Фото © Владимир Бондарь, Могилевский р-н"

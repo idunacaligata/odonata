@@ -9,6 +9,10 @@ draft: false
 inat: 99901
 gbif: 39M5B
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/173805983/785848
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/173805983/208854649
 hero:
   file: enallagma-cyathigerum-1769_orig.jpg
   caption: "♂ Фото © Владимир Бондарь, Могилевский р-н"

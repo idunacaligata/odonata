@@ -9,6 +9,10 @@ draft: false
 inat: 61508
 gbif: 6N9HG
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/165479/139357758
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/165479/208836177
 hero:
   file: photo-2022-06-20-00-53-33_orig.jpg
   caption: "♂ Фото © Виталий Сирота, Минский р-н"

@@ -1,7 +1,7 @@
 ---
 genus: Sympecma
 species: paedisca
-authority: Brauer, 1882
+authority: Brauer, 1877
 title: sympecma-paedisca
 common_name: Лютка сибирская рыжая
 date: 2026-08-26T17:59:11.400576+03:00
@@ -9,6 +9,10 @@ draft: false
 inat: 325393
 gbif: 53P4N
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/165459/19166641
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/165459/208830004
 hero:
   file: sympecma-paedisca-vr-soligr44_orig.jpg
   caption: "© Виктор Рындевич, Солигорский р-н, Минская обл."

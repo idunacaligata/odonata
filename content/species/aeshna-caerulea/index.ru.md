@@ -9,6 +9,10 @@ draft: false
 inat: 93427
 gbif: 65BML
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/158688/138474149
+iucn_europe: NT
+iucn_europe_url: https://www.iucnredlist.org/species/158688/208823366
 hero:
   file: 2560px-alpen-mosaikjungfer-aeshna-caerulea-001_orig.jpg
   caption: "♂ Photo © Volkmar Wagner / Wikimedia Commons. CC BY-SA 3.0"

@@ -9,6 +9,10 @@ draft: false
 inat: 85030
 gbif: ZKQD
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/59859/83846274
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/59859/208815771
 hero:
   file: img-1541_orig.jpg
   caption: "♂ Фото © Владимир Бондарь, г. Могилев"

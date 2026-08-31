@@ -9,6 +9,10 @@ draft: false
 inat: 52519
 gbif: 65BN5
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/165524/83891998
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/165524/208851515
 hero:
   file: aeshna-cyanea-vr-myadr_orig.jpg
   caption: "♂ juv Фото © Виктор Рындевич, Мядельский р-н, Минская обл."

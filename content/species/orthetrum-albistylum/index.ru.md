@@ -9,6 +9,10 @@ draft: false
 inat: 107942
 gbif: 6SXKX
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/158689/140578608
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/158689/208823682
 hero:
   file: orthetrum-albistylum_orig.jpg
   caption: "♂ Фото © Виктор Рындевич, Минский р-н"

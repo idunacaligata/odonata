@@ -9,6 +9,10 @@ draft: false
 inat: 93450
 gbif: 65BQJ
 belarus_red_book: 3
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/563/138481922
+iucn_europe: NT
+iucn_europe_url: https://www.iucnredlist.org/species/563/208812845
 hero:
   file: aeshna-viridis-s-levy-soligorskr662_orig.jpg
   caption: "♀ Фото © Семён Левый, Солигорский р-н, Минская обл."

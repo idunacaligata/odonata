@@ -9,6 +9,10 @@ draft: false
 inat: 104545
 gbif: 6Q5YZ
 belarus_red_book: 4
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/11912/140569111
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/11912/208813475
 hero:
   file: leucorrhinia-caudalis-sl-2014male_orig.jpg
   caption: "♂ Фото © Семён Левый, Смолевичский р-н, Минская обл."

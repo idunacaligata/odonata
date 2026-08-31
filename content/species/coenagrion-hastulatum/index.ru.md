@@ -9,6 +9,10 @@ draft: false
 inat: 98273
 gbif: WTX5
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/158706/138874817
+iucn_europe: VU
+iucn_europe_url: https://www.iucnredlist.org/species/158706/208827902
 hero:
   file: hb3829_orig.jpg
   caption: "♂ Фото © Николай Гурков, Витебский р-н"

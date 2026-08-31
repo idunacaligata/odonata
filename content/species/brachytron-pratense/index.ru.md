@@ -9,6 +9,10 @@ draft: false
 inat: 59955
 gbif: N36T
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/165514/19156286
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/165514/208848015
 hero:
   file: brahytron-pratense1_orig.jpg
   caption: "♂ Фото © Владимир Бондарь, Могилевский р-н"

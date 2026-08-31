@@ -9,6 +9,10 @@ draft: false
 inat: 107654
 gbif: BWCJ4
 belarus_red_book: 4
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/15364/140552175
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/15364/208813793
 hero:
   file: ophiogomphus-cecilia-vileika-mnvr_orig.jpg
   caption: "© Виктор Рындевич, Вилейский р-н, Минская обл."

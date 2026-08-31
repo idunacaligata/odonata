@@ -9,6 +9,10 @@ draft: false
 inat: 93437
 gbif: 65BPG
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/165499/83889114
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/165499/208843381
 hero:
   file: aeshna-mixta5_orig.jpg
   caption: "♂ Фото © Владимир Бондарь, Могилевский р-н"

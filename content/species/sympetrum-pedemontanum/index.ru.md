@@ -9,6 +9,10 @@ draft: false
 inat: 118948
 gbif: 53P92
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/165464/19170001
+iucn_europe: NT
+iucn_europe_url: https://www.iucnredlist.org/species/165464/208831241
 hero:
   file: img-7437-003_orig.jpg
   caption: "♂ Фото © Владимир Бондарь, Могилевский р-н"

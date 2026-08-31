@@ -1,7 +1,7 @@
 ---
 genus: Libellula
 species: fulva
-authority: Muller, 1764
+authority: Müller, 1764
 title: libellula-fulva
 common_name: Стрекоза рыжая
 date: 2026-08-26T17:59:11.426001+03:00
@@ -9,6 +9,10 @@ draft: false
 inat: 131846
 gbif: 6Q92G
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/165496/19168031
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/165496/208842480
 hero:
   file: libellula-fulva-male_orig.jpg
   caption: "♂ Фото © Денис Китель"

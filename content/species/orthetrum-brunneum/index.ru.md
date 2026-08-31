@@ -9,6 +9,10 @@ draft: false
 inat: 107949
 gbif: 6SXLC
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/158698/140579909
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/158698/208826149
 hero:
   file: orthetrum-brunneum_orig.jpg
   caption: "♂ Фото © Денис Китель, Пружанский р-н (Брестская обл.)"

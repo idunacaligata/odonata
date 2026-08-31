@@ -9,6 +9,10 @@ draft: false
 inat: 61152
 gbif: 4QVYL
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/165500/19160630
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/165500/208843840
 hero:
   file: pyrrhosoma-nymphula-sl-mogil-2017_orig.jpg
   caption: "♂ Фото © Семён Левый, г. Могилев"

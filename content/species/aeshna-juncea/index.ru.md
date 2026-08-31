@@ -9,6 +9,10 @@ draft: false
 inat: 93434
 gbif: 65BNR
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/165518/65835376
+iucn_europe: EN
+iucn_europe_url: https://www.iucnredlist.org/species/165518/208849284
 hero:
   file: aeshna-juncea_1_orig.jpg
   caption: "♀ Фото © Семён Левый. Борисовский р-н, Минская обл."

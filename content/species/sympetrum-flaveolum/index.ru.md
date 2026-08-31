@@ -9,6 +9,10 @@ draft: false
 inat: 117294
 gbif: 53P78
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/165501/128973042
+iucn_europe: EN
+iucn_europe_url: https://www.iucnredlist.org/species/165501/208844317
 hero:
   file: sympetrum-flaveolum-vr-minskrr_orig.jpg
   caption: "♂ Фото © Виктор Рындевич, Минский р-н"

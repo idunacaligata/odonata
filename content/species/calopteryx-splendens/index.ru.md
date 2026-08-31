@@ -9,6 +9,10 @@ draft: false
 inat: 51824
 gbif: Q2M4
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/158701/138711145
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/158701/208826598
 hero:
   file: 222454087-10161480919309517-7333564017397231454-n_orig.jpg
   caption: "♂ Фото © Инна Шкурко, НП \"Беловежская пуща\", Брестская обл"

@@ -9,6 +9,10 @@ draft: false
 inat: 57454
 gbif: 3GTSK
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/165523/19163708
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/165523/208851085
 hero:
   file: gomphus-vulgatissimus4vb_orig.jpg
   caption: "♂ Фото © Владимир Бондарь, Могилевский р-н"

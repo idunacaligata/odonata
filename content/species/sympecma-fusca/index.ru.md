@@ -9,6 +9,10 @@ draft: false
 inat: 113497
 gbif: 53P4K
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/158690/140557384
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/158690/208824046
 hero:
   file: sympecma-fusca_orig.jpg
   caption: "♂ Фото © Денис Китель, Пружанский р-н (Брестская обл.)"

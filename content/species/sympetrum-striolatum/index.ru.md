@@ -9,6 +9,10 @@ draft: false
 inat: 55625
 gbif: 7B6VS
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/158685/83884411
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/158685/208822454
 hero:
   file: sympetrum-striolatum1rr_orig.jpg
   caption: "© Aleh Sinchuk / iNaturalist.org. Кобринский р-н, Брестская обл. CC BY-NC 4.0"

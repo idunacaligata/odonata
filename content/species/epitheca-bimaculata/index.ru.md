@@ -9,6 +9,10 @@ draft: false
 inat: 358561
 gbif: 6FXTK
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/165482/140524274
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/165482/208837200
 hero:
   file: epitheca-bimaculata-male_orig.jpg
   caption: "♂ Фото © Денис Китель"

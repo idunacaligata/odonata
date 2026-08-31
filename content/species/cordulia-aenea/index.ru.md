@@ -9,6 +9,10 @@ draft: false
 inat: 61429
 gbif: YC6Z
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/158702/140521963
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/158702/208827063
 hero:
   file: cordulia-anea4_orig.jpg
   caption: "♂ Фото © Владимир Бондарь, Быховский р-н, Могилевская обл."

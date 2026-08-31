@@ -9,6 +9,10 @@ draft: false
 inat: 130408
 gbif: 7233R
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/165475/19165578
+iucn_europe: NT
+iucn_europe_url: https://www.iucnredlist.org/species/165475/208834702
 hero:
   file: lestes-sponsa-vr-naliboky_orig.jpg
   caption: "♂ Фото © Виктор Рындевич, Налибокская пуща"

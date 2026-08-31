@@ -9,6 +9,10 @@ draft: false
 inat: 209688
 gbif: 6GS2M
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/165497/139211176
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/165497/208842979
 hero:
   file: erytromma-najas4_orig.jpg
   caption: ♂ Фото © Владимир Бондарь, Могилевский р-н

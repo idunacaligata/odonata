@@ -9,6 +9,10 @@ draft: false
 inat: 104547
 gbif: 6PTYW
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/158683/217877630
+iucn_europe: VU
+iucn_europe_url: https://www.iucnredlist.org/species/158683/208821567
 hero:
   file: leucorrhinia-dubia-sl-2015male_orig.jpg
   caption: "♂ Фото © Семён Левый, Шарковщинский р-н, Витебская обл."

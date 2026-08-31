@@ -9,6 +9,10 @@ draft: false
 inat: 104420
 gbif: 6Q33Z
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/158684/140555879
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/158684/208821963
 hero:
   file: lestes-barbarus_orig.jpg
   caption: "♂ Фото © Денис Китель"

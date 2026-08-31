@@ -9,6 +9,10 @@ draft: false
 inat: 94043
 gbif: DJX8
 belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/59812/72311295
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/59812/208815239
 hero:
   file: anax-imperator-9936_orig.jpg
   caption: "♂ Фото © Владимир Бондарь, Могилевский р-н"
