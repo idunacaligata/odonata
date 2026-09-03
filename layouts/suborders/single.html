@@ -1,47 +1,19 @@
 {{ define "main" }}
+{{ $tax := partial "taxonomy.html" (dict "page" .) }}
 
-<nav class="breadcrumbs">
+{{ $ctx := dict
+"page" .
+"tax" $tax
+}}
 
-    <a href="{{ site.Home.RelPermalink }}">
-        {{ T "homepage" }}
-    </a>
+<div class="page-layout">
+    <aside class="sidebar">
+        {{ partial "suborders/sidebar.html" $ctx }}
+    </aside>
 
-    &gt;
+    <main class="article">
+        {{ partial "suborders/article.html" $ctx }}
+    </main>
+</div>
 
-    <span>{{ .Title }}</span>
-
-</nav>
-
-<article class="family">
-
-    <header class="species-header">
-
-        <div class="species-text">
-
-            <h1>{{ .Params.common_name }}</h1>
-
-            <p class="latin">
-                <em>{{ .Params.title }}</em>
-                <span class="authority">{{ .Params.authority }}</span>
-            </p>
-        </div>
-
-        {{ partial "suborder-family-list.html" . }}
-
-        <div class="species-hero">
-
-            {{ with .Params.hero }}
-            {{ partial "image.html" (dict "page" $.Page "image" .) }}
-            {{ end }}
-
-        </div>
-
-    </header>
-
-    <div class="content">
-        {{ .Content }}
-    </div>
-
-</article>
-
-{{ end }}
+{{end}}

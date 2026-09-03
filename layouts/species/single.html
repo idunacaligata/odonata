@@ -1,158 +1,19 @@
 {{ define "main" }}
 {{ $tax := partial "taxonomy.html" (dict "page" .) }}
 
-<nav class="breadcrumbs">
+{{ $ctx := dict
+"page" .
+"tax" $tax
+}}
 
-    <a href="{{ site.Home.RelPermalink }}">
-        {{ T "homepage" }}
-    </a>
+<div class="page-layout">
+    <aside class="sidebar">
+        {{ partial "species/sidebar.html" $ctx }}
+    </aside>
 
-    {{ with $tax.suborder }}
-    &gt;
-    <a href="{{ .RelPermalink }}">
-        {{ .Title }}
-    </a>
-    {{ end }}
+    <main class="article">
+        {{ partial "species/article.html" $ctx }}
+    </main>
+</div>
 
-    {{ with $tax.family }}
-    &gt;
-    <a href="{{ .RelPermalink }}">
-        {{ .Title }}
-    </a>
-    {{ end }}
-
-    {{ with $tax.genus }}
-    &gt;
-    <a href="{{ .RelPermalink }}">
-        {{ .Title }}
-    </a>
-    {{ end }}
-
-    &gt;
-
-    <span>{{ .Params.species }}</span>
-
-</nav>
-<article class="species">
-
-    <header class="species-header">
-
-        <div class="species-text">
-
-            <h1>{{ .Params.common_name }}</h1>
-
-            <p class="latin">
-                <em>{{ .Params.genus }} {{ .Params.species }}</em>
-                <span class="authority">{{ .Params.authority }}</span>
-            </p>
-
-            <div class="species-hero">
-
-                {{ with .Params.hero }}
-                {{ partial "image.html" (dict "page" $.Page "image" .) }}
-                {{ end }}
-
-            </div>
-
-            <table class="taxonomy">
-
-                {{ with $tax.suborder }}
-                <tr>
-                    <th>Подотряд</th>
-                    <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
-                </tr>
-                {{ end }}
-
-                {{ with $tax.family }}
-                <tr>
-                    <th>Семейство</th>
-                    <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
-                </tr>
-                {{ end }}
-
-                {{ with $tax.genus }}
-                <tr>
-                    <th>Род</th>
-                    <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
-                </tr>
-                {{ end }}
-
-                <tr>
-                    <th>Вид</th>
-                    <td>{{ .Params.species }}</td>
-                </tr>
-
-                {{ $page := . }}
-                <tr>
-                    <th>IUCN</th>
-                    <td>
-                        {{ with .Params.iucn_url }}
-                        <a href="{{ . }}"
-                           target="_blank"
-                           rel="noopener">
-                            {{ default "??" $page.Params.iucn }}
-                        </a>
-                        {{ else }}
-                        <a href="https://www.iucnredlist.org/search?query={{ .Params.genus }}%20{{ .Params.species }}&searchType=species"
-                           target="_blank"
-                           rel="noopener">
-                            {{ default "??" $page.Params.iucn }}
-                        </a>
-                        {{ end }}
-                    </td>
-                </tr>
-
-                <tr>
-                    <th>IUCN Europe</th>
-                    <td>
-                        {{ with .Params.iucn_europe_url }}
-                        <a href="{{ . }}"
-                           target="_blank"
-                           rel="noopener">
-                            {{ default "??" $page.Params.iucn_europe }}
-                        </a>
-                        {{ else }}
-                        <a href="https://www.iucnredlist.org/search?query={{ .Params.genus }}%20{{ .Params.species }}&searchType=species"
-                           target="_blank"
-                           rel="noopener">
-                            {{ default "??" $page.Params.iucn_europe }}
-                        </a>
-                        {{ end }}
-                    </td>
-                </tr>
-
-                <tr>
-                    <th>Красная книга</th>
-                    <td><a href="https://wilderness.by/spisok-vidov-kkrb/" target="_blank" rel="noopener">{{ i18n (printf "redbook_%v" .Params.belarus_red_book) }}</a></td>
-                </tr>
-
-            </table>
-
-            <p class="external-links">
-
-                {{ with .Params.gbif }}
-                <a href="https://www.gbif.org/taxon/{{ . }}">GBIF</a>
-                {{ end }}
-
-                {{ with .Params.inat }}
-                · <a href="https://www.inaturalist.org/taxa/{{ . }}">iNaturalist</a>
-                {{ end }}
-
-                {{ with .Params.inat }}
-                · <a href="https://www.inaturalist.org/observations?place_id=7578&subview=map&taxon_id={{ . }}">Наблюдения на iNaturalist</a>
-                {{ end }}
-
-                · <a href="https://ru.wikipedia.org/wiki/{{ .Params.genus }}%20{{ .Params.species }}">Wikipedia</a>
-            </p>
-
-        </div>
-
-    </header>
-
-    <div class="content">
-        {{ .Content }}
-    </div>
-
-</article>
-
-{{ end }}
+{{end}}

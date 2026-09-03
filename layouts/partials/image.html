@@ -2,7 +2,7 @@
 {{ $image := .image }}
 
 {{ with $page.Resources.GetMatch $image.file }}
-<figure>
+<figure class="main-photo">
     {{ if $image.link }}
     <a href="{{ $image.link }}" target="_blank" rel="noopener noreferrer">
         <img src="{{ .RelPermalink }}" alt="{{ $page.Title }}">
@@ -10,18 +10,33 @@
     {{ else }}
     <img src="{{ .RelPermalink }}" alt="{{ $page.Title }}">
     {{ end }}
-
-    <figcaption>
-        {{ if $image.link }}
-        <a class="image-caption-link"
-           href="{{ $image.link }}"
-           target="_blank"
-           rel="noopener noreferrer">
-            {{ $image.caption }}
-        </a>
-        {{ else }}
-        {{ $image.caption }}
-        {{ end }}
-    </figcaption>
 </figure>
+
+{{ if $image.caption }}
+<div class="photo-meta">
+            <span class="photo-credit">
+<!--                <span class="camera-icon">▣</span>-->
+                {{ if $image.link }}
+                    <a class="image-caption-link"
+                       href="{{ $image.link }}"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        {{ $image.caption }}
+                    </a>
+                {{ else }}
+                    {{ $image.caption }}
+                {{ end }}
+            </span>
+<!--    <span class="separator">•</span>-->
+
+<!--    <span>Лицензия: <a href="https://example.com">CC BY-NC</a></span>-->
+
+<!--    <span class="separator">•</span>-->
+
+<!--    <a href="https://example.com">-->
+<!--        Смотреть на iNaturalist&nbsp; ↗-->
+<!--    </a>-->
+</div>
+{{ end }}
+
 {{ end }}

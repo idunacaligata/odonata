@@ -1,0 +1,43 @@
+{{ $page := .page }}
+
+<section class="sidebar-section">
+    <h2>СТРЕКОЗЫ</h2>
+
+    <nav class="family-list">
+        <a
+            {{ if eq "homepage" $page.Title }}
+                class="active"
+            {{ end }}
+                href="/odonata/articles/homepage">
+            {{ T "homepage" }}
+        </a>
+        {{ $list := site.GetPage (printf "/taxonomy/") }}
+        <a href="{{ $list.RelPermalink }}">
+            Список видов
+        </a>
+        {{ range where (where site.RegularPages "Section" "articles") "Params.special" "!=" true }}
+        <a
+            {{ if eq .Title $page.Title }}
+                class="active"
+            {{ end }}
+            href="{{ .RelPermalink }}">
+            {{ .Params.short_name }}
+        </a>
+        {{ end }}
+    </nav>
+</section>
+
+<section class="sidebar-section">
+    <h2>О САЙТЕ</h2>
+
+    <nav class="family-list">
+        <a
+            {{ if eq "sources" $page.Title }}
+                class="active"
+            {{ end }}
+                href="/odonata/articles/sources">
+            Материалы
+        </a>
+        <a href="https://example.com">Авторские права</a>
+    </nav>
+</section>

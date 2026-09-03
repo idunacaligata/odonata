@@ -1,0 +1,64 @@
+{{ $page := .page }}
+
+{{ $suborders := $page.Site.GetPage "suborders" }}
+
+
+<section class="sidebar-section">
+    <h2>ПОДОТРЯДЫ</h2>
+
+    <nav class="family-list">
+        {{ range sort $suborders.Pages "Title" }}
+        <a {{ if eq .Title $page.Params.suborder }}
+           class="active"
+           {{ end }}
+           href="{{ .RelPermalink }}">
+            {{ .Title }}
+        </a>
+        {{ end }}
+    </nav>
+</section>
+
+{{ $familiesSection := $page.Site.GetPage "families" }}
+{{ $families := where $familiesSection.Pages ".Params.suborder" $page.Params.suborder }}
+<section class="sidebar-section">
+    <h2>СЕМЕЙСТВА</h2>
+
+    <nav class="family-list">
+        {{ range sort $families "Title" }}
+        <a {{ if eq .Title $page.Title }}
+           class="active"
+           {{ end }}
+           href="{{ .RelPermalink }}">
+            {{ .Title }}
+        </a>
+        {{ end }}
+    </nav>
+</section>
+
+{{ $generaSection := $page.Site.GetPage "genera" }}
+{{ $speciesSection := $page.Site.GetPage "species" }}
+
+{{ $genera := where $generaSection.Pages ".Params.family" $page.Title }}
+<section class="sidebar-section">
+    <h2>ВИДЫ</h2>
+
+    <nav class="family-list">
+        {{ range sort $genera "Title" }}
+
+        {{ $genus := . }}
+
+        {{ range where $speciesSection.Pages ".Params.genus" $genus.Title }}
+
+        <a
+                {{ if eq .Params.species $page.Params.species }}
+                class="active"
+                {{ end }}
+
+                href="{{ .RelPermalink }}">
+            {{ .Params.genus }} {{ .Params.species }}
+        </a>
+        {{ end }}
+
+        {{ end }}
+    </nav>
+</section>

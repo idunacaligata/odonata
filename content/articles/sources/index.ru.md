@@ -4,6 +4,7 @@ name: Использованные материалы
 short_name: Материалы
 date: 2026-07-28T12:18:00.000+03:00
 draft: false
+special: true
 hero:
   file: ""
   caption: ""

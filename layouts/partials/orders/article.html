@@ -1,0 +1,26 @@
+{{ $page := .page }}
+
+<nav class="breadcrumbs">
+    <a>
+        Insecta
+    </a>
+    <span>›</span>
+    <span>{{$page.Title}}</span>
+</nav>
+
+<header class="article-header">
+    <h1>Отряд {{ $page.Params.common_name }}</h1>
+
+    <div class="scientific-name">
+        <em>{{ $page.Params.title }}</em>
+        <span class="authority">{{ $page.Params.authority }}</span>
+    </div>
+</header>
+
+{{ with $page.Params.hero }}
+{{ partial "image.html" (dict "page" $page "image" .) }}
+{{ end }}
+
+<div class="article-content">
+    {{ $page.Content }}
+</div>

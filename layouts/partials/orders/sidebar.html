@@ -1,0 +1,42 @@
+{{ $page := .page }}
+
+{{ $suborders := site.GetPage "suborders" }}
+
+<section class="sidebar-section">
+    <h2>ОТРЯД</h2>
+
+    <nav class="family-list">
+        {{ $list := site.GetPage (printf "/taxonomy/") }}
+        <a class="active"
+                href="{{ $list.RelPermalink }}">
+            Odonata
+        </a>
+    </nav>
+</section>
+
+<section class="sidebar-section">
+    <h2>ПОДОТРЯДЫ</h2>
+
+    <nav class="family-list">
+        {{ range sort $suborders.Pages "Title" }}
+        <a
+            href="{{ .RelPermalink }}">
+            {{ .Title }}
+        </a>
+        {{ end }}
+    </nav>
+</section>
+
+{{ $families := site.GetPage "families" }}
+<section class="sidebar-section">
+    <h2>СЕМЕЙСТВА</h2>
+
+    <nav class="family-list">
+        {{ range sort $families.Pages "Title" }}
+        <a
+           href="{{ .RelPermalink }}">
+            {{ .Title }}
+        </a>
+        {{ end }}
+    </nav>
+</section>

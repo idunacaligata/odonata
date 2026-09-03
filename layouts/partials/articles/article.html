@@ -1,0 +1,21 @@
+{{ $page := .page }}
+
+<nav class="breadcrumbs">
+    <a href="{{ site.Home.RelPermalink }}">
+        {{ T "homepage" }}
+    </a>
+    <span>›</span>
+    <span>{{ $page.Params.name }}</span>
+</nav>
+
+<header class="article-header">
+    <h1>{{ $page.Params.name }}</h1>
+</header>
+
+{{ with $page.Params.hero }}
+{{ partial "image.html" (dict "page" $page "image" .) }}
+{{ end }}
+
+<div class="article-content">
+    {{ $page.Content }}
+</div>

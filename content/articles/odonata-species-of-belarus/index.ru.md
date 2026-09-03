@@ -1,6 +1,7 @@
 ---
 title: odonata-species-of-belarus
 name: Систематический список фауны стрекоз Беларуси
+short_name: Список видов
 date: 2026-08-21T14:15:00.000+03:00
 draft: false
 special: true

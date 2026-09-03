@@ -1,64 +1,19 @@
 {{ define "main" }}
 {{ $tax := partial "taxonomy.html" (dict "page" .) }}
 
+{{ $ctx := dict
+"page" .
+"tax" $tax
+}}
 
-<nav class="breadcrumbs">
+<div class="page-layout">
+    <aside class="sidebar">
+        {{ partial "genera/sidebar.html" $ctx }}
+    </aside>
 
-    <a href="{{ site.Home.RelPermalink }}">
-        {{ T "homepage" }}
-    </a>
+    <main class="article">
+        {{ partial "genera/article.html" $ctx }}
+    </main>
+</div>
 
-    {{ with $tax.suborder }}
-    &gt;
-    <a href="{{ .RelPermalink }}">
-        {{ .Title }}
-    </a>
-    {{ end }}
-
-    {{ with $tax.family }}
-    &gt;
-    <a href="{{ .RelPermalink }}">
-        {{ .Title }}
-    </a>
-    {{ end }}
-
-    &gt;
-
-    <span>{{ .Params.title }}</span>
-
-</nav>
-
-<article class="family">
-
-    <header class="species-header">
-
-        <div class="species-text">
-
-            <h1>{{ .Params.common_name }}</h1>
-
-            <p class="latin">
-                <em>{{ .Params.title }}</em>
-                <span class="authority">{{ .Params.authority }}</span>
-            </p>
-
-        </div>
-
-        {{ partial "genus-species-list.html" . }}
-
-        <div class="species-hero">
-
-            {{ with .Params.hero }}
-            {{ partial "image.html" (dict "page" $.Page "image" .) }}
-            {{ end }}
-
-        </div>
-
-    </header>
-
-    <div class="content">
-        {{ .Content }}
-    </div>
-
-</article>
-
-{{ end }}
+{{end}}

@@ -1,0 +1,46 @@
+{{ $page := .page }}
+{{ $tax := .tax }}
+
+<nav class="breadcrumbs">
+    {{ $list := site.GetPage (printf "/taxonomy/") }}
+    <a
+            href="{{ $list.RelPermalink }}">
+        Odonata
+    </a>
+    <span>›</span>
+    {{ with $tax.suborder }}
+    <a href="{{ .RelPermalink }}">
+        {{ .Title }}
+    </a>
+    {{ end }}
+    <span>›</span>
+    {{ with $tax.family }}
+    <a href="{{ .RelPermalink }}">
+        {{ .Title }}
+    </a>
+    {{ end }}
+    <span>›</span>
+    <span>{{ $page.Title }}</span>
+
+</nav>
+
+<header class="article-header">
+    <h1>Род {{ $page.Params.common_name }}</h1>
+
+    <div class="scientific-name">
+        <em>{{ $page.Params.title }}</em>
+        <span class="authority">{{ $page.Params.authority }}</span>
+    </div>
+
+
+</header>
+
+{{ partial "genus-species-list.html" $page }}
+
+{{ with $page.Params.hero }}
+{{ partial "image.html" (dict "page" $page "image" .) }}
+{{ end }}
+
+<div class="article-content">
+    {{ $page.Content }}
+</div>

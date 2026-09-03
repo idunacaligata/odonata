@@ -1,0 +1,83 @@
+{{ $page := .page }}
+{{ $tax := .tax }}
+
+{{ $suborders := $page.Site.GetPage "suborders" }}
+<section class="sidebar-section">
+    <h2>ПОДОТРЯДЫ</h2>
+
+    <nav class="family-list">
+        {{ range sort $suborders.Pages "Title" }}
+        <a {{ if eq .Title $tax.suborder.Title }}
+           class="active"
+           {{ end }}
+           href="{{ .RelPermalink }}">
+            {{ .Title }}
+        </a>
+        {{ end }}
+    </nav>
+</section>
+
+{{ $familiesSection := $page.Site.GetPage "families" }}
+{{ $families := where $familiesSection.Pages ".Params.suborder" $tax.suborder.Title }}
+<section class="sidebar-section">
+    <h2>СЕМЕЙСТВА</h2>
+
+    <nav class="family-list">
+        {{ range sort $families "Title" }}
+        <a {{ if eq .Title $tax.family.Title }}
+           class="active"
+           {{ end }}
+           href="{{ .RelPermalink }}">
+            {{ .Title }}
+        </a>
+        {{ end }}
+    </nav>
+</section>
+
+{{ $generaSection := $page.Site.GetPage "genera" }}
+{{ $speciesSection := $page.Site.GetPage "species" }}
+
+{{ $genera := where $generaSection.Pages ".Params.family" $tax.family.Title }}
+<section class="sidebar-section">
+    <h2>ВИДЫ</h2>
+
+    <nav class="family-list">
+        {{ range sort $genera "Title" }}
+
+        {{ $genus := . }}
+
+        {{ range where $speciesSection.Pages ".Params.genus" $genus.Title }}
+
+        <a
+            {{ if eq .Params.species $page.Params.species }}
+               class="active"
+            {{ end }}
+
+            href="{{ .RelPermalink }}">
+            {{ .Params.genus }} {{ .Params.species }}
+        </a>
+        {{ end }}
+
+        {{ end }}
+    </nav>
+</section>
+
+
+
+<section class="about-box">
+    <a href="#">
+        <h2>
+            <span>{{ $page.Params.common_name }}</span>
+            <span class="back-to-top" aria-hidden="true">↑</span>
+        </h2>
+    </a>
+
+    <a href="#">
+        <h2>{{ $page.Params.genus }} {{ $page.Params.species }}</h2>
+    </a>
+
+    <nav aria-label="Содержание">
+        {{ $page.TableOfContents }}
+    </nav>
+</section>
+

@@ -3,17 +3,16 @@
 
 <head>
     <meta charset="UTF-8">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
         {{ .Title }} | {{ site.Title }}
     </title>
-
     <link rel="icon" href="{{ "favicon.png" | relURL }}" type="image/png">
-    {{ with resources.Get "css/main.css" }}
-    <link rel="stylesheet" href="{{ .RelPermalink }}">
+    {{ with resources.Get "css/main2.css" }}
+        <link rel="stylesheet" href="{{ .RelPermalink }}">
     {{ end }}
     {{ with resources.Get "js/admin.js" }}
-    <script src="{{ .RelPermalink }}"></script>
+        <script src="{{ .RelPermalink }}"></script>
     {{ end }}
 </head>
 
@@ -29,22 +28,101 @@
 >
 
 <header class="site-header">
+    <div class="header-inner">
 
-    <h1 class="site-title">
-        <a href="{{ site.Home.RelPermalink }}">
-            {{ site.Title }}
+        <a class="brand" href="{{ site.Home.RelPermalink }}">
+            <span class="logo">
+            <img src="/odonata/favicon2.png" alt="">
+            </span>
+
+            <span class="brand-text">
+               <strong>{{ site.Title }}</strong>
+            </span>
         </a>
-    </h1>
 
+        <nav class="desktop-nav">
+            <a href="{{ site.Home.RelPermalink }}">Главная</a>
+            {{ $list := site.GetPage (printf "/taxonomy/") }}
+            <a href="{{ $list.RelPermalink }}">
+                Все виды
+            </a>
+            <a href="{{ site.Home.RelPermalink }}">О сайте</a>
+            <a href="{{ site.Home.RelPermalink }}">Фауна Беларуси</a>
+            <a class="search-link" href="https://example.com" aria-label="Поиск">
+                <svg viewBox="0 0 24 24">
+                    <circle cx="10.5" cy="10.5" r="6.5"/>R
+                    <path d="M16 16 L21 21"/>
+                </svg>
+            </a>
+        </nav>
+
+        <details class="mobile-menu">
+            <summary aria-label="Меню">
+                <span></span>
+                <span></span>
+                <span></span>
+            </summary>
+
+            <nav>
+                <a href="{{ site.Home.RelPermalink }}">Главная</a>
+                {{ $list := site.GetPage (printf "/articles/odonata-species-of-belarus") }}
+                <a href="{{ $list.RelPermalink }}">
+                    Все виды
+                </a>
+                <a href="{{ site.Home.RelPermalink }}">О сайте</a>
+                <a href="{{ site.Home.RelPermalink }}">Фауна Беларуси</a>
+                <a href="{{ site.Home.RelPermalink }}">Поиск</a>
+            </nav>
+        </details>
+
+    </div>
 </header>
 
-<main class="content">
+{{ block "main" . }}
+{{ end }}
 
-    {{ block "main" . }}
-    {{ end }}
+<script>
+    document.querySelectorAll('.sidebar a').forEach(link => {
+        if (link.closest('.about-box')) return;
 
-</main>
+        link.addEventListener('click', event => {
+            // Don't interfere with modifier-clicks / new-tab behavior
+            if (
+                event.ctrlKey ||
+                event.metaKey ||
+                event.shiftKey ||
+                event.altKey ||
+                link.target === '_blank'
+            ) {
+                return;
+            }
 
+            event.preventDefault();
+
+            const url = link.href;
+
+            if (window.scrollY === 0) {
+                window.location.href = url;
+                return;
+            }
+
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+
+            const checkScroll = () => {
+                if (window.scrollY <= 1) {
+                    window.location.href = url;
+                } else {
+                    requestAnimationFrame(checkScroll);
+                }
+            };
+
+            requestAnimationFrame(checkScroll);
+        });
+    });
+</script>
 </body>
 
 </html>

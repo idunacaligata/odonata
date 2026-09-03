@@ -1,0 +1,11 @@
+{{ $page := .page }}
+
+<div class="page-layout">
+    <aside class="sidebar">
+        {{ partial "orders/sidebar.html" (dict "page" $page) }}
+    </aside>
+
+    <main class="article">
+        {{ partial "orders/article.html" (dict "page" $page) }}
+    </main>
+</div>

@@ -1,4 +1,4 @@
-  baseURL = "https://idunacaligata.github.io/odonata/"
+baseURL = "https://idunacaligata.github.io/odonata/"
 
 relativeURLs = false
 canonifyURLs = false

@@ -1,6 +1,5 @@
 {{ $suborder := .Get 0 }}
-{{ $indent := .Get 1 | default 0 }}
-<ul class="genus-list" style="margin-left: {{ $indent }}rem;">
+<ul class="genus-list">
 
     {{ range sort (where (where site.RegularPages "Section" "families") ".Params.suborder" $suborder) ".Params.title" }}
 

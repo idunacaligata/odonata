@@ -1,0 +1,9 @@
+{{ define "main" }}
+
+{{ $odonata := .Site.GetPage "/orders/odonata" }}
+
+{{ partial "orders/page.html" (dict
+"page" $odonata
+) }}
+
+{{ end }}

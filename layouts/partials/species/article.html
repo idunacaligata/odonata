@@ -1,0 +1,65 @@
+{{ $page := .page }}
+{{ $tax := .tax }}
+
+<nav class="breadcrumbs">
+    {{ $list := site.GetPage (printf "/taxonomy/") }}
+    <a
+            href="{{ $list.RelPermalink }}">
+        Odonata
+    </a>
+    <span>›</span>
+    {{ with $tax.suborder }}
+    <a href="{{ .RelPermalink }}">
+        {{ .Title }}
+    </a>
+    {{ end }}
+    <span>›</span>
+    {{ with $tax.family }}
+    <a href="{{ .RelPermalink }}">
+        {{ .Title }}
+    </a>
+    {{ end }}
+    <span>›</span>
+    {{ with $tax.genus }}
+    <a href="{{ .RelPermalink }}">
+        {{ .Title }}
+    </a>
+    {{ end }}
+    <span>›</span>
+    <span>{{ $page.Params.species }}</span>
+</nav>
+
+<header class="article-header">
+    <h1>{{ $page.Params.common_name }}</h1>
+
+    <div class="scientific-name">
+        <em>{{ $page.Params.genus }} {{ $page.Params.species }}</em>
+        <span class="authority">{{ $page.Params.authority }}</span>
+    </div>
+</header>
+
+
+{{ with $page.Params.hero }}
+    {{ partial "image.html" (dict "page" $page "image" .) }}
+{{ end }}
+
+<p class="external-links">
+    {{ with $page.Params.gbif }}
+    <a target="_blank" rel="noopener noreferrer" href="https://www.gbif.org/taxon/{{ . }}">GBIF</a>
+    {{ end }}
+
+    {{ with $page.Params.inat }}
+    <a target="_blank" rel="noopener noreferrer" href="https://www.inaturalist.org/taxa/{{ . }}">iNaturalist</a>
+    <a target="_blank" rel="noopener noreferrer" href="https://www.inaturalist.org/observations?place_id=7578&subview=map&taxon_id={{ . }}">Наблюдения на iNaturalist</a>
+    {{ end }}
+    <a target="_blank" rel="noopener noreferrer" href="https://ru.wikipedia.org/wiki/{{ $page.Params.genus }}%20{{ $page.Params.species }}">Wikipedia</a>
+</p>
+<!--<p class="external-links">-->
+<!--    <a href="{{ $page.Params.iucn_url }}">IUCN Global: {{ $page.Params.iucn }}</a>-->
+<!--    <a href="{{ $page.Params.iucn_europe_url }}">IUCN Europe: {{ $page.Params.iucn_europe }}</a>-->
+<!--    <a href="https://wilderness.by/spisok-vidov-kkrb/">Красная книга: {{ i18n (printf "redbook_%v" $page.Params.belarus_red_book) }}</a>-->
+<!--</p>-->
+
+<div class="article-content">
+    {{ $page.Content }}
+</div>
