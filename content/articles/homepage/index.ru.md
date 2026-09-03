@@ -1,11 +1,12 @@
 ---
 title: homepage
 name: Стрекозы Беларуси
+short_name: Главная
 date: 2026-07-24T17:18:00.000+03:00
 draft: false
 special: true
 hero:
-  file: img_0322.png
+  file: img_1258.png
   caption: ""
 ---
 ## О проекте
