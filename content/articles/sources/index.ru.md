@@ -42,12 +42,12 @@ hero:
 29. Kitel D., Sinchuk A., Levyj S., Schröter A. "**Check-list of the Odonata of Belarus**" / Odonatologica 53(1/2) 2024: 39-68.
         ​
 
-##### РИСУНКИ
+## РИСУНКИ
 
 Рисунки таблиц - Семенова Е.В. из Скворцов В. Э. **Стрекозы Восточной Европы и Кавказа: Атлас-определитель**. Москва:Товарищество науч. изд. КМК, 2010. - 623 с.
 
 Цветные таблицы - **Göran Liljeberg & Hallvard Elven**. Naturhistorisk museum, Universitetet i Oslo. 
 
-##### ФОТО
+## ФОТО
 
 **белорусские авторы** и c **Wikimedia Commons**
