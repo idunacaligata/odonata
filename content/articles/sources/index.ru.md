@@ -8,7 +8,7 @@ hero:
   file: ""
   caption: ""
 ---
-##### ЛИТЕРАТУРА
+## ЛИТЕРАТУРА
 
 1. Buczyński P., Dijkstra K.-D. B., Mauersberger R., Moroz M. D. "**Review of the Odonata of Belarus"**. 2006.  Odonatologica 35(1): 1-13.
 2. Buczynski P., Moroz M. D. "**Notes on the occurence of some Mediterranean dragonflies (Odonata) in Belarus"**. Polish journal of entomology. Bydgoszcz, 2008. Vol. 77: 67-74.
