@@ -5,7 +5,7 @@ date: 2026-07-24T17:18:00.000+03:00
 draft: false
 special: true
 hero:
-  file: 1429371505.jpg
+  file: img_0322.png
   caption: ""
 ---
 ## О проекте
