@@ -17,6 +17,7 @@ images:
   - id: chalcolestes-viridis-a-ankuda-minskr4_orig
     file: chalcolestes-viridis-a-ankuda-minskr4_orig.jpg
     caption: © Александр Анкуда, Минский р-н
+    link: https://www.google.com/search?q=%D0%B3%D1%83%D0%B3%D0%BB+%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4%D1%87%D0%B8%D0%BA&oq=%D0%B3%D1%83%D0%B3%D0%BB+%D0%BF%D0%B5%D1%80%D0%B5&aqs=chrome.0.0i512j69i57j0i512l8.8325j0j15&sourceid=chrome&ie=UTF-8
   - id: lestes-viridis-dk-malorit_orig
     file: lestes-viridis-dk-malorit_orig.jpg
     caption: Фото © Денис Китель, Малоритский р-н, Брестская обл.
