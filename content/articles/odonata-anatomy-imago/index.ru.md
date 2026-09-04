@@ -3,7 +3,7 @@ title: odonata-anatomy-imago
 name: "Строение стрекоз: имаго"
 short_name: Строение имаго
 date: 2026-08-21T19:26:00.000+03:00
-draft: true
+draft: false
 hero:
   file: ""
   caption: "© Скворцов В. Э. Стрекозы Восточной Европы и Кавказа:
