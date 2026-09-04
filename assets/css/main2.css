@@ -559,6 +559,11 @@ a {
     line-height: 1.65;
 }
 
+.article-content p + h2,
+.article-content .photo-meta + h2 {
+    margin-top: 2rem;
+}
+
 /* =========================
    Clickable taxonomy header
    ========================= */
