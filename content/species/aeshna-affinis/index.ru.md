@@ -43,7 +43,7 @@ images:
     caption: ♂ Фото © Анатолий Кулак, НП "Припятский"
   - id: aeshna-affinis-anatoly-kulak-np-pripyatsky_orig
     file: aeshna-affinis-anatoly-kulak-np-pripyatsky_orig.jpg
-    caption: ♂ Фото © Анатолий Кулак, НП "Припятский"11
+    caption: ♂ Фото © Анатолий Кулак, НП "Припятский"
   - id: 8896576_orig
     file: 8896576_orig.jpg
     caption: "Скворцов В. Э. 2010. Стрекозы Восточной Европы и Кавказа:
