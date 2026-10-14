@@ -9,7 +9,7 @@ iucn: LC
 inat: 93426
 species: affinis
 title: aeshna-affinis
-common_name: Коромысло зеленобокое1
+common_name: Коромысло зеленобокое
 hero:
   file: aeshna-affinis-vr-soligor_orig.jpg
   caption: ♂ Фото © Виктор Рындевич, Солигорский р-н, Минская обл.
