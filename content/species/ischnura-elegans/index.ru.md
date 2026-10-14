@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/165479/208836177
 hero:
   file: photo-2022-06-20-00-53-33_orig.jpg
   caption: "♂ Фото © Виталий Сирота, Минский р-н"
+map:
+  file: 7082447.jpg
 images:
   - id: ishnura-elegans2_orig
     file: ishnura-elegans2_orig.jpg

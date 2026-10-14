@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/165482/208837200
 hero:
   file: epitheca-bimaculata-male_orig.jpg
   caption: "♂ Фото © Денис Китель"
+map:
+  file: 850683.jpg
 images:
   - id: epitheca-bimaculata1_orig
     file: epitheca-bimaculata1_orig.jpg

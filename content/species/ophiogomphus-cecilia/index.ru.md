@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/15364/208813793
 hero:
   file: ophiogomphus-cecilia-vileika-mnvr_orig.jpg
   caption: "© Виктор Рындевич, Вилейский р-н, Минская обл."
+map:
+  file: 7540969_1_orig.jpg
 images:
   - id: ophiogomphus-cecilia-sodnoval-logoiskr2_orig
     file: ophiogomphus-cecilia-sodnoval-logoiskr2_orig.jpg

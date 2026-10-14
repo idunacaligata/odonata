@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/165486/208838917
 hero:
   file: leucorrhinia-pectoralis-male_orig.jpg
   caption: "♂ Фото © Денис Китель"
+map:
+  file: 1781672810_orig.jpg
 images:
   - id: leucorrhinia-pectoralis-sl-2020_orig
     file: leucorrhinia-pectoralis-sl-2020_orig.jpg

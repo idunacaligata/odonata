@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/165521/208850407
 hero:
   file: orthetrum-cansellatum04vb_orig.jpg
   caption: "♂ Фото © Владимир Бондарь, Могилевский р-н"
+map:
+  file: 386943136_orig.jpg
 images:
   - id: orthetrum-cansellatum01vb_orig
     file: orthetrum-cansellatum01vb_orig.jpg

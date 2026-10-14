@@ -17,6 +17,8 @@ hero:
   file: large_orig.jpg
   caption: "♀ Photo © Oleg Kosterin / iNaturalist.org. Russia, Krasnodarskiy Kray Province, Novorossiysk Municipality. CC BY 4.0"
   link: https://www.inaturalist.org/observations/110671615
+map:
+  file: brest-r_orig.jpg
 images:
   - id: pantala-flavescens-08415_orig
     file: pantala-flavescens-08415_orig.jpg

@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/158683/208821567
 hero:
   file: leucorrhinia-dubia-sl-2015male_orig.jpg
   caption: "♂ Фото © Семён Левый, Шарковщинский р-н, Витебская обл."
+map:
+  file: 6924806.jpg
 images:
   - id: leucorrhinia-dubia-sl-2015fem_orig
     file: leucorrhinia-dubia-sl-2015fem_orig.jpg

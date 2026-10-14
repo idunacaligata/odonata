@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/165511/208847036
 hero:
   file: coenagrion-lunulatum-sl-dokshic-2017_orig.jpg
   caption: "♂ Фото © Семён Левый. Докшицкий р-н, Витебская обл."
+map:
+  file: bel_orig.jpg
 images:
   - id: coenagrion-lunulatum-s-levy-shumilinr228_orig
     file: coenagrion-lunulatum-s-levy-shumilinr228_orig.jpg

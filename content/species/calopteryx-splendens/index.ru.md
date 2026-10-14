@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/158701/208826598
 hero:
   file: 222454087-10161480919309517-7333564017397231454-n_orig.jpg
   caption: "♂ Фото © Инна Шкурко, НП \"Беловежская пуща\", Брестская обл"
+map:
+  file: 7540969.jpg
 images:
   - id: calopteryx-splendens6vb_orig
     file: calopteryx-splendens6vb_orig.jpg

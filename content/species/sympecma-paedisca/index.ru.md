@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/165459/208830004
 hero:
   file: sympecma-paedisca-vr-soligr44_orig.jpg
   caption: "© Виктор Рындевич, Солигорский р-н, Минская обл."
+map:
+  file: 1965036416_orig.jpg
 images:
   - id: img-3470-2_orig
     file: img-3470-2_orig.jpg

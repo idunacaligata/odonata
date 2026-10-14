@@ -9,9 +9,15 @@ draft: false
 inat: 1398282
 gbif: 9X683
 belarus_red_book: no
+iucn: null
+iucn_url: null
+iucn_europe: null
+iucn_europe_url: null
 hero:
   file: aeshna-soneharai-vb-mogr410_orig.jpg
   caption: "♂ Фото © Владимир Бондарь, Могилевский р-н"
+map:
+  file: bel2023_orig.jpg
 images:
   - id: aeshna-soneharai-2016-orig_orig
     file: aeshna-soneharai-2016-orig_orig.jpg

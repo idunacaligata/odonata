@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/165512/208847383
 hero:
   file: sympetrum-depressiusculum-male_orig.jpg
   caption: "♂ Фото © Денис Китель, Малоритский р-н, Брестская обл."
+map:
+  file: map4_orig.jpg
 images:
   - id: sympetrum-depressiusculum-vr-minsk8_orig
     file: sympetrum-depressiusculum-vr-minsk8_orig.jpg

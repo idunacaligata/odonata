@@ -17,6 +17,8 @@ hero:
   file: sympetrum-striolatum1rr_orig.jpg
   caption: "© Aleh Sinchuk / iNaturalist.org. Кобринский р-н, Брестская обл. CC BY-NC 4.0"
   link: https://www.inaturalist.org/observations/42576440
+map:
+  file: 473364815_orig.jpg
 images:
   - id: original-5_orig
     file: original-5_orig.jpg

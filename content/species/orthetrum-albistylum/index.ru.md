@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/158689/208823682
 hero:
   file: orthetrum-albistylum_orig.jpg
   caption: "♂ Фото © Виктор Рындевич, Минский р-н"
+map:
+  file: 1782372772_orig.jpg
 images:
   - id: orthetrum-albisylum-vb-mogr8_orig
     file: orthetrum-albisylum-vb-mogr8_orig.jpg

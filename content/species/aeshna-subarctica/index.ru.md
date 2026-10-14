@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/165508/208845931
 hero:
   file: vrphoto-2022-08-26-16-59-22_orig.jpg
   caption: "♂ Фото © Виктор Рындевич, болото Ельня, Витебская обл."
+map:
+  file: bel88_orig.jpg
 images:
   - id: aeshna-subarctica-dk-rossonr_orig
     file: aeshna-subarctica-dk-rossonr_orig.jpg

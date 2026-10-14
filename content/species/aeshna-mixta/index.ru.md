@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/165499/208843381
 hero:
   file: aeshna-mixta5_orig.jpg
   caption: "♂ Фото © Владимир Бондарь, Могилевский р-н"
+map:
+  file: bel89_orig.jpg
 images:
   - id: aeshna-mixta1_orig
     file: aeshna-mixta1_orig.jpg

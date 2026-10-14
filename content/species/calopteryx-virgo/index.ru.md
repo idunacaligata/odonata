@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/165505/208845263
 hero:
   file: calopteryx-virgo-vrsmolevichy_orig.jpg
   caption: "♂ Фото © Виктор Рындевич, Смолевичский р-н, Минская обл."
+map:
+  file: 6542303.jpg
 images:
   - id: calopteryx-virgo-sergei-odnoval-borisovr_orig
     file: calopteryx-virgo-sergei-odnoval-borisovr_orig.jpg

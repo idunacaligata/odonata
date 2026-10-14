@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/165500/208843840
 hero:
   file: pyrrhosoma-nymphula-sl-mogil-2017_orig.jpg
   caption: "♂ Фото © Семён Левый, г. Могилев"
+map:
+  file: 6864335.jpg
 images:
   - id: pyrrhosoma-nymphula-vr-minsky2_orig
     file: pyrrhosoma-nymphula-vr-minsky2_orig.jpg

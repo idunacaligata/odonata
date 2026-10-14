@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/158682/208821070
 hero:
   file: 5_orig.jpg
   caption: "♂ Фото © Денис Китель, Столинский р-н (Брестская обл.)"
+map:
+  file: bel121_orig.jpg
 images:
   - id: dsc-3707_orig
     file: dsc-3707_orig.jpg

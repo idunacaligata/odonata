@@ -9,9 +9,15 @@ draft: false
 inat: 1510501
 gbif: BV66C
 belarus_red_book: no
+iucn: null
+iucn_url: null
+iucn_europe: null
+iucn_europe_url: null
 hero:
   file: dsc-0520-3_orig.jpg
   caption: "© Виктор Рындевич, Червенский р-н, Минская обл."
+map:
+  file: 2051831820_orig.jpg
 images:
   - id: aeshna-isosceles-2_orig
     file: aeshna-isosceles-2_orig.jpg

@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/158706/208827902
 hero:
   file: hb3829_orig.jpg
   caption: "♂ Фото © Николай Гурков, Витебский р-н"
+map:
+  file: 2800880.jpg
 images:
   - id: coenagrion-hastulatum-minsk1_orig
     file: coenagrion-hastulatum-minsk1_orig.jpg

@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/165475/208834702
 hero:
   file: lestes-sponsa-vr-naliboky_orig.jpg
   caption: "♂ Фото © Виктор Рындевич, Налибокская пуща"
+map:
+  file: 8647671.jpg
 images:
   - id: lestes-sponsa-minskvs5_orig
     file: lestes-sponsa-minskvs5_orig.jpg

@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/165509/208846207
 hero:
   file: cordulegaster-boltonii-volojinsky4_orig.jpg
   caption: "♂ Фото © Ольга Скробот Воложинский р-н, Минская обл."
+map:
+  file: 1713431445_orig.jpg
 images:
   - id: cordulegaster-boltonii-volojinsky2_orig
     file: cordulegaster-boltonii-volojinsky2_orig.jpg

@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/60312/208820175
 hero:
   file: aeshna-crenata_orig.jpg
   caption: "♀ Фото © Денис Китель, Россонский р-н (Витебская обл.)"
+map:
+  file: 7259123.jpg
 images:
   - id: 2930171_orig
     file: 2930171_orig.jpg

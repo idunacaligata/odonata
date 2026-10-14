@@ -1,48 +1,48 @@
 ---
-authority: Charpentier, 1840
-draft: false
-iucn_url: https://www.iucnredlist.org/species/60313/138717083
-iucn_europe: LC
 genus: Coenagrion
-date: 2026-08-26T17:59:11.505404+03:00
-iucn: LC
-inat: 98270
 species: armatum
+authority: Charpentier, 1840
 title: coenagrion-armatum
 common_name: Стрелка зеленоватая или вооруженная
+date: 2026-08-26T17:59:11.505404+03:00
+draft: false
+inat: 98270
+gbif: WTWG
+belarus_red_book: 2
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/60313/138717083
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/60313/208820359
 hero:
   file: coenagrion-armatum-sl-lioznr-2020_orig.jpg
-  caption: ♂ Фото © Семён Левый, Лиозненский р-н, Витебская обл.
+  caption: "♂ Фото © Семён Левый, Лиозненский р-н, Витебская обл."
+map:
+  file: 2813810.jpg
 images:
   - id: coenagrion-armatum-sl-2015_orig
     file: coenagrion-armatum-sl-2015_orig.jpg
-    caption: ♀ Фото © Семён Левый, Шарковщинский р-н, Витебская обл.
+    caption: "♀ Фото © Семён Левый, Шарковщинский р-н, Витебская обл."
   - id: coenagrion-armatum_orig
     file: coenagrion-armatum_orig.jpg
-    caption: ♂ Фото © Виктор Рындевич, окр. г. Докшицы, Витебская обл.
+    caption: "♂ Фото © Виктор Рындевич, окр. г. Докшицы, Витебская обл."
   - id: coenagrion-armatum-sl-sharkovshr-2015fem_orig
     file: coenagrion-armatum-sl-sharkovshr-2015fem_orig.jpg
-    caption: ♀ Фото © Семён Левый, Шарковщинский р-н, Витебская обл.
+    caption: "♀ Фото © Семён Левый, Шарковщинский р-н, Витебская обл."
   - id: coenagrion-armatum-2_orig
     file: coenagrion-armatum-2_orig.jpg
-    caption: ♂ Фото © Виктор Рындевич, окр. г. Докшицы, Витебская обл.
+    caption: "♂ Фото © Виктор Рындевич, окр. г. Докшицы, Витебская обл."
   - id: coenagrion-armatum-s-levy-borisowr72_orig
     file: coenagrion-armatum-s-levy-borisowr72_orig.jpg
-    caption: ♂ Фото © Семён Левый, Борисовский р-н, Минская обл.
+    caption: "♂ Фото © Семён Левый, Борисовский р-н, Минская обл."
   - id: coenagrion-armatum-g_orig
     file: coenagrion-armatum-g_orig.jpg
-    caption: Göran Liljeberg & Hallvard Elven. Naturhistorisk museum, Universitetet
-      i Oslo. CC BY-SA 3.0
+    caption: "Göran Liljeberg & Hallvard Elven. Naturhistorisk museum, Universitetet i Oslo. CC BY-SA 3.0"
   - id: coenagrion-armatum-mf_orig
     file: coenagrion-armatum-mf_orig.jpg
-    caption: ♂ Image © Göran Liljeberg / Naturforskaren. CC BY 3.0
+    caption: "♂ Image © Göran Liljeberg / Naturforskaren. CC BY 3.0"
   - id: 6424482_orig
     file: 6424482_orig.jpg
-    caption: "Скворцов В. Э. 2010. Стрекозы Восточной Европы и Кавказа:
-      Атлас-определитель."
-gbif: WTWG
-iucn_europe_url: https://www.iucnredlist.org/species/60313/208820359
-belarus_red_book: 2
+    caption: "Скворцов В. Э. 2010. Стрекозы Восточной Европы и Кавказа: Атлас-определитель."
 ---
 
 Необычно темная, стройная, нежная стрелка. Голова широкая, сверху вдвое шире своей длины. Лицо, глаза и доплечевая полоса зеленые или желтовато-зеленые. Край переднеспинки торчащий вверх и заостренный. У обоих полов характерное черное брюшко с цветными участками как у основания, так и на кончике. Черные пятна на дорсальной стороне сливающиеся. Ноги черные или темно-серые. Крылья прозрачные. Птеростигма узкая (равна 1 ячейке), светло-серая.

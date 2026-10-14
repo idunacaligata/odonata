@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/563/208812845
 hero:
   file: aeshna-viridis-s-levy-soligorskr662_orig.jpg
   caption: "♀ Фото © Семён Левый, Солигорский р-н, Минская обл."
+map:
+  file: 1870120274_orig.jpg
 images:
   - id: aeshna-viridis-vb-mgr1_orig
     file: aeshna-viridis-vb-mgr1_orig.jpg

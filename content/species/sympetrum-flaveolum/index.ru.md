@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/165501/208844317
 hero:
   file: sympetrum-flaveolum-vr-minskrr_orig.jpg
   caption: "♂ Фото © Виктор Рындевич, Минский р-н"
+map:
+  file: 8349169.jpg
 images:
   - id: sympetrum-flaveolum-vr-minsr-fem_orig
     file: sympetrum-flaveolum-vr-minsr-fem_orig.jpg

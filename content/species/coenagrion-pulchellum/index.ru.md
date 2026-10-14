@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/165484/208837994
 hero:
   file: coenagrion-pulchellum-minsk_orig.jpg
   caption: "♂ Фото © Виталий Сирота, Минский р-н"
+map:
+  file: 1393651.jpg
 images:
   - id: coenagrion-pulchellum-9376-001_orig
     file: coenagrion-pulchellum-9376-001_orig.jpg

@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/60265/208819395
 hero:
   file: nehalennia-speciosa_3_orig.jpg
   caption: "Фото © Денис Китель, Малоритский р-н (Брестская обл.)"
+map:
+  file: 8938350.jpg
 images:
   - id: nehalennia-speciosa_orig
     file: nehalennia-speciosa_orig.jpg

@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/165525/208851979
 hero:
   file: ischnura-pumilio-vr-mn2_orig.jpg
   caption: "♂ Фото © Виктор Рындевич, г. Минск"
+map:
+  file: bel23_orig.jpg
 images:
   - id: ischnura-pumilio-vr-minskyi1_orig
     file: ischnura-pumilio-vr-minskyi1_orig.jpg

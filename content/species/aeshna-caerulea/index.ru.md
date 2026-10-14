@@ -1,38 +1,38 @@
 ---
-authority: Ström, 1783
-draft: false
-iucn_url: https://www.iucnredlist.org/species/158688/138474149
-iucn_europe: NT
 genus: Aeshna
-date: 2026-08-26T17:59:11.397267+03:00
-iucn: LC
-inat: 93427
 species: caerulea
+authority: Ström, 1783
 title: aeshna-caerulea
 common_name: Коромысло голубое или чешуйчатое
+date: 2026-08-26T17:59:11.397267+03:00
+draft: false
+inat: 93427
+gbif: 65BML
+belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/158688/138474149
+iucn_europe: NT
+iucn_europe_url: https://www.iucnredlist.org/species/158688/208823366
 hero:
   file: 2560px-alpen-mosaikjungfer-aeshna-caerulea-001_orig.jpg
-  caption: ♂ Photo © Volkmar Wagner / Wikimedia Commons. CC BY-SA 3.0
+  caption: "♂ Photo © Volkmar Wagner / Wikimedia Commons. CC BY-SA 3.0"
   link: https://commons.wikimedia.org/wiki/File:Alpen-Mosaikjungfer,_Aeshna_caerulea_001.JPG
+map:
+  file: 1486361932_orig.jpg
 images:
   - id: aeshna-caerulea_orig
     file: aeshna-caerulea_orig.jpg
-    caption: Göran Liljeberg & Hallvard Elven. Naturhistorisk museum, Universitetet
-      i Oslo. CC BY-SA 3.0
+    caption: "Göran Liljeberg & Hallvard Elven. Naturhistorisk museum, Universitetet i Oslo. CC BY-SA 3.0"
     link: https://artsdatabanken.no/Pages/167567
   - id: aeshna-caerulea-mf_orig
     file: aeshna-caerulea-mf_orig.jpg
-    caption: ♂ Image © Göran Liljeberg / Naturforskaren. CC BY 3.0
+    caption: "♂ Image © Göran Liljeberg / Naturforskaren. CC BY 3.0"
   - id: aeshna-caerulea-fm_orig
     file: aeshna-caerulea-fm_orig.jpg
-    caption: ♂ Image © Göran Liljeberg / Naturforskaren. CC BY 3.0
+    caption: "♂ Image © Göran Liljeberg / Naturforskaren. CC BY 3.0"
   - id: 7744118_orig
     file: 7744118_orig.jpg
-    caption: "Скворцов В. Э. 2010. Стрекозы Восточной Европы и Кавказа:
-      Атлас-определитель."
-gbif: 65BML
-iucn_europe_url: https://www.iucnredlist.org/species/158688/208823366
-belarus_red_book: no
+    caption: "Скворцов В. Э. 2010. Стрекозы Восточной Европы и Кавказа: Атлас-определитель."
 ---
 
 Согласно новым данным, имеются большие сомнения относительно нахождения вида в Беларуси, особенно в Гомельской и Могилевской областях. Ранее вид указывался в обзоре стрекоз Беларуси (Buczyński et al., 2006) на основании литературных данных (Писаненко, 1985 - для Витебской, Гомельской и Могилевской обл.; Кипенварлиц, 1933-34 - для Витебской обл.). Вместе с тем, вид указывается для Латвии и Эстонии, так что вероятность подтверждения вида для республики остается самой высокой на верховых болотах Витебской обл. Тем более, что для Европы не считая реликтовые послеледниковые популяции в горных районах, указывается, что вид встречается в основном выше 55° широты (т. е. севернее линии Лынтупы-Бешенковичи-Лиозно). В любом случае, остро необходимы современные данные о наличии вида в республике.

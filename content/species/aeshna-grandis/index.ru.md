@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/158686/208822987
 hero:
   file: aeshna-grandis-minskyi-vr_orig.jpg
   caption: "♂ Фото © Виктор Рындевич, Минский р-н"
+map:
+  file: 6225608.jpg
 images:
   - id: aeshna-grandis-vr-smolevichsky1_orig
     file: aeshna-grandis-vr-smolevichsky1_orig.jpg

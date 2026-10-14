@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/165489/208839940
 hero:
   file: onychogomphus-forcipatus-vr-lepelr1_orig.jpg
   caption: "♂ Фото © Виктор Рындевич, Лепельский р-н, Витебская обл."
+map:
+  file: 3639912.jpg
 images:
   - id: img-20220701-190500a_orig
     file: img-20220701-190500a_orig.jpg

@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/165531/208853768
 hero:
   file: libellula-depressa4_orig.jpg
   caption: "♂ Фото © Владимир Бондарь, Могилевский р-н"
+map:
+  file: 2371506.jpg
 images:
   - id: libellula-depressa2_orig
     file: libellula-depressa2_orig.jpg

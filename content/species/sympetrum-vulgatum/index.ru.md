@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/165483/208837559
 hero:
   file: sympetrum-vulgatum-vr-minskr_orig.jpg
   caption: "© Виктор Рындевич, Минский р-н"
+map:
+  file: 5466794.jpg
 images:
   - id: sympetrum-vulgatum-sl-2014fem_orig
     file: sympetrum-vulgatum-sl-2014fem_orig.jpg

@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/165492/208840874
 hero:
   file: lestes-virens-male_orig.jpg
   caption: "♂ Фото © Денис Китель"
+map:
+  file: 326739497_orig.jpg
 images:
   - id: lestes-virens-sl-2015fem_orig
     file: lestes-virens-sl-2015fem_orig.jpg

@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/165496/208842480
 hero:
   file: libellula-fulva-male_orig.jpg
   caption: "♂ Фото © Денис Китель"
+map:
+  file: 1212610366_orig.jpg
 images:
   - id: libellula-fulva-vr-rosonsky_orig
     file: libellula-fulva-vr-rosonsky_orig.jpg

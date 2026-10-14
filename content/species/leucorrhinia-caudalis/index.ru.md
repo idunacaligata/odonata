@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/11912/208813475
 hero:
   file: leucorrhinia-caudalis-sl-2014male_orig.jpg
   caption: "♂ Фото © Семён Левый, Смолевичский р-н, Минская обл."
+map:
+  file: 827940479_orig.jpg
 images:
   - id: leucorrhinia-caudalis-vr-smolevichy1_orig
     file: leucorrhinia-caudalis-vr-smolevichy1_orig.jpg

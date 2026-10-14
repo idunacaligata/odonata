@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/165469/208832871
 hero:
   file: libellula-quadrimaculata-1_orig.jpg
   caption: "♂ Фото © Виталий Сирота, Минский р-н"
+map:
+  file: 3354304.jpg
 images:
   - id: libellula-guadrimaculata4vb_orig
     file: libellula-guadrimaculata4vb_orig.jpg

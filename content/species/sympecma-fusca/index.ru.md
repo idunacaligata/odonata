@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/158690/208824046
 hero:
   file: sympecma-fusca_orig.jpg
   caption: "♂ Фото © Денис Китель, Пружанский р-н (Брестская обл.)"
+map:
+  file: 1912037066_orig.jpg
 images:
   - id: sympecma-fusca-brestr-2018_orig
     file: sympecma-fusca-brestr-2018_orig.jpg

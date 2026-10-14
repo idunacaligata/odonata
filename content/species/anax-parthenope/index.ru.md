@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/165488/208839483
 hero:
   file: anax-parthenope2_orig.jpg
   caption: "♂ Фото © Владимир Бондарь, Могилевский р-н"
+map:
+  file: aall_orig.jpg
 images:
   - id: anax-parthenope5_orig
     file: anax-parthenope5_orig.jpg

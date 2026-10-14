@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/165510/269781501
 hero:
   file: is2-sympetrum-meridionale-berezar6_orig.jpg
   caption: "♂ Фото © Инна Субботина, Березовский р-н, Брестская обл."
+map:
+  file: 57585754.jpg
 images:
   - id: sympetrum-meridionale-dk-stolin_orig
     file: sympetrum-meridionale-dk-stolin_orig.jpg

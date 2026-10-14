@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/165516/208848675
 hero:
   file: lestes-dryas-minsk_orig.jpg
   caption: "♂ Фото © Виталий Сирота, г. Минск"
+map:
+  file: 2884400.jpg
 images:
   - id: lestes-dryas-0167_orig
     file: lestes-dryas-0167_orig.jpg

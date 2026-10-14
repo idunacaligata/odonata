@@ -17,6 +17,8 @@ hero:
   file: somatochlora-arctica-hospers-myoryr_orig.jpg
   caption: "Photo © Marcel Hospers / iNaturalist.org. Миорский р-н, Витебская обл. CC BY-NC 4.0"
   link: https://www.inaturalist.org/observations/26724655
+map:
+  file: bel25_orig.jpg
 images:
   - id: somatochlora-arctica-dk-rosso10_orig
     file: somatochlora-arctica-dk-rosso10_orig.jpg

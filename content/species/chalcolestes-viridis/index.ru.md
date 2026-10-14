@@ -1,49 +1,50 @@
 ---
-authority: Vander Linden, 1825
-draft: false
-iucn_url: https://www.iucnredlist.org/species/165529/42645306
-iucn_europe: LC
 genus: Chalcolestes
-date: 2026-08-26T17:59:11.525822+03:00
-iucn: LC
-inat: 124488
 species: viridis
+authority: Vander Linden, 1825
 title: chalcolestes-viridis
 common_name: Лютка зеленая или большая
+date: 2026-08-26T17:59:11.525822+03:00
+draft: false
+inat: 124488
+gbif: 9WTNJ
+belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/165529/42645306
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/165529/208853331
 hero:
   file: lestes-viridis-sl-kobrynr_orig.jpg
-  caption: ♀ Фото © Семён Левый, Кобринский р-н, Брестская обл.
+  caption: "♀ Фото © Семён Левый, Кобринский р-н, Брестская обл."
+map:
+  file: aall_orig.jpg
 images:
   - id: chalcolestes-viridis-a-ankuda-minskr4_orig
     file: chalcolestes-viridis-a-ankuda-minskr4_orig.jpg
-    caption: © Александр Анкуда, Минский р-н
-    link: ""
+    caption: "© Александр Анкуда, Минский р-н"
   - id: lestes-viridis-dk-malorit_orig
     file: lestes-viridis-dk-malorit_orig.jpg
-    caption: Фото © Денис Китель, Малоритский р-н, Брестская обл.
+    caption: "Фото © Денис Китель, Малоритский р-н, Брестская обл."
   - id: lestes-viridis-d-kitel-pinskr_orig
     file: lestes-viridis-d-kitel-pinskr_orig.jpg
-    caption: ♂ Фото © Денис Китель, Пинский р-н, Брестская обл.
+    caption: "♂ Фото © Денис Китель, Пинский р-н, Брестская обл."
   - id: vb-lestes-virid-byhovr2_orig
     file: vb-lestes-virid-byhovr2_orig.jpg
-    caption: ♀ Фото © Владимир Бондарь, Быховский р-н, Могилевская обл.
+    caption: "♀ Фото © Владимир Бондарь, Быховский р-н, Могилевская обл."
   - id: is-lestes-virid-lepelr1_orig
     file: is-lestes-virid-lepelr1_orig.jpg
-    caption: ♀ Фото © Инна Субботина, Лепельский р-н, Витебская обл.
+    caption: "♀ Фото © Инна Субботина, Лепельский р-н, Витебская обл."
   - id: vb-lestes-virid-byhovr1_orig
     file: vb-lestes-virid-byhovr1_orig.jpg
-    caption: ♀ Фото © Владимир Бондарь, Быховский р-н, Могилевская обл.
+    caption: "♀ Фото © Владимир Бондарь, Быховский р-н, Могилевская обл."
   - id: lestes-viridis_orig
     file: lestes-viridis_orig.jpg
-    caption: ♂ Фото © Денис Китель, Пружанский р-н (Брестская обл.)
+    caption: "♂ Фото © Денис Китель, Пружанский р-н (Брестская обл.)"
   - id: l-vir-sch_orig
     file: l-vir-sch_orig.jpg
-    caption: "Скворцов В. Э. 2010. Стрекозы Восточной Европы и Кавказа:
-      Атлас-определитель."
-gbif: 9WTNJ
-iucn_europe_url: https://www.iucnredlist.org/species/165529/208853331
-belarus_red_book: no
+    caption: "Скворцов В. Э. 2010. Стрекозы Восточной Европы и Кавказа: Атлас-определитель."
 ---
+
 ## Описание
 
 Подрод Chalcolestes обычно выделяют в отдельный род, к которому у нас принадлежит 1 вид.

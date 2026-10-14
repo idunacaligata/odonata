@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/165518/208849284
 hero:
   file: aeshna-juncea_1_orig.jpg
   caption: "♀ Фото © Семён Левый. Борисовский р-н, Минская обл."
+map:
+  file: aall_orig.jpg
 images:
   - id: aeshna-juncea-vr-elnya_orig
     file: aeshna-juncea-vr-elnya_orig.jpg

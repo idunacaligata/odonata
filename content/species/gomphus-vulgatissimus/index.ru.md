@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/165523/208851085
 hero:
   file: gomphus-vulgatissimus4vb_orig.jpg
   caption: "♂ Фото © Владимир Бондарь, Могилевский р-н"
+map:
+  file: 9558963.jpg
 images:
   - id: gomphus-vulgatissimus2vb_orig
     file: gomphus-vulgatissimus2vb_orig.jpg

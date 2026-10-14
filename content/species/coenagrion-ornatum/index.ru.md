@@ -17,6 +17,8 @@ hero:
   file: coenagrionornatum-male_orig.jpg
   caption: "♂ Photo © Christian Fischer / Wikimedia Commoms. CC BY-SA 4.0"
   link: https://commons.wikimedia.org/wiki/File:CoenagrionOrnatum_Male.jpg
+map:
+  file: 1538795142_orig.jpg
 images:
   - id: coenagrionornatum-collage_orig
     file: coenagrionornatum-collage_orig.jpg

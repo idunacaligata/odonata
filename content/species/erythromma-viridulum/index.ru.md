@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/165478/208835745
 hero:
   file: erythromma-viridulum-vr-gomelsky_orig.jpg
   caption: "♂ Фото © Виктор Рындевич, Гомельский р-н"
+map:
+  file: map3_orig.jpg
 images:
   - id: img-9707_orig
     file: img-9707_orig.jpg

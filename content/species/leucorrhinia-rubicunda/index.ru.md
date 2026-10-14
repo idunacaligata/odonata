@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/165468/208832566
 hero:
   file: leucorrhinia-rubicunda1-22_orig.jpg
   caption: "♂ Фото © Владимир Бондарь, Могилевский р-н"
+map:
+  file: 547873191_orig.jpg
 images:
   - id: leucorrhinia-rubicunda1_orig
     file: leucorrhinia-rubicunda1_orig.jpg

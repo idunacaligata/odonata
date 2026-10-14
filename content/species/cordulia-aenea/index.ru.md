@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/158702/208827063
 hero:
   file: cordulia-anea4_orig.jpg
   caption: "♂ Фото © Владимир Бондарь, Быховский р-н, Могилевская обл."
+map:
+  file: 1090441.jpg
 images:
   - id: cordulia-aenea-sl-2014s_orig
     file: cordulia-aenea-sl-2014s_orig.jpg

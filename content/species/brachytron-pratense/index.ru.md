@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/165514/208848015
 hero:
   file: brahytron-pratense1_orig.jpg
   caption: "♂ Фото © Владимир Бондарь, Могилевский р-н"
+map:
+  file: 1637682702_orig.jpg
 images:
   - id: brahytron-pratense3_orig
     file: brahytron-pratense3_orig.jpg

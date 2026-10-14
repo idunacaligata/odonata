@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/11911/208813148
 hero:
   file: dsc-3475_orig.jpg
   caption: "♂ Фото © Виктор Рындевич, Смолевичский р-н, Минская обл."
+map:
+  file: map2_orig.jpg
 images:
   - id: leucorrhinia-albifrons-female_orig
     file: leucorrhinia-albifrons-female_orig.jpg

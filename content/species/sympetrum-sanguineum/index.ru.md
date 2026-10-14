@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/158691/269770755
 hero:
   file: fdscn7964_orig.jpg
   caption: "♂ Фото © Николай Гурков, Витебский р-н"
+map:
+  file: map2_orig.jpg
 images:
   - id: hb9174_orig
     file: hb9174_orig.jpg

@@ -17,6 +17,8 @@ hero:
   file: 19446093749-0dc88421be-k_orig.jpg
   caption: "♂ Photo © Alastair Rae / Flickr. CC BY-SA 2.0"
   link: https://www.flickr.com/photos/merula/19446093749/
+map:
+  file: bel-22_orig.jpg
 images:
   - id: coenagrion-johanssoni-d-kitel-vitr_orig
     file: coenagrion-johanssoni-d-kitel-vitr_orig.jpg

@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/173805983/208854649
 hero:
   file: enallagma-cyathigerum-1769_orig.jpg
   caption: "♂ Фото © Владимир Бондарь, Могилевский р-н"
+map:
+  file: 3185597.jpg
 images:
   - id: enallagma-cyathigerum-minskvs_orig
     file: enallagma-cyathigerum-minskvs_orig.jpg

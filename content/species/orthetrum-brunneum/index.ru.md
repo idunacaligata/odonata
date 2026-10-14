@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/158698/208826149
 hero:
   file: orthetrum-brunneum_orig.jpg
   caption: "♂ Фото © Денис Китель, Пружанский р-н (Брестская обл.)"
+map:
+  file: map2_orig.jpg
 images:
   - id: orthetrum-brunneum-vr-klicevr_orig
     file: orthetrum-brunneum-vr-klicevr_orig.jpg

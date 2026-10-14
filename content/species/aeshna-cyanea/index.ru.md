@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/165524/208851515
 hero:
   file: aeshna-cyanea-vr-myadr_orig.jpg
   caption: "♂ juv Фото © Виктор Рындевич, Мядельский р-н, Минская обл."
+map:
+  file: 9923584.jpg
 images:
   - id: aeshna-cyanea-vr-glubokr_orig
     file: aeshna-cyanea-vr-glubokr_orig.jpg

@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/158705/208827490
 hero:
   file: somatochlora-metallica_orig.jpg
   caption: "♂ Фото © Инна Субботина, Червенский р-н, Минская обл."
+map:
+  file: 8709050.jpg
 images:
   - id: somatochlora-metallica-am-postawyr_orig
     file: somatochlora-metallica-am-postawyr_orig.jpg

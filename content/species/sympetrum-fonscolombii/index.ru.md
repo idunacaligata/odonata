@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/60038/208818015
 hero:
   file: sympetrum-fonscolombii-3_orig.jpg
   caption: "♂ Фото © Семён Левый, Малорита, Брестская обл."
+map:
+  file: 1906715478_orig.jpg
 images:
   - id: sympetrum-fonscolombii-minskvr_orig
     file: sympetrum-fonscolombii-minskvr_orig.jpg

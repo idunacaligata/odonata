@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/158684/208821963
 hero:
   file: lestes-barbarus_orig.jpg
   caption: "♂ Фото © Денис Китель"
+map:
+  file: bel24_orig.jpg
 images:
   - id: lestes-barbarus-mariaki-gomelskir_orig
     file: lestes-barbarus-mariaki-gomelskir_orig.jpg

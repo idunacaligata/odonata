@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/165473/208834172
 hero:
   file: sympetrum-danae-male_orig.jpg
   caption: "♂ Фото © Денис Китель"
+map:
+  file: 3132988.jpg
 images:
   - id: sympetrum-danae-female_orig
     file: sympetrum-danae-female_orig.jpg

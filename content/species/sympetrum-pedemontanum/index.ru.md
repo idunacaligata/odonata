@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/165464/208831241
 hero:
   file: img-7437-003_orig.jpg
   caption: "♂ Фото © Владимир Бондарь, Могилевский р-н"
+map:
+  file: 1739853810_orig.jpg
 images:
   - id: img-9638_orig
     file: img-9638_orig.jpg

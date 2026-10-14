@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/158707/208828327
 hero:
   file: coenagrion-puella-1232_orig.jpg
   caption: "♂ Фото © Владимир Бондарь, Могилевский р-н"
+map:
+  file: 9495297.jpg
 images:
   - id: coenagrion-puella-minsk2_orig
     file: coenagrion-puella-minsk2_orig.jpg

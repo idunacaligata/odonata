@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/165466/208831937
 hero:
   file: stylurus-flavipes-vb-mgr4_orig.jpg
   caption: "♂ Фото © Владимир Бондарь, Могилевский р-н"
+map:
+  file: 7827500.jpg
 images:
   - id: img-1890_orig
     file: img-1890_orig.jpg

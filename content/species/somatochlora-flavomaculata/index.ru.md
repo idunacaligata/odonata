@@ -16,6 +16,8 @@ iucn_europe_url: https://www.iucnredlist.org/species/165485/208838468
 hero:
   file: somatochlora-flavomaculata4_orig.jpg
   caption: "♂ Фото © Владимир Бондарь, Могилевский р-н"
+map:
+  file: 1454072.jpg
 images:
   - id: somatochlora-flavomaculata2vb_orig
     file: somatochlora-flavomaculata2vb_orig.jpg

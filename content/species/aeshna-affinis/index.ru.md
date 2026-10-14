@@ -1,58 +1,60 @@
 ---
-authority: Vander Linden, 1820
-draft: false
-iucn_url: https://www.iucnredlist.org/species/158694/70984770
-iucn_europe: LC
 genus: Aeshna
-date: 2026-08-26T17:59:11.507186+03:00
-iucn: LC
-inat: 93426
 species: affinis
+authority: Vander Linden, 1820
 title: aeshna-affinis
 common_name: Коромысло зеленобокое
+date: 2026-08-26T17:59:11.507186+03:00
+draft: false
+inat: 93426
+gbif: 65BM8
+belarus_red_book: no
+iucn: LC
+iucn_url: https://www.iucnredlist.org/species/158694/70984770
+iucn_europe: LC
+iucn_europe_url: https://www.iucnredlist.org/species/158694/207839525
 hero:
   file: aeshna-affinis-vr-soligor_orig.jpg
-  caption: ♂ Фото © Виктор Рындевич, Солигорский р-н, Минская обл.
+  caption: "♂ Фото © Виктор Рындевич, Солигорский р-н, Минская обл."
+map:
+  file: map56_orig.jpg
 images:
   - id: aeshna-affinis-halinaa-zhodino_orig
     file: aeshna-affinis-halinaa-zhodino_orig.jpg
-    caption: ♀ Photo © halinaa / iNaturalist.org. г. Жодино, Минская обл. CC BY-NC 4.0
+    caption: "♀ Photo © halinaa / iNaturalist.org. г. Жодино, Минская обл. CC BY-NC 4.0"
     link: https://www.inaturalist.org/observations/127095258
   - id: is-aeshna-affinis-turov2_orig
     file: is-aeshna-affinis-turov2_orig.jpg
-    caption: ♂ Фото © Инна Субботина, Туров, Житковичский р-н, Гомельская обл.
+    caption: "♂ Фото © Инна Субботина, Туров, Житковичский р-н, Гомельская обл."
   - id: aeshna-affinis-vs-bobruisk_orig
     file: aeshna-affinis-vs-bobruisk_orig.jpg
-    caption: ♂ Фото © Виталий Сирота, г. Бобруйск, Могилевская обл.
+    caption: "♂ Фото © Виталий Сирота, г. Бобруйск, Могилевская обл."
   - id: aeshna-affinis-sl-2014fff_orig
     file: aeshna-affinis-sl-2014fff_orig.jpg
-    caption: ♂ Фото © Семён Левый. Кобринский р-н, Брестская обл.
+    caption: "♂ Фото © Семён Левый. Кобринский р-н, Брестская обл."
   - id: aeshna-affinis-sl-zhitkor_orig
     file: aeshna-affinis-sl-zhitkor_orig.jpg
-    caption: ♀ Фото © Семён Левый, Житковичский р-н, Гомельская обл.
+    caption: "♀ Фото © Семён Левый, Житковичский р-н, Гомельская обл."
   - id: a-affinis-vs-bobruisk42_orig
     file: a-affinis-vs-bobruisk42_orig.jpg
-    caption: ♂ Фото © Виталий Сирота, г. Бобруйск, Могилевская обл.
+    caption: "♂ Фото © Виталий Сирота, г. Бобруйск, Могилевская обл."
   - id: is-aeshna-affinis-turov1_orig
     file: is-aeshna-affinis-turov1_orig.jpg
-    caption: ♂ Фото © Инна Субботина, Туров, Житковичский р-н, Гомельская обл.
+    caption: "♂ Фото © Инна Субботина, Туров, Житковичский р-н, Гомельская обл."
   - id: aeshna-affinis-anatoly-kulak-np-pripyatsky1_orig
     file: aeshna-affinis-anatoly-kulak-np-pripyatsky1_orig.jpg
-    caption: ♂ Фото © Анатолий Кулак, НП "Припятский"
+    caption: "♂ Фото © Анатолий Кулак, НП \"Припятский\""
   - id: aeshna-affinis-anatoly-kulak-np-pripyatsky2_orig
     file: aeshna-affinis-anatoly-kulak-np-pripyatsky2_orig.jpg
-    caption: ♂ Фото © Анатолий Кулак, НП "Припятский"
+    caption: "♂ Фото © Анатолий Кулак, НП \"Припятский\""
   - id: aeshna-affinis-anatoly-kulak-np-pripyatsky_orig
     file: aeshna-affinis-anatoly-kulak-np-pripyatsky_orig.jpg
-    caption: ♂ Фото © Анатолий Кулак, НП "Припятский"
+    caption: "♂ Фото © Анатолий Кулак, НП \"Припятский\""
   - id: 8896576_orig
     file: 8896576_orig.jpg
-    caption: "Скворцов В. Э. 2010. Стрекозы Восточной Европы и Кавказа:
-      Атлас-определитель."
-gbif: 65BM8
-iucn_europe_url: https://www.iucnredlist.org/species/158694/207839525
-belarus_red_book: no
+    caption: "Скворцов В. Э. 2010. Стрекозы Восточной Европы и Кавказа: Атлас-определитель."
 ---
+
 ## Описание
 
 Глаза соприкасаются друг с другом на некотором отрезке. Тело пестрое, на лбу полный Т-образный черный рисунок. Верх груди коричневый с короткими плечевыми полосами. На груди сверху имеются голубые пятнышки у основания крыльев. Бока груди светлые с узкими темными линиями на швах, но без изолированных светлых полос. Крылья прозрачные; жилкование крыльев черное; костальная жилка светлая. Птеростигма 4-5 мм, охристая. При посадке принимают вертикальную позу со свисающим вниз брюшком.
